@@ -1,0 +1,451 @@
+/* ------------For Local Testing Only------------ */
+
+
+/*#wrapper a.logo {
+    background: rgba(0, 0, 0, 0) url("https://store-train.acponline.org/ebizdev75/portals/_default/skins/personifyskin/images/layout/logo.png") no-repeat scroll 0 0;
+}
+#wrapper #header .action a.cart {
+    background: transparent url("https://store-train.acponline.org/eBizDev75/Portals/_default/Skins/PersonifySkin/images/cart-icons.png") no-repeat scroll left -19px;
+}
+#wrapper #content.myAccount .main, 
+#wrapper #content.general .main {
+	background-image: url('https://store-train.acponline.org/eBizDev75/Portals/_default/Skins/PersonifySkin/images/sub/profileBg.png');
+}
+#wrapper .BreadcrumbControl_PersonifyDefault .BreadcrumbDelete {
+    background: transparent url("https://store-train.acponline.org/eBizDev75/Themes/PersonifyDefault/Breadcrumb/delete.png") no-repeat scroll 100% 2px;
+}
+
+
+*/
+/* ---------------------------------- */
+/* ------------NEW STYLES------------ */
+/* ---------------------------------- */
+
+/* -------Body------- */
+	body #wrapper * {
+		font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif !important;
+	}
+/* -------Links------- */
+	#wrapper a {
+		/*color: #00a0df;*/
+	}
+	#wrapper a:hover {
+		color: #46cbff;
+	}
+
+
+/* -------Header------- */
+
+	#wrapper #header {
+		height: 65px;
+		left: 0;
+	}
+	#wrapper a.logo {
+		top: 2px;
+	}
+	/* Right Side Links */
+	#wrapper #header .action {
+		margin: 15px 0 0;
+	    padding: 10px 15px;
+	    background-color: #007E66;
+
+	}
+	
+	#wrapper #header .action a {
+		border-left: 1px solid #ffffff;
+	
+	
+	}
+	
+    #wrapper .logInOut {
+
+        	padding: 0 0 0px 15px;
+		margin: 0 0 0px 15px;
+}
+
+       #wrapper .user {
+
+        	padding: 0 0 0px 15px;
+		margin: 0 0 0px 15px;
+	
+}
+
+	#wrapper #header .action a.cart 
+	{
+	   background: url("https://store.acponline.org/ebizatpro/Portals/_default/Skins/PersonifySkin/images/cart-icons.png") no-repeat scroll left -19px transparent;
+		border-left: 0;
+		margin-left: 0;
+		padding-left: 19px;
+	    padding-right: 9px;
+	    padding-bottom: 9px;
+	    
+	}
+	
+	
+	
+	
+	#wrapper #header .action a {
+		background-image: none;
+	}
+	/* Logged In */
+	#wrapper .action .welcome {
+		padding-right: 0;
+	}
+	#wrapper #header .action a.myAccount {
+		border-right: 1px solid #ffffff;
+		padding: 0 15px 0 15px;
+		margin: 0 15px 0 15px;
+    
+	}
+
+    	#wrapper #header .action a.myDues {
+
+		padding: 0 0px 0 15px;
+		margin: 0 0px 0 15px;
+	}
+
+/* -------Left Sidenav ------- */
+
+#wrapper h1 
+{
+
+    font-size: 2 rem;
+    line-height: 1.25;
+    color: #0C65AB;
+    padding: 15px 15px 0 20px;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    
+}
+
+#wrapper #products .ProductDetailNameDisplay
+{
+    font-size: 2.25rem;
+    line-height: 1.25;
+    color: #0C65AB;
+    padding: 15px 15px 0px 0px !important;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+
+	#wrapper .navCol h2 {
+		background-color: #2EB135; 
+		padding-bottom: 10px;
+		height: auto;
+	}
+	/* Narrow by */
+	#wrapper #leftMenu span.TreeViewTitleLabel {
+		background-color: transparent;
+	    color: #2eb135;
+	    margin-top: 20px;
+	    padding-bottom: 0;
+	    text-transform: uppercase;
+	    padding-left: 0;
+	}
+	#wrapper .BreadcrumbControl_PersonifyDefault .BreadcrumbHeadersLabel {
+		padding-left: 0;
+	}
+	#wrapper #leftMenu .BreadcrumbControl_PersonifyDefault span.BreadcrumbSelectionsLabel {
+		padding-left: 0;
+		margin-left: -5px;
+		color: #2eb135;
+	    text-transform: uppercase;
+	}
+	/* Product Types with x button */
+	#wrapper #leftMenu .BreadcrumbControl_PersonifyDefault .Breadcrumb {
+		display: block;
+		padding: 2px 0;
+	}
+	#wrapper .BreadcrumbControl_PersonifyDefault .BreadcrumbDelete {
+		vertical-align: sub;
+	}
+	/* Filter Dividers */
+	#wrapper .BreadcrumbControl_PersonifyDefault .BreadcrumbDivider {
+		display: none;
+	}
+
+
+/* -------Breadcrumbs------- */
+	#wrapper #content.myAccount .main, 
+	#wrapper #content.general .main {
+		position: relative;
+	}
+	
+	#wrapper .breadCrumbs {
+		/*border-bottom: 1px solid #007E66;*/
+	    /*border-top: 1px solid #007E66;*/
+	    background-color: #e5e5e5 !important;
+	    left: 0;
+	    margin: -38px 0 0 0;
+	    padding: 11px 0 8px;
+	    font-size: 13px;
+	    position: absolute;
+	    top: 0;
+	    width: 100%;
+	}
+
+    	#wrapper #bread .breadCrumbs {
+		/*border-bottom: 1px solid #007E66;*/
+	    /*border-top: 1px solid #007E66;*/
+	    background-color: #e5e5e5 !important;
+	    left: 0;
+	    margin: -38px 0 0 0;
+	    padding: 11px 0 8px;
+	    font-size: 13px;
+	    position: inherit !important;
+	    top: 0;
+	    width: 100%;
+        margin-bottom: 20px
+	}
+
+	/* Font Styles */
+	#wrapper .breadCrumbs {
+		text-transform: uppercase;
+		height: 19px;
+	}
+
+	/* Dividers */
+	#wrapper .breadCrumbs li {
+		
+		/*
+		visibility: hidden;
+		*/
+		margin-right: 0;
+		color: #00a0df;
+	}
+	#wrapper .breadCrumbs li a {
+		visibility: visible;
+		color: #00a0df;
+	}
+	#wrapper .breadCrumbs li a:hover {
+		color: #46cbff;
+	}
+	/*#wrapper .breadCrumbs li a:before {
+		content: url(../images/chevron-right-thin.png);
+		vertical-align: -15%;
+		padding-right: 10px;
+	}*/
+
+
+
+
+	/* Home Icon */
+	#wrapper .breadCrumbs li:first-of-type a:before {
+		content: url(../images/home.png);
+		margin-left: 10px;
+        margin-right: 10px;
+	}
+ 
+
+/* -------Content------- */
+	#wrapper #content {
+		padding-top: 38px;
+	}
+
+    a[href$=".pdf"]:after 
+
+    {    content: url('images/pdf.png');
+         position: relative;
+    bottom: -.5ex;
+    margin-right: .5em;
+    padding-left: 3px;
+
+
+
+    }
+
+
+	
+	/* Search Field */
+	#wrapper .SearchControl_PersonifyDefault {
+		width: 100%;
+		margin: 20px 0 40px;
+	}
+	#wrapper .SearchControl_PersonifyDefault span.RadInput {
+		margin-right: 0;
+	}
+	#wrapper .SearchControl_PersonifyDefault span.RadInput input.riTextBox {
+		color: #55616D;
+	    font-size: 15px;
+	    height: 40px;
+	    padding-left: 15px;
+	    padding-right: 15px;
+	}
+	/* Search GO Button */
+	#wrapper .SearchControl_PersonifyDefault .btn.btn--soft {
+	    font-size: 15px;
+	    height: 40px;
+		background: #00a0df;
+		color: #ffffff;
+		box-shadow: none;
+		border: none;
+		font-weight: normal;
+		text-shadow: none;
+		border-radius: 0 20px 20px 0;
+		padding-left: 20px;
+	    padding-right: 20px;
+	    margin-left: -4px;
+	}
+	/* Advanced > down carrot */
+	#wrapper .ProductLegendIconControl_PersonifyDefault::after {
+		display: none;
+	}
+
+
+
+/* -------Product Page------- */
+	#wrapper .ProductDetailControl_PersonifyDefault .ProductDetailNameDisplay {
+		display: block;
+	    margin-bottom: 15px;
+	}
+	#wrapper .ProductDetailControl_PersonifyDefault .ProductDetailBlockCell {
+		margin-left: 0;
+	}
+	#wrapper .productDetailBlock h5 {
+		color: #2EB135;
+		text-transform: uppercase;
+		font-weight: normal;
+	}
+
+
+/* -------Footer------- */
+	#wrapper .contentInfo {
+		background-color: #424647;
+		color: #4AAE9C;
+		padding: 20px 20px 40px;
+        width: 100%;
+	}
+
+
+/* -------Mobile------- */
+	#wrapper .mobile-logo::before {
+		content: "ACP";
+		color: #ffffff;
+	}
+
+#wrapper .contentInfo .address {
+    font-size: 1.2em;
+    line-height: 1.21;
+    color: #FFF;
+    letter-spacing: 0.008em;
+    margin-bottom: 10px;
+    font-style: normal;
+
+}
+
+
+
+
+#wrapper .footerlinks a {
+		
+		 color: #4AAE9C;
+         padding: 6px 6px 16px;
+	}
+
+
+.productlinkbutton a {
+
+color: white !important; 
+PADDING-BOTTOM: 5px; 
+PADDING-LEFT: 15px; 
+PADDING-RIGHT: 15px; 
+BACKGROUND: rgb(0,160,223) 0px 0px; 
+TEXT-DECORATION: none; 
+PADDING-TOP: 5px; border-radius: 15px
+
+}
+
+
+.membersCanSave {
+
+    background: white !important;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-bottom: 10px;
+    margin-left: 6px;
+    margin-right: 6px;
+
+}
+
+.membersCanSave {
+        background: transparent;
+        text-align: center;
+    }
+    .membersCanSave .linkButton {
+        padding: 5px 20px;
+        background-color: #00A0DF;
+        color: #ffffff;
+        border-radius: 25px;
+        text-decoration: none;
+        font-size: 110%;
+         font-weight: 500;
+    }
+    .membersCanSave .linkButton:hover {
+        opacity: .6;
+    }
+
+
+ p.meetingsmessage {
+
+    color: #ff7900;
+}
+
+ 
+
+div.acp-mbr-typeSelection-phisicianTypesPanel > h3 {
+
+    padding-left: 40px;
+}
+
+ div.acp-mbr-typeSelection-phisicianTypesPanel .acp-mbr-typeSelection-radio {
+
+    padding-left: 40px;
+}
+
+ 
+#ACPMemberAddMksap .tabtxt {
+
+    text-align:center;
+   
+}
+
+div.titlebox {
+    width: 94%;
+    position: relative;
+    left: 1px;
+    background: white;
+    border: 1px solid #223238;
+    font-family: sans-serif;
+    color: maroon;
+    padding: 16px 16px 16px 16px;
+}
+
+div.storemessage {
+
+        width: 100%;
+    position: relative;
+    left: 1px;
+    background: Maroon;
+    border: 1px solid #223238;
+    font-family: sans-serif;
+    color: #ddd;
+    padding: 16px 16px 16px 16px;
+}
+
+     @media only screen and (max-width : 768px) {
+        #ACPMemberAddMksap {
+            display: none;
+        }
+    }
+
+
+      .validatedMessage ul li {
+    white-space: initial;
+}

@@ -1,0 +1,24 @@
+/* mobile.css */
+* {
+  box-sizing: border-box;
+}
+#wrapper .breadCrumbs, #wrapper #header, #wrapper #content {
+  height: auto !important;
+  width: 100%;
+}
+
+#wrapper {
+  padding: 0 20px;
+}
+
+@media(max-width: 800px) {
+  .tmar_DataTable td {
+    width: 100%;
+    display: block;
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+  }
+  .DuesAllocationText {
+    padding: 10px;
+  }
+}

@@ -1,0 +1,8265 @@
+div.WizardHeaderControl_PersonifyDefault
+{
+    margin-top:1em;
+    margin-bottom:1em;
+    
+    text-align:center;
+    border-radius: .4em;
+}
+
+
+
+
+.WizardHeaderControl_PersonifyDefault span
+{
+    padding: 10px;
+    display:inline-block;
+    color:#000000;
+}
+
+.WizardHeaderControl_PersonifyDefault span.active span {color:#00bfff}
+.WizardHeaderControl_PersonifyDefault span.disabled span {color:#aaaaaa}
+
+.checkoutHeader { color: #0865ad; }
+.checkoutHeader h3 { color: #0865ad; font-size: smaller }
+
+.echeck-container
+{
+    margin:12px auto;
+}
+
+.CheckoutAddressInformationControl_PersonifyDefault {
+    margin: 0 auto;
+    max-width: 960px;
+    width: 100%;
+}
+
+
+.checkoutControlsInnerDiv {
+    padding: 15px;
+     margin: 0 auto;
+}
+
+
+
+.checkoutControlsInnerDiv:after {
+   content: " ";
+        width: 100%;
+        float: none;
+        clear: both;
+        height: 1px;
+        overflow: hidden;
+        border: 0 none;
+        display: table;
+        padding: 0;
+        margin: 0 auto;
+}
+
+.name {font-weight: bold}
+.custom-bad-address
+{
+    display: block;
+}
+
+.custom-bad-address-label
+{
+    color: red;
+}
+
+.custom-cart-mark-as-good-address-link, .custom-cart-edit-address-link
+{
+    display: inline-block;
+    float: right;
+}
+
+.custom-current-address
+{
+    color: red;
+    padding-left: 5px;
+    font-style: italic;
+    display: inline-block;
+}
+
+
+.mainCheckoutDiv 
+{
+    /*float:left;*/
+    /*display: in-line;*/
+    /*margin-left: 15px;*/
+    width: 96%;
+    margin: 0 auto;
+    min-width: 922px;
+
+}
+
+.checkoutItemSummary .checkoutItemHeader {
+    text-align: center;
+}
+
+.checkoutItemSummary .checkoutItemName.checkoutItemHeader {
+    text-align: left;
+}
+.wizardHeader {
+    /*width: 680px;*/
+}
+.backToCartDiv {
+    width: 680px;
+    margin-bottom: 10px;
+    float: left;
+}
+.backToCartLink {
+    float: right;
+}
+.summaryControl
+{
+    margin-left: 10px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    float: right;
+    display: inline;
+    width: 240px;
+}
+.prevNextCancelButtons 
+{
+    padding-top: 15px; 
+    padding-left: 25px; 
+    clear:both;    
+    border-top: 3px solid #efefef
+}
+.loadingPanel 
+{
+    position: fixed !important;
+    top: 0% !important; 
+    left: 0% !important;
+    height: 100% !important;
+    width: 100% !important;
+}
+.RadWindow_EditSelection {
+    width:625px !important;
+    height:510px !important;
+    left: 325px;
+    top: 225px;
+}
+
+.DNNModuuleContent .ModPersonifyDNNWebCOntrolContainerC {
+    padding-top:44px;
+}
+.pnlSaveCreditCard input {
+    width: 20px !important;
+    margin-left: 159px;
+
+}
+
+.pnlSaveCreditCard input[type="checkbox"] {
+    margin-top: 3px;
+    *margin-top: 0;
+}
+
+   .ShoppingCartItemListControl_PersonifyDefault .ShoppingCartItemControl_Container .contentSection .lineItemTotals table.totals th,
+    .CheckoutItemListControl_PersonifyDefault .ShoppingCartItemControl_Container .contentSection .lineItemTotals table.totals th {
+       text-align: center;
+    }
+
+
+   
+   .badgeCaption {
+       text-align: center;
+   }
+
+   .cartPrevewPaneButtonRow.buttonRow {
+        border-top: 2px solid #DDDDDD;
+        margin: 0;
+        width: 774px;
+
+   }
+
+/*****************************************************************************************/
+/*****************************************************************************************/
+/***********888*********888***8888888888***8888888888****88**88************88888888888888*/
+/***********8888*******8888**888888888888**88********88**88**88************88888888888888*/
+/***********88*88*****88*88**88********88**88********88**88**88************88*************/
+/***********88**88***88**88**88********88**88********88**88**88************8888888888*****/
+/***********88***88*88***88**88********88**8888888888****88**88************8888888888*****/
+/***********88****888****88**88********88**88********88**88**88************88*************/
+/***********88***********88**88********88**88********88**88**88************88*************/
+/***********88***********88**888888888888**88********88**88**888888888888**88888888888888*/
+/***********88***********88***8888888888***8888888888****88**888888888888**88888888888888*/
+/*****************************************************************************************/
+/*****************************************************************************************/
+/*****************************************************************************************/
+/*****************************************************************************************/
+
+@media screen and (min-width: 42.1em) and (max-width: 58.6em)
+{
+    .ShoppingCartItemControl_Container {
+        
+        width: 100%;
+        
+    }
+}
+
+@media screen and (max-width: 42.0em)
+{
+
+
+
+
+    /*SHOPPING CART RESPONSIVE*/
+    
+     .totals tr:nth-child(2) td.quantity.visibility-hidden,
+     .totals tr:nth-child(2) td.unitPrice.visibility-hidden   {min-height: 0 !important; display: none; height: 0 !important;padding: 0;margin: 0;}
+        
+
+   .CheckoutControl_PersonifyDefault .pnlSaveCreditCard input {
+    width: 25px;
+    margin-left: 9px;
+}
+
+    /*SHOPPING CART CHECKOUT RESPONSIVE*/
+
+    .ShoppingCartItemListControl_PersonifyDefault .ShoppingCartItemControl_Container .contentSection .lineItemTotals table.totals,
+    .CheckoutItemListControl_PersonifyDefault .ShoppingCartItemControl_Container .contentSection .lineItemTotals table.totals{
+        float: right;
+        width: 40% !important; 
+    }
+
+    .ShoppingCartItemListControl_PersonifyDefault .ShoppingCartItemControl_Container .contentSection .lineItemTotals table.totals th,
+    .CheckoutItemListControl_PersonifyDefault .ShoppingCartItemControl_Container .contentSection .lineItemTotals table.totals th {
+        display: none;
+    }
+
+    
+    .ShoppingCartItemListControl_PersonifyDefault .ShoppingCartItemControl_Container .contentSection .lineItemTotals table.totals tr.borderTop,
+    .ShoppingCartItemListControl_PersonifyDefault .ShoppingCartItemControl_Container .contentSection .lineItemTotals table.totals,
+    .ShoppingCartItemListControl_PersonifyDefault .ShoppingCartItemControl_Container .contentSection .lineItemTotals table.totals tbody,
+    .CheckoutItemListControl_PersonifyDefault .ShoppingCartItemControl_Container .contentSection .lineItemTotals table.totals tr.borderTop,
+    .CheckoutItemListControl_PersonifyDefault .ShoppingCartItemControl_Container .contentSection .lineItemTotals table.totals,
+    .CheckoutItemListControl_PersonifyDefault .ShoppingCartItemControl_Container .contentSection .lineItemTotals table.totals tbody {
+       
+        text-align: right;
+        border: 0 none;        
+        padding: 0;
+        margin: 0;
+    }
+
+    .ShoppingCartItemListControl_PersonifyDefault .ShoppingCartItemControl_Container .contentSection .lineItemTotals table.totals td.quantity,
+    .ShoppingCartItemListControl_PersonifyDefault .ShoppingCartItemControl_Container .contentSection .lineItemTotals table.totals td.unitPrice,
+    .ShoppingCartItemListControl_PersonifyDefault .ShoppingCartItemControl_Container .contentSection .lineItemTotals table.totals td.total,
+    .CheckoutItemListControl_PersonifyDefault .ShoppingCartItemControl_Container .contentSection .lineItemTotals table.totals td.quantity,
+    .CheckoutItemListControl_PersonifyDefault .ShoppingCartItemControl_Container .contentSection .lineItemTotals table.totals td.unitPrice,
+    .CheckoutItemListControl_PersonifyDefault .ShoppingCartItemControl_Container .contentSection .lineItemTotals table.totals td.total {
+        display: block;        
+        min-width: 118px !important;
+        text-align: right !important;
+        padding: 2px 4px 2px 0 !important;
+        width: 96% !important;
+    }
+    
+    .ShoppingCartItemListControl_PersonifyDefault .ShoppingCartItemControl_Container .contentSection .lineItemTotals table.totals td.total,
+    .CheckoutItemListControl_PersonifyDefault .ShoppingCartItemControl_Container .contentSection .lineItemTotals table.totals td.total {
+        font-weight: 700;
+    }
+
+
+    .ShoppingCartItemListControl_PersonifyDefault .ShoppingCartItemControl_Container .contentSection .lineItemTotals table.totals td.quantity:before,
+    .CheckoutItemListControl_PersonifyDefault .ShoppingCartItemControl_Container .contentSection .lineItemTotals table.totals td.quantity:before {
+        content: "Qty :";
+        min-width: 50px;
+        height: 25px;
+        text-align: right;
+        
+    }
+
+    
+    .ShoppingCartItemListControl_PersonifyDefault .ShoppingCartItemControl_Container .contentSection .lineItemTotals table.totals td.unitPrice:before,
+    .CheckoutItemListControl_PersonifyDefault .ShoppingCartItemControl_Container .contentSection .lineItemTotals table.totals td.unitPrice:before {
+        content: "Unit :";
+        width: 50px;
+        height: 25px;
+        text-align: right;
+        display: inline;
+    }
+
+
+    .ShoppingCartItemListControl_PersonifyDefault .ShoppingCartItemControl_Container .contentSection .lineItemTotals table.totals td.total:before,
+    .CheckoutItemListControl_PersonifyDefault .ShoppingCartItemControl_Container .contentSection .lineItemTotals table.totals td.total:before {
+        content: "Total :";
+        width: 50px;
+        height: 25px;
+        text-align: right;
+        display: inline;
+    }
+
+
+
+    .ShoppingCartItemControl_Container:after  {
+		content: " ";
+        width: 100%;
+        float: none;
+        clear: both;
+        height: 1px;
+        overflow: hidden;
+        border: 0 none;
+        display: table;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .ShoppingCartItemControl_Container {
+        border-bottom: 1px dotted #ccc;
+    }
+
+
+    .ShoppingCartItemListControl_PersonifyDefault .ShoppingCartItemControl_Container .contentSection .centerSection,
+    .CheckoutItemListControl_PersonifyDefault .ShoppingCartItemControl_Container .contentSection .centerSection {
+        float: left;
+        max-width: 58%;
+        padding-right: 4px;
+        width: auto !important;
+        
+    }
+
+    .top-checkout-product-warning .btn.btn-regular {
+       margin: 8px;
+       width: auto;
+       padding: 8px 15px;
+
+   }
+
+    .top-checkout-product-warning .validationIssues {
+        margin: 5px auto;
+    }
+
+   .ShoppingCartItemListControl_PersonifyDefault .ShoppingCartItemControl_Container .contentSection .productControlSection {
+       position: relative !important;       
+       float: none;
+       clear: both;       
+       margin-bottom: 8px;
+   }
+
+
+    .ShoppingCartItemControl_Container {
+        width: 100%;
+        
+    }
+
+
+    div.segmentsListPanel .RadListBox .rlbGroup ul li
+     {
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+    display: block;
+    float: none;
+    height: 44px;
+    line-height: 40px;
+    overflow: hidden;
+    
+    text-decoration: none;
+}
+
+    
+    .controlButtonLink.continueShopping {
+        border-radius: 0 !important;
+           }
+
+
+.controlButtonLink.continueShopping {
+    position: relative !important;
+}
+
+    .controlButtonLink.continueShopping:after {
+        content: ">";
+        position: absolute !important;
+        right: 0px;
+        top: 5px;
+        font-size: 150%;
+        color: #000;
+        width: 28px;
+        height: 45px;
+    }
+
+
+    input.continueShopping:hover {
+        color: #006699 !important;
+    }
+
+
+
+
+.CreditCardControl_PersonifyDefault table.tblCreditCards td {
+    vertical-align: middle;
+}
+
+td.quantity input.update {
+    color: #333 !important;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 1px 1px 1px #ccc;
+    padding: 3px 6px;
+
+    }
+
+input.continueShopping {
+	
+	text-transform: capitalize !important;    
+    text-shadow: 1px 1px 1px #efefef !important;	
+    background: #f9f9f9 url('/eBizATPRO/Themes/PersonifyDefault/../../images/arrow_right_prd_detl_showmore.png') no-repeat 97% center !important;
+    border-left: 0 none !important;
+    border-right: 0 none !important;
+    border-top: 1px solid #ddd; 
+    border-bottom: 1px solid #ddd;
+    color: #888 !important;
+    font-size: 120%;        
+    width: 100%;
+    margin-bottom: 15px;
+    vertical-align: middle;
+    min-height: 56px;
+}
+
+
+.ShoppingCartControl_PersonifyDefault .controlPanel {
+border-bottom:0 none;}
+
+div.segmentsListPanel .RadListBox .rlbGroup ul li .rlbText{
+    /*font-size: 120%;*/
+    color:#888;
+    text-shadow: 1px 1px 1px #efefef;
+}
+
+
+
+.addressesSection .boldCaption,
+.shippingCompany .boldCaption{
+    font-size: 120%;
+    clear: both;
+    float: none;
+    display: block;
+    margin: 8px 0;
+
+}
+
+
+
+div.segmentsListPanel .RadListBox .rlbGroup ul li.rlbSelected {
+    background-color:#fff; 
+    opacity:1; 
+    position:relative;
+    cursor: default;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 120%;
+}
+
+.ShoppingCartItemControl_Container input[type=text] {
+    width: 35px;
+    text-align: center;
+    color: #666;
+}
+
+.shipToMulti label {
+    display: inline-block;
+    font-size: 130%;
+    height: 40px;
+    line-height: 40px;
+    margin-top: -5px;
+    vertical-align: top;
+}
+
+
+    .segmentsListPanel .RadListBox .rlbGroup {
+    border: none;
+    display: block !important;
+    cursor: pointer;
+}
+
+    .segmentsListPanel .RadListBox .rlbGroup .rlbList li span:hover {
+        color: #069;
+        
+    }
+
+ 
+   
+
+    .ECheckInfoControl_PersonifyDefault .formLayout.ctrlContent
+    {
+        margin: 0 auto;
+        border: 0 none;
+        background: transparent;
+        padding: 0;
+    }
+
+
+    .ECheckInfoControl_PersonifyDefault .formLayout.ctrlContent label,
+    .ECheckInfoControl_PersonifyDefault .formLayout.ctrlContent input[type="text"]
+    {
+        float: none;
+        clear: both;
+        width: 98%;
+        
+    }
+
+    .ECheckInfoControl_PersonifyDefault .formLayout.ctrlContent label {
+        font-size: 120%;
+        margin-top: 15px;
+        font-weight: 700;
+    }
+
+     .ECheckInfoControl_PersonifyDefault .formLayout.ctrlContent input[type="text"] {
+         margin-bottom: 8px;
+     }
+
+
+     .ECheckInfoControl_PersonifyDefault .rcbInputCell.rcbInputCellLeft input[type="text"]{ margin: 0;
+
+     }
+
+
+     #footer {
+    margin: 1.5%;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: 5%;
+
+}
+
+.personify-center-block {
+    display:block;
+    width:100%;
+    margin:0%;
+    float:none !important;
+    clear:both;
+}
+
+.personify-right-rail {
+    display:block;
+    width:100%;
+    margin:0%;
+    float:none !important;
+}
+
+    .controlPanel {
+          border-top:0 none !important;  
+    }
+
+
+
+.normalCheckBox {
+	display:block !important;
+	}
+	
+.normalCheckBox input{
+	display:block !important; 
+	height:25px !important; 
+	width:25px !important; 
+	cursor:pointer !important; 
+	border:2px solid #999;
+	}
+
+.normalCheckBox input:checked {border:2px solid #000 !important; background-color: #669900 !important;}	
+	
+	
+
+input[type=radio], 
+input[type=check-box]
+ { border: 2px solid #999999 !important;
+    border-top-left-radius:14px !important;
+	border-top-right-radius:14px !important;
+	border-bottom-right-radius:14px !important;
+	border-bottom-left-radius:14px !important; 
+    height: 22px !important;
+    width: 22px !important;
+
+}
+
+.prevNextCancelButtons {
+    padding: 1% !important;
+    text-align: center;
+	
+}
+
+
+
+.productControlSection .linkButton:first-child {
+    display: none;
+}
+
+
+
+.productControlSection {
+    background-color: #f9f9f9 !important;
+    border-top: 0 none !important;
+    border-right: 0 none !important;
+	text-align:center;
+	margin:0 auto !important;
+}
+
+.productDescriptionSection {
+    padding: 2%;
+    color: #888;
+	
+}
+
+.productDescriptionSection  span {
+color:#888;
+}
+
+.productDescriptionSection input {
+    display: none;
+}
+
+a.productName {
+    color: #326AAE;
+    display:block !important;
+    font-size: 14px !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    text-decoration: none !important;
+	margin-bottom:1% !important;
+    white-space: normal !important;
+    width:100% !important;
+    clear:both !important;
+    vertical-align:top !important;
+	line-height:1.3em;
+
+}
+
+.summaryTotal {overflow:visible !important;}
+
+
+
+/*#content .summaryControl * {
+    font-size: inherit;
+}*/
+
+div .centerSection {
+    margin-right: 0 !important;
+    width: 100%;
+}
+
+.productDescriptionSection {
+    margin: 1% !important;
+	
+}
+
+.lineItemTotals {
+    float: none !important;
+}
+
+.lineItemTotals .totals th.quantity,
+.lineItemTotals .totals th.unitPrice,
+.lineItemTotals .totals th.total {
+    text-align: center;
+}
+
+.centerSection {
+    min-height: 1px !important;
+    background-color: #fff;
+	border-style: none !important;
+
+}
+
+
+td.quantity input.update {
+    
+    padding: 8px 2px !important;
+
+    }
+
+.ShoppingCartSummaryControl_PersonifyDefault .checkout .controlbutton {
+    width: 100% !important;
+	white-space: normal;
+}
+
+
+.ShoppingCartSummaryControl_PersonifyDefault
+{
+    /*font-size: 90% !important;*/
+    color: #444 !important;
+    
+}
+
+
+.totals {
+    border-collapse: collapse;
+    padding: 4px;
+    width: 100%;
+}
+
+
+
+/*SHOPPING CART*/
+
+
+
+
+.cart-item-description-box {
+    margin: 3% 0 0 3%;
+}
+
+.cart-item-description-box .bottom-space {
+    display: none;
+}
+
+.cart-item-description-box img {
+    display: none;
+    padding: .5%;
+    float: none;
+    clear: both;
+    min-width: 92%;
+}
+
+.cart-item-description-box ul {
+    display: none;
+}
+
+.cart-item-divTable {
+    clear: both;
+}
+
+.divCell {
+    width: auto;
+    padding: 2% 4%;
+}
+
+.cart-buttons-container {
+    clear: both;
+    width: 100%;
+    line-height: 200px;
+}    
+
+
+
+.cart-item-data-box {
+    float: none;
+    height: 100%;
+    border: none;
+    background-color: transparent;
+    min-height: 300px;
+    width: 100%;
+    position: relative;
+    display: block;
+}
+
+
+.cart-item-divTable {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.cart-item-divTable .cart-buttons-container {
+    display: block;
+    margin: 0 auto;
+}
+
+.cart-buttons-container li:first-child {
+    display: none;
+}
+
+.cart-buttons-container li a {
+    border: 1px solid #ddd;
+    background-color: #eee;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 4%;
+    margin: 4%;
+    color: #666;
+    
+    font-weight: 700;
+    vertical-align: middle;
+    float: left;
+    text-decoration: none;
+}
+
+.cart-buttons-container li :hover {
+    background-color: #444;
+    color: #fff;
+    border: #333;
+    text-shadow: 1px 1px 1px #222;
+}
+
+    .backToCartDiv {
+        display:none;
+        visibility:hidden;
+    }
+
+    .WizardHeaderControl_PersonifyDefault span {
+        padding:2% 0 !important;   
+    }
+
+
+
+	
+    /*CHECKOUT*/
+    .checkoutControlsInnerDiv { padding: 2.4% !important;}
+
+
+
+.checkoutItemSummary .checkoutItemQuantity.checkoutItemHeader,
+.checkoutItemSummary .checkoutItemUnitPrice.checkoutItemHeader,
+.checkoutItemSummary .checkoutItemTotal.checkoutItemHeader
+ {
+    display: none;
+}
+
+.checkoutItemSummary,
+.checkoutItemSummary tr
+ {
+    display: block;
+}
+.checkoutItemSummary {
+    clear: both;
+    float: none;
+}
+
+.checkoutItemSummary { 
+    width: 100%;
+    margin: 2px auto;
+    border-bottom: 2px solid #ddd;
+}
+
+
+.checkoutItemSummary tr {
+    float: left; 
+    max-width: 60%;
+}
+
+.checkoutItemSummary tbody { display: block;width: 100%;}
+
+.checkoutItemSummary .borderTop {
+    float: right !important;
+    border-top: 0 none !important;
+    max-width: 35%;
+}
+
+.checkoutItemSummary .borderTop .checkoutItemName { display: none;width: 0;height: 0;}
+
+
+.checkoutItemSummary .borderTop .checkoutItemQuantity,
+.checkoutItemSummary .borderTop .checkoutItemUnitPrice,
+.checkoutItemSummary .borderTop .checkoutItemTotal {
+    display: block;
+    float: none;
+    text-align: right;
+    max-width: 100px;
+    width: 100%;
+    text-shadow: 1px 1px 1px #efefef;
+    
+}
+
+.checkoutItemSummary .borderTop .checkoutItemTotal { font-weight: bold;}
+
+.checkoutItemSummary .borderTop .checkoutItemQuantity:before { content: "Qty: ";}
+
+
+.checkoutItemSummary .borderTop .checkoutItemUnitPrice:before {content: "Unit: "}
+
+.checkoutItemSummary .borderTop .checkoutItemTotal:before {content: "Total: "}
+
+
+.checkoutItemSummary .borderTop .checkoutItemQuantity:before,
+.checkoutItemSummary .borderTop .checkoutItemUnitPrice:before,
+.checkoutItemSummary .borderTop .checkoutItemTotal:before {
+    color: #444;
+}
+
+
+
+#eCheckDiv .formLayout fieldset label, 
+#eCheckDiv .formLayout fieldset input, 
+#eCheckDiv .formLayout fieldset select {
+    width: auto !important; 
+    float: none!important;
+}
+
+.ECheckInfoControl_PersonifyDefault .teleCheckVerbiageTD {padding:0 !important;}
+	
+#eCheckDiv .teleCheckIma, 
+#eCheckDiv .teleCheckVerbiageTD
+{float:left !important;}
+
+.teleCheckVerbiageTD span {margin: 0 auto; text-align:left; padding:0;}
+	
+.psfy, .ctrlContent, .name-demographics_PersonifyDefault, .address_PersonifyDefault, .productRow  {margin:0 auto!important;}	
+.ECheckInfoControl_PersonifyDefault .teleCheckImageTD {float:left !important;}	
+.ECheckInfoControl_PersonifyDefault .returnedChecks { width: auto !important; padding-right:3% !important;}
+
+
+.addCardDiv .ctrlContent {
+	margin:0 auto !important;
+	}
+
+.AddCreditCardControl_PersonifyDefault .addCardDiv,.pnlAddNewCard {
+    width: 100% !important;
+}
+
+.CreditCardControl_PersonifyDefault .creditCardReplace {
+    margin:0 auto !important;
+	padding:1% !important;
+}
+
+.CreditCardControl_PersonifyDefault .creditCardReplace {
+    display: block !important;
+    
+	
+}
+
+
+	
+/*END SHOPPING CART*/
+
+/* TABLES*/
+.totals {
+	width: 100% !important;
+	border-collapse: collapse;
+	padding: 0% !important;
+	position: relative !important;
+	margin:0 auto !important;
+	}
+
+.totals tr:first-child {background-color:#eee !important; font-size:120%; width: 100% !important; text-shadow:1px 1px 1px #fff !important; color:#444 !important;}
+.totals tr:nth-child(2) { font-size:120% !important; width:100% !important; min-height:22px !important; vertical-align:middle !important; line-height:32px !important; text-shadow:1px 1px 1px #fff !important; color:#555 !important;}
+.totals tr:nth-child(2) td { min-height: 22px !important;}
+
+
+
+.totals td:nth-child(1) {min-width:75px !important; max-width:210px !important; width:42% ; line-height:120%; vertical-align:middle !important; padding-top:8px;}
+.totals td:nth-child(2) {min-width:85px !important; max-width:210px; width:40%; line-height:120%; vertical-align:middle !important; padding-top:8px;}
+.totals td:nth-child(3) {min-width:93px !important; max-width:210px !important; width:54%; line-height:130%; vertical-align:middle !important;padding-top:8px; }
+
+
+    
+
+.listComponents {
+    
+	max-height:100% !important;
+	
+}
+
+
+.ShoppingCartAddedItemTemplateControl_PersonifyDefault .mobile-rad-window .panelProductDescription {
+width:70% !important;}
+
+.listComponents ul li span:nth-child(2) {color:#8BB42D;}
+
+.listComponents ul {
+    margin-bottom: 20px !important;
+	display:block !important;
+	clear:both !important;
+    padding-left: 15px;
+    list-style: none outside none !important;
+	font-size:1.2em;
+}
+
+
+.listComponents ul li { 
+    padding-left: 0 !important; 
+    text-indent: -.7em !important;
+	list-style: none !important;
+}
+
+.listComponents ul li:before {
+    content: "• " !important;
+    color: #888 !important; /* or whatever color you prefer */
+}
+
+.listComponents ul li div {
+    
+    vertical-align: middle;
+}
+
+
+
+.summaryData {
+    background: none repeat scroll 0 0 #EEE;
+    border-left: 1px solid #CCC;
+    border-right: 1px solid #CCC;
+    padding: 6px;
+}
+
+.summary .item .result {
+    display: inline;
+    float: right;
+    font-weight: 700;
+    text-align: right;
+}
+
+.summary .aspNetDisabled.item .RadComboBox table .rcbReadOnly td.rcbInputCell input.rcbInput.radPreventDecorate {
+    margin-top: 3px;
+}
+
+.summary .item .itemLabel {
+    display: inline-block;
+    width: 75px !important;
+	color:#666 !important;
+	text-shadow:1px 1px 1px #fff;
+}
+
+
+
+
+.productControlSection {
+    position: relative !important;
+    padding: 2% 0 !important;
+    width:100% !important;
+}
+
+
+.addressButtonsDiv .addressButton {
+        padding: 13px 6px;
+        text-decoration: none;
+        color:#555 !important;
+    }
+
+
+.productControlSection .linkButton,
+.addressButtonsDiv .addressButton {
+    border: 1px solid #ddd;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;    
+	text-decoration:none;
+	color:#555;
+	text-shadow: 1px 1px 1px #efefef;
+	text-align: center;    
+    background: rgb(252,252,252) !important; /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(252,252,252,1) 45%, rgba(238,238,238,1) 96%) !important;
+     /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(45%,rgba(252,252,252,1)), color-stop(96%,rgba(238,238,238,1))) !important;
+     /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(252,252,252,1) 45%,rgba(238,238,238,1) 96%) !important;
+    /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(252,252,252,1) 45%,rgba(238,238,238,1) 96%) !important;
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(252,252,252,1) 45%,rgba(238,238,238,1) 96%) !important;
+    /* IE10+ */
+	background: linear-gradient(to bottom, rgba(252,252,252,1) 45%,rgba(238,238,238,1) 96%) !important;
+    /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#eeeeee',GradientType=0 ) !important;
+	/* IE6-9 */
+    -webkit-box-shadow: 1px 1px 4px #ccc;
+	-ms-box-shadow: 1px 1px 4px #ccc;
+	box-shadow: 1px 1px 4px #ccc;
+	
+	
+
+}
+
+
+
+/* payment */
+.AddCreditCardControl_PersonifyDefault .formLayout .CCTypeInput {
+    width: auto !important;
+	float:none !important;
+	margin-bottom:3% !important;
+}
+
+.summaryTopColumn  address {
+	white-space: normal !important;
+	font-size:1.4em !important;
+	line-height:130% !important;
+}
+
+
+
+.CheckoutPaymentInformationControl_PersonifyDefault .CheckoutItemSummaryListControl_PersonifyDefault .listComponents {
+    display: none;
+}
+
+.AddCreditCardControl_PersonifyDefault #paymentInfoDiv label img {
+    max-width: 45px !important; margin-top:5px !important;}
+
+
+.listComponents ul li .cbAuthorize  input{
+	display:inline-block !important;
+}	
+ 
+.listComponents li { line-height: 120%;vertical-align: middle;}
+
+.listComponents ul li p {
+	margin-right:4% !important;
+	
+	}
+
+.AddCreditCardControl_PersonifyDefault .Cvv2 {
+    clear: both;
+    float: none;
+    display: block;
+}
+
+
+.AddCreditCardControl_PersonifyDefault .Cvv2 label {
+    width: 100% !important;
+}
+
+.AddCreditCardControl_PersonifyDefault .CCNumber, 
+.AddCreditCardControl_PersonifyDefault .Cvv2{
+	display:block !important; 
+	float:none;
+}
+
+
+.AddCreditCardControl_PersonifyDefault .Cvv2 input 
+ {
+    border: 1px solid #888;
+    display: block !important;
+    margin-bottom: 1.3em;
+    min-width: 2em !important;
+	padding:4% 1% !important;
+	line-height:1.5em !important;
+	font-size:1.4em !important;
+	
+    
+}
+
+.CreditCardControl_PersonifyDefault .tdSecurityCode .Cvv2 input {
+	padding:2% 1% !important;
+	line-height:1.5em !important;
+	font-size:1.4em !important;}
+
+.AddCreditCardControl_PersonifyDefault .CCNumber input {
+	min-width: 2em !important;
+	border: 1px solid #888;
+	padding:4% 1% !important;
+	line-height:1.5em !important;
+	font-size:1.4em !important;
+}
+
+	
+.AddCreditCardControl_PersonifyDefault .CCNumber label,
+.AddCreditCardControl_PersonifyDefault .Cvv2 label {
+	float:none !important; 
+	clear:both !important; 
+	display:block !important; 
+	width:100%!important;
+	margin:1% 0 !important;
+	}
+
+
+.AddCreditCardControl_PersonifyDefault #paymentInfoDiv input[type="radio"]  {
+	-webkit-appearance: radio;
+	height: 20px;
+	padding: 3%;
+}
+
+
+
+.rbDiv label {float:left; margin:0;}
+
+
+.btnProcessDiv {
+    display: none;
+}
+
+.AddCreditCardControl_PersonifyDefault #paymentInfoDiv label {
+    
+	min-width: 40px !important;
+	width:80%;
+}
+
+.AddCreditCardControl_PersonifyDefault #paymentInfoDiv input[type="text"] {
+    padding:0 4px!important;
+    height: 34px;
+	width:98% !important;
+    min-width: 255px !important;
+    
+    vertical-align: middle;
+
+}
+
+#paymentInfoDiv input {
+	display:block !important;
+	line-height:1.4em;
+	}
+	
+#paymentInfoDiv .rbDiv input[type="radio"] {
+    float: left !important;
+    margin: 0;
+    padding: 2%;
+    width: 30px !important;
+}
+
+	
+
+.addCardDiv .comboboxLabel {
+    display: block;
+    clear: both;
+}
+
+
+#PreviousButton {text-decoration:none;
+	color:#888;
+	text-shadow: 1px 1px 1px #efefef;
+	
+	}
+
+.productControlSection .linkButton {
+	margin: 10px;
+    padding: 10px 15px;
+    width: 42%;
+	font-size:120%;}
+
+
+
+.productControlSection .linkButton:hover {
+	
+	color:#333;
+	text-shadow: 1px 2px 2px #f9f9f9;
+}
+
+
+
+
+.lineItemTag {
+border: 0 none !important;
+position: relative!important;
+width: auto !important;
+top: 5px !important;
+right:auto !important;
+border-bottom: none;
+margin:0 auto !important;
+-moz-border-radius-topleft: 0px !important;
+-moz-border-radius-topright: 0px !important;
+-webkit-border-top-right-radius: 0px !important;
+-webkit-border-top-left-radius: 0px !important;
+}
+
+.ShoppingCartItemBadgeControl_PersonifyDefault, .lineItemTag {
+	position: inherit;
+	top: inherit;
+	right: inherit;
+	bottom: inherit;
+	left: inherit;
+	width: inherit;
+	border: 0px none;
+}
+	
+.badgeImage {display:none!important;}
+
+.badgeCaption {
+    display: block;
+    padding: 10px;
+
+    text-align: center;
+	width:auto;
+	margin:0 auto;
+	position: inherit;
+	top:0;
+	left:0;
+	background: #dddddd; /* Old browsers */
+	background: -moz-linear-gradient(top,  #dddddd 0%, #ffffff 92%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#dddddd), color-stop(92%,#ffffff)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #dddddd 0%,#ffffff 92%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #dddddd 0%,#ffffff 92%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #dddddd 0%,#ffffff 92%); /* IE10+ */
+	background: linear-gradient(to bottom,  #dddddd 0%,#ffffff 92%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dddddd', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+
+
+
+	}
+
+.ShoppingCartControl_PersonifyDefault hr,
+.productImageSection,
+.ShoppingCartSavingsControl_PersonifyDefault {
+    display: none;
+    visibility: hidden;
+}
+
+    
+    @-webkit-keyframes bugfix {
+        from { padding: 0; } to { padding: 0;}
+}
+
+
+
+
+.contentSection {
+   
+	border: 0 none !important;
+	background-color: #fff !important;
+
+	
+	
+}
+
+
+.prevNextCancelButtons .btnProcessDiv {
+    display: none;
+}
+
+
+/* pay now */
+.PayNow h1 {
+    display: none;
+}
+
+.PayNow .AFMHeader_PersonifyDefault {
+    display: none;
+}
+
+.PayNow .mainCheckoutDiv input.duplicateProcessOrderPayNow {
+    display: none;
+}
+
+
+
+
+.billingAddress {line-height:1.1em;}
+.billingAddress p, 
+.billingAddress .name, 
+.billingAddress address, 
+.pnlShipToMultipleAddressesDisabled address
+ {
+	font-size:1.4em; 
+	color:#666; 
+	text-shadow:1px 1px 1px #efefef;
+	}
+
+.billingAddress .instruction {
+    line-height:1.1em;
+    font-size:1.4em !important; 
+    color:#FF7400;
+}
+	
+.pnlShipToMultipleAddressesDisabled {line-height:1.1em;}
+
+.pnlShipToMultipleAddressesDisabled .name {
+    font-size:1.4em; 
+	color:#555; 
+	text-shadow:1px 1px 1px #efefef;}
+	
+ .billingAddress address,
+ .pnlShipToMultipleAddressesDisabled address span
+ {
+	margin-top:0;
+	line-height:125%;
+	vertical-align:top;
+	}
+
+.billingAddress .divWarning{
+	color:#666;
+	font-size:1em;
+	}
+
+.billingAddress	p:before {content: "! "; color:#FF7400; font-weight:bold; font-size:1.2em; text-shadow:1px 1px 1px #efefef; line-height:1.1em;}
+	
+
+	
+.divPrintAreaOrderSummaryControl table.totals {
+    width: 80%;
+}
+
+#divPrintEmail {
+    display: none;
+}
+
+.OrderSummaryControl_PersonifyDefault .lblAdditionalInfo {
+    clear: both;
+    display: block;
+    display: none;
+}
+
+td.linksTD {
+    white-space: nowrap;
+}
+
+.lblAdditionalInfo {
+    border-left: 0 none;
+}
+
+td.cellImage {
+    display: none;
+}
+
+
+.summary .estimate {
+    background: none repeat scroll 0 0 #8A8A8A;
+    border: 1px solid #8A8A8A;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #FFF;
+    text-shadow: 1px 1px 1px #444 !important;
+    font-size: small;
+    margin-left: 5px;
+    padding: 9px 4px !important;
+}
+
+input.aspNetDisabled {
+    opacity: 0.5;
+}
+
+.summaryTotal label {
+    display: block;
+    float: left;
+	font-size:1.5em !important;
+	width:auto !important;
+}
+
+.summaryTotal div {
+    font-weight: 700;
+    text-align: right;
+    font-size:1.5em !important;
+	 float:right !important;
+}
+.shippingEstimates .estimateCountry  {
+    clear: both !important;
+    min-width: 260px;
+    width: 100% !important;
+	}
+
+div.shippingEstimates {
+    display: block !important;
+}
+
+
+.shippingEstimates .riTextBox.postal { padding: 9px 4px !important;font-size: 145%;color: #999;font-weight: 700;}
+
+
+.aspNetDisabled,a.aspNetDisabled,.dnnDisabled,a.dnnDisabled {
+    color: #CCC;
+    cursor: not-allowed;
+    text-decoration: none;
+}
+
+span.couponsAndDiscountsNote {
+    margin-bottom: 20px;
+}
+
+.couponsAndDiscountsNote {
+    display: block;
+    font-style: italic;
+    margin-top: 4px;
+}
+
+
+.shippingEstimates .RadComboBox  {width:100% !important;}
+.shippingEstimates .RadComboBox input {padding:0 2px !important;}
+
+
+
+ /* checkout */
+.summaryTopColumn {
+    padding-right: 40px;
+}
+
+.required label,.requiredLegend span {
+    background-size: 28px 28px;
+    padding-left: 10px;
+}
+
+.CheckoutControl_PersonifyDefault div.wizardHeader {
+width: 100% !important;
+margin:0 !important;
+float:none !important;
+}
+
+.WizardHeaderControl_PersonifyDefault span.active span {
+	font-size:1.4em !important;
+	
+	
+	text-align:center !important;
+	padding:2% 4% !important; 
+}
+
+
+.CheckoutAddressChooserControl_PersonifyDefault .formLayout.ctrlContent {
+    margin: 0 auto ;
+}
+
+
+
+.checkoutControlsInnerDiv .shippingAddress {
+    margin-left: 0;
+    padding-left: 0;
+    border-left: 0;
+}
+
+.CheckoutControl_PersonifyDefault .wizardHeader {
+    float: left;
+    margin-left: 0;
+    margin-top: 0;
+    width: 100%;
+}
+
+.AddCreditCardControl_PersonifyDefault .whatsThis {
+    display: none;
+}
+
+.WizardHeaderControl_PersonifyDefault .step {
+    display: none;
+}
+
+
+
+
+.CheckoutControl_PersonifyDefault.Base_PersonifyDefault {
+    line-height: 1px;
+    background-color: #fff;
+}
+
+.CheckoutControl_PersonifyDefault {
+    padding-left: 0;
+}
+
+.checkoutControlsInnerDiv .billingAddress
+ {
+    /*float: none;*/
+    width: auto;
+}
+
+.checkoutControlsInnerDiv .shippingAddress {
+    width: 98%;
+}
+
+.shipToMulti input[type="checkbox"] {
+    padding: 28px;
+    width: 28px;
+    height: 28px;
+    border: 1px solid #ccc;
+}
+
+
+
+.contentSection .lineItemTotals .totals {
+   empty-cells: hide !important;
+}
+
+}
+
+
+div
+{
+    background-repeat: no-repeat;
+}
+
+    div .scrollable
+    {
+        width: 100%;
+        height: 40%;
+        overflow: scroll;
+    }
+
+    div .hidden
+    {
+        width: 100%;
+        height: 60%;
+        overflow: hidden;
+        clear: both;
+    }
+
+.cartIcon
+{
+    background-image: url('/eBizATPRO/Themes/PersonifyDefault/ShoppingCartItem/cart_icon.png');
+}
+
+.cartCountLabel
+{
+    margin-left: 16px;
+    font-size: 12px;
+    color: #CC0000;
+}
+
+.cartLine
+{
+    background-image: url('/eBizATPRO/Themes/PersonifyDefault/ShoppingCartItem/cart_preview_line.png');
+    left: 0px;
+    top: 4px;
+    width: 498px;
+    height: 3px;
+}
+
+.button
+{
+    font-size: 11px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.darkbutton
+{
+    background-image: url('/eBizATPRO/Themes/PersonifyDefault/ShoppingCartItem/dark_button.png');
+    width: 81px;
+    height: 28px;
+}
+
+.orangebutton
+{
+    background-image: url('/eBizATPRO/Themes/PersonifyDefault/ShoppingCartItem/orange_button_normal.png');
+    width: 81px;
+    height: 28px;
+}
+
+.floatright
+{
+    float: right;
+    margin-right: 30px;
+}
+
+.button_container
+{
+    float: left;
+    margin-left: 40px;
+}
+/*Customize the Affilate List Controls*/
+
+.segmentsListPanel {
+    margin-bottom: 20px;
+}
+
+.segmentsListPanel .RadListBox {
+    width: auto;
+    /*width: auto!important;*/
+}
+
+.segmentsListPanel .RadListBox .rlbGroup {
+    border: none;
+    display: inline-block;
+}
+
+.segmentsListPanel .RadListBox .rlbGroup ul li{
+    background: #777;
+    color: #ffffff;
+    min-width: 40px;
+
+}
+
+.segmentsListPanel .RadListBox_PersonifyDefault .rlbGroup .rlbList .rlbItem.rlbHovered .rlbText{
+    color: #ffffff;
+
+}
+
+
+
+.segmentsListPanel .RadListBox .rlbGroup ul li.rlbSelected,
+.segmentsListPanel .RadListBox .rlbGroup ul li.rlbItem {
+    padding: 8px 12px;
+   
+}
+
+.segmentsListPanel .RadListBox .rlbGroup ul li.rlbItem {
+    background: #888;
+    cursor: pointer;
+    color: #f7f7f7;    
+}
+
+.segmentsListPanel .RadListBox .rlbGroup ul li.rlbSelected {
+background: #333;    
+}
+
+
+.segmentsListPanel .controlButtonLink {
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.segmentsListPanel .RadListBox .rlbGroup ul li.rlbItem:hover,
+.segmentsListPanel .controlButtonLink:hover {
+    background: #666;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #333;    
+}
+
+.segmentsListTabs ul  {
+    display: inline;
+}
+
+.segmentsListTabs ul li {
+    display: inline-block;
+    background: #666666;
+    min-width: 40px;
+    padding: 8px;
+    color: #ffffff;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: 5px;
+    line-height: 120%;
+}
+
+
+
+.totals {
+    width: 100%;
+    border-collapse:collapse;
+    padding: 4px;
+}
+
+.listComponents {
+    /*max-height: 70px;*/
+    overflow: hidden;
+}
+
+.dcdValidator span {
+    display: inline !important;
+    margin-bottom: 0px !important;
+    padding-bottom: 0px !important;
+    padding-top: 0px !important;
+}
+
+.listComponents ul{
+    padding-left: 15px;
+    margin-bottom: 0px;
+}
+
+.listComponents ul li{
+    list-style: disc;
+}
+
+.quantityInput {
+    width: 30px !important; 
+}
+
+.RadWindow .option .rateInput {
+    width: 140px !important; 
+}
+
+.RadWindow .option .deliveryTypeInput {
+    width: 80px !important; 
+}
+
+.modifyRegistration {
+    clear: both;
+    border-top: 1px dashed #cecece;
+    padding: 10px;
+    
+}
+
+.boldCaption {
+    font-weight: bold;
+}
+
+.productImage {
+    height: 50px;
+    width: 50px;
+}
+
+.orderItem {
+}
+
+.productName {
+    color: #0C65AB;
+    font-family: Arial;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    white-space: normal;
+}
+
+a.productName {
+    color: #0C65AB;
+    font-family: Arial;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    white-space: normal;
+}
+
+a.productName:focus {
+    outline: 1px solid;
+}
+
+a:focus .productImage {
+    outline: 1px solid;
+}
+
+.cleText {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.clearSection {
+    clear: left;
+    height: 30px;
+}
+
+.updateCart {
+    height: 22px;
+    margin-right: 10px;
+    width: 85px;
+    background: #fd901d;
+    border: 1px #fd901d solid;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;   
+}
+
+.backorder {
+    font-style: italic;
+    color: #808080;
+}
+
+.linkButton
+{
+    border: none;
+    font-size: 0.9em;
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.borderTop {
+    border-top: 1px #CCCCCC solid;
+}
+
+.cell1 {
+    width: 56%;
+    vertical-align: top;
+    text-align: left;
+    padding: 6px;
+}
+
+.cell1 ul {
+    margin-top: 6px;
+    margin-left: 0px;
+    padding-left: 12px;
+}
+
+.cell1 ul li {
+    margin-bottom: 6px;
+    list-style: disc;
+}
+
+.cell1 .RadInput {
+    width: 0px !important;
+}
+
+.cell1 .package {
+    border-spacing: 0px;
+    width: 100%;
+} 
+
+.cell1 .package .itemRow td {
+    border-top:1px #cccccc dashed;
+    padding-top: 4px;
+    padding-bottom: 4px;
+} 
+
+.cell1 .package .itemRow:first-child td {
+    border-top:none;
+} 
+
+.cell1 .package .itemQty {
+    padding-left: 6px;
+    text-align: right;
+    white-space: nowrap;
+} 
+
+.cell2 {
+    width: 22%;
+    vertical-align: top;
+    text-align: center;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    
+}
+
+.MbrProdListTbl .PricingTbl .cell2 {
+    width: 110px;
+}
+
+.cellProductName {
+    width: 65%;
+    vertical-align: top;
+    text-align: left;
+    padding: 4px;
+}
+
+.quantity {
+
+    width: 33%;
+    vertical-align: top;
+    text-align: center;
+    padding: 2px;
+}
+
+.unitPrice {
+    width: 33%;
+    vertical-align: top;
+    text-align: center; 
+    padding: 2px;
+}
+
+.total {
+    width: 33%;
+    vertical-align: top;
+    text-align: center;
+    padding: 2px;
+}
+
+.lineItemTag {
+    border: 1px #CCCCCC solid;
+    position: absolute;
+    width: 180px;
+    bottom: 0;
+    border-bottom: none;
+    right: 30px;
+    -moz-border-radius-topleft: 6px;
+    -moz-border-radius-topright: 6px;
+    -webkit-border-top-right-radius: 6px;  
+    -webkit-border-top-left-radius: 6px;  
+}
+
+.lineItemTagInEdit {
+    border: 1px #CCCCCC solid;
+    width: 80%;
+    margin-top: 5px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 4px;
+    position: relative;
+}
+
+.badgeImage {
+    position: absolute;
+    left: -10px;
+    top: -6px;
+    width: 20px;
+    height: 20px;
+    display: inline;
+    background-image: url('/eBizATPRO/Themes/PersonifyDefault/ShoppingCartItem/attrImg.png');
+    background-repeat: no-repeat;
+}
+
+.ShoppingCartItemControl_PersonifyDefault .badgeCaption {
+    text-align: center;
+    height: 25px;
+    color: #666666;
+    font-family: Arial;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    /* IE10 Consumer Preview */ 
+    background-image: -ms-linear-gradient(top, #B8B8B8 0%, #FAFAFA 100%);
+
+    /* Mozilla Firefox */ 
+    background-image: -moz-linear-gradient(top, #B8B8B8 0%, #FAFAFA 100%);
+
+    /* Opera */ 
+    background-image: -o-linear-gradient(top, #B8B8B8 0%, #FAFAFA 100%);
+
+    /* Webkit (Safari/Chrome 10) */ 
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #B8B8B8), color-stop(1, #FAFAFA));
+
+    /* Webkit (Chrome 11+) */ 
+    background-image: -webkit-linear-gradient(top, #B8B8B8 0%, #FAFAFA 100%);
+
+    /* W3C Markup, IE10 Release Preview */ 
+    background-image: linear-gradient(to bottom, #B8B8B8 0%, #FAFAFA 100%);
+
+}
+
+.ShoppingCartItemControl_Container {
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.infoTopSection{
+    width: auto;    
+    border: 1px #CCCCCC solid;
+    background: #FFFFCC;    
+    vertical-align: middle;
+}
+
+.ShoppingCartItemControl_Container .infoTopSection {
+    padding: 4px;
+    border-bottom: 0 none;
+    font-size: 13px;
+}
+
+.centerSection {
+    margin-right: 250px;
+    min-height: 120px;
+    border: 1px #CCCCCC solid;
+    position: relative; 
+    border-bottom: none;
+    border-left: none;
+    border-top: none;
+    background: #ffffff;
+}
+
+.lineItemTotals {
+    width: 250px;
+    float: right;
+    display: inline;
+}
+
+.contentSection {
+   position: relative; 
+   border: 1px #CCCCCC solid;
+   background: #eeeeee;
+   
+}
+
+.productDescriptionSection {
+    padding: 10px;
+    display: inline;
+    float: left;
+
+}
+.productDescriptionSection .productName {
+    clear: left;
+    display: block;
+}
+.editControls {
+    clear: left;
+    margin-left: 80px;
+    margin-bottom: 20px;
+}
+
+.productDescriptionSectionFill {
+    padding: 10px;
+    float: left;
+    display: inline;
+    min-width: 400px;
+}
+
+.panelEditShoppingCartItem {
+    width: 590px;
+}
+
+.productControlSection {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 250px;
+    background: #EAEAEA;
+    border: 1px #CCCCCC solid;
+    border-bottom: none;
+    border-left: none;
+    padding: 2px 6px;
+}
+
+.controlButton {
+    margin-left: 6px;
+    margin-right: 6px;
+    border: none;
+    background: none;
+    text-decoration: underline;
+    color: #0000cd;
+
+}
+
+.controlButtonInText {
+    border: none;
+    background: none;
+    text-decoration: underline;
+    color: #0000cd;
+}
+
+.productImageSection {
+    
+    display: inline;
+    float: left;    
+    padding: 10px 2px 8px 10px;
+    position: relative;
+
+}
+
+
+
+
+.productImage {
+    height: 50px;
+    width: 50px;
+}
+
+.addressesSection {
+
+    height: 24px;
+    vertical-align: middle;
+    border: 1px #808080 solid;
+    background: #EAF5FD;
+}
+
+.addressesSection .shippingCompany {
+    display: inline-block;
+}
+
+.option {
+    margin-bottom: 10px;
+}
+
+.option label {
+    margin-right: 4px;
+    display: inline-block;
+    min-width: 50px;
+}
+
+.option .optionValidation {
+    position: relative;
+    bottom: 15px;
+    left: 5px;
+    float: none;
+    width: 65px;
+    height: 20px;
+    background: url('/eBizATPRO/Themes/PersonifyDefault/ProductDetailControl/selectOptionRequired.png') no-repeat scroll 0 100% transparent;
+}
+
+/*Customize the look of the option picker*/
+
+.option .umbrellaOptionPicker {
+    display: inline;
+    border: 0px;
+}
+
+.option .umbrellaOptionPicker .rlbTemplate {
+    display: inline;
+    border: 0px;
+    padding-bottom: 0px;
+}
+
+.option .umbrellaOptionPicker .rlbGroup {
+    display: inline;
+    border: 0px;
+}
+
+.option .umbrellaOptionPicker .rlbGroup .rlbList {
+    display: inline;
+    border: 0px;
+}
+
+.option .umbrellaOptionPicker .rlbGroup .rlbList .rlbItem {
+    display: inline;
+    margin-right: 2px;
+    padding: 2px;
+    background: none;
+    border:  none;
+}
+
+.option .umbrellaOptionPicker .rlbGroup .rlbList .rlbHovered {
+    background: none;
+}
+
+.option .umbrellaOptionPicker .rlbGroup .rlbList .rlbItem a {
+    padding: 4px 0px 4px 3px;
+    background: #ececec;
+    border:  #c0c0c0 solid 1px;
+}
+
+.option .umbrellaOptionPicker .rlbGroup .rlbList .rlbSelected a {
+    border-bottom: black solid 2px;
+}
+
+.option .umbrellaOptionPicker .rlbGroup .rlbList .rlbItem a img {
+    width: 20px;
+    height: 20px;
+    margin: 0px;
+}
+
+.option .umbrellaOptionPicker .rlbGroup .rlbList .rlbItem a span.access {
+    height: 1px;
+    left: -9999px;
+    overflow: hidden;
+    position: absolute;
+    width: 1px;
+}
+
+.option .umbrellaOptionPicker .rlbGroup .rlbList .rlbItem a span.access :hover :focus :active {
+   color: #FFFFFF
+}
+
+
+.option .umbrellaOptionPicker .rlbGroup .rlbList .rlbItem a span.readable {
+
+}
+
+div.segmentSubtotal {
+    text-align: right;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+span.segmentSubtotalLabel {
+    font-weight: bold;
+}
+
+span.segmentSubtotalValue {
+    
+}
+
+
+
+@media screen and (max-width: 42.0em) {
+
+    .lineItemTagInEdit {
+        border: 0 none;
+        width: 80%;
+       
+}
+
+
+    .lineItemTagInEdit .badgeImage {
+        display: none;
+    }
+
+
+    .productImageSection {
+   
+    display: none;
+        visibility: hidden;
+   
+   
+}
+
+}
+.ShoppingCartSummaryControl_Container {
+   position: relative; 
+   border: 1px #CCCCCC solid;
+   background: #eeeeee;
+   
+}
+
+.header {
+    padding: 6px;
+    color: #ffffff;
+    background: #8a8a8a;
+    border: 1px solid #8a8a8a;
+    font-weight: bold;
+}
+
+.summaryData {
+    padding: 6px;
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    background: #eeeeee;
+}
+
+.summary .item {
+    margin-bottom: 2px; 
+}
+
+.summary .item span {
+    display: inline-block;
+    max-width: 158px;
+}
+
+.eligibleForMemberRateMsg {
+        font-size: 11px;
+        line-height: 13px;
+        margin-bottom: 10px;
+        color: green;
+        font-style: italic;
+    }
+
+.summary .shippingPreferenceNote {
+    margin-top: 4px;
+    font-size: 0.9em;
+    font-style: italic; 
+}
+
+.couponsAndDiscountsNote {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    font-size: 0.9em;
+    font-style: italic;
+    display: block;
+}
+
+.summary .item div.result {
+    float: right;
+    display: inline;
+    text-align: right;
+    font-weight: bold;
+}
+
+.summary .item .itemLabel {
+    width: 55px;
+    display: inline-block;
+}
+
+
+.summary .postal {
+    width: 60px;
+}
+
+.summary .RadInput {
+    width: 60px !important;
+}
+
+.summary .estimate {
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: #ffffff;
+    font-size: small;
+    background: #8a8a8a;
+    border: 1px #8a8a8a solid;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    margin-left: 5px;
+}
+
+.divisor {
+    border-top: 1px dashed #CCCCCC;
+    margin-left: 4px;
+    margin-right: 4px;
+    height: 1px;
+    margin-bottom: 10px; 
+}
+
+.summaryTotal label {
+    width: 100px;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.summaryTotal div {
+    float: right;
+    display: inline;
+    font-weight: bold;
+    text-align: right;
+    font-size: 1.1em;
+}
+
+.coupon {
+    margin-bottom: 10px; 
+}
+
+.appliedCouponsTable {
+    width: 100%;
+}
+
+.appliedCouponsTable tr td { 
+    max-width: 80px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;}
+
+.coupon .item {
+    margin-bottom: 5px;
+    clear: right;
+}
+
+
+
+.coupon .couponInput {
+    width: 63%;
+    display: inline-block;
+    letter-spacing: -0.2px;
+    float: left;
+}
+
+.summaryData .summary .item .RadComboBox .rcbInputCell .rcbInput {padding-top:2px;}
+
+.appliedCouponInput {
+    font-style: italic;
+    margin-right: 1em;
+}
+
+.couponStatusLabel {
+    color: red;
+}
+
+.couponRemoveButton {
+    float: right;
+    display: inline;
+}
+
+.couponSummaryInput {
+    width: 96%;
+    display: inline;
+}
+
+.couponTotal {
+    float: right;
+    display: inline;
+    text-align: right;
+    font-weight: bold;
+}
+
+.coupon div.apply {
+    float: right;
+
+    display: inline;
+    font-size: 0.9em;
+}
+
+.coupon .addAnother {
+    background: none;
+    border: none;
+    color: #0000cd;
+    font-size: 1.1em;
+}
+
+.coupon div.result {
+    /*float: right;*/
+    text-align: right;
+    /*width: 25%;
+    display: inline;*/
+}
+
+.coupon .apply {
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: #ffffff;
+    font-size: small;
+    background: #8a8a8a;
+    border: 1px #8a8a8a solid;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    margin-left: 5px;
+}
+
+.checkout {
+    border: 1px solid #CCCCCC;
+    background: #eeeeee;
+    text-align: center;
+    padding: 20px;
+}
+
+.summaryValidation .validatedMessage{
+    white-space: normal;
+    text-align: left;
+}
+
+.checkout .controlButton {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    color: #ffffff;
+    font-size: 1.4em;
+    font-weight: bold;
+    background: #fd901d;
+    border: 1px #fd901d solid;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;   
+}
+
+.shippingEstimates .RadComboBox {
+    width: 146px;
+}
+/*
+.duplicateProcessOrder {
+    margin-left: 4px !important;
+    color: #ffffff !important;
+    background: #fd901d !important;
+    border: 1px #fd901d solid !important;
+    -moz-border-radius: 6px !important;
+    border-radius: 6px !important;
+    -webkit-border-radius: 6px !important;
+}
+.duplicateProcessOrderPayNow {
+    margin-top: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    background: #fd901d;
+    border: 1px #fd901d solid;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;   
+}*/
+.btnProcessDiv {
+    display: inline;
+}.badgeImage {
+    position: absolute;
+    left: -10px;
+    top: -6px;
+    width: 20px;
+    height: 20px;
+    display: inline;
+    background-image: url('/eBizATPRO/Themes/PersonifyDefault/ShoppingCartItem/attrImg.png');
+    background-repeat: no-repeat;
+}
+
+.ShoppingCartItemBadge_PersonifyDefault .badgeCaption {
+    text-align: center;
+    height: 25px;
+    color: #666666;
+    font-family: Arial;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    /* IE10 Consumer Preview */ 
+    background-image: -ms-linear-gradient(top, #B8B8B8 0%, #FAFAFA 100%);
+
+    /* Mozilla Firefox */ 
+    background-image: -moz-linear-gradient(top, #B8B8B8 0%, #FAFAFA 100%);
+
+    /* Opera */ 
+    background-image: -o-linear-gradient(top, #B8B8B8 0%, #FAFAFA 100%);
+
+    /* Webkit (Safari/Chrome 10) */ 
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #B8B8B8), color-stop(1, #FAFAFA));
+
+    /* Webkit (Chrome 11+) */ 
+    background-image: -webkit-linear-gradient(top, #B8B8B8 0%, #FAFAFA 100%);
+
+    /* W3C Markup, IE10 Release Preview */ 
+    background-image: linear-gradient(to bottom, #B8B8B8 0%, #FAFAFA 100%);
+
+}.ShoppingCartSavingsControl_PersonifyDefault {
+   border: 1px #CCCCCC solid;
+   background: #ffffff;
+}
+
+.savingsHeader {
+    position: relative;
+    margin-top: 8px;
+    height: 20px;
+    padding-top: 6px;
+    padding-left: 10px;
+    color: #ffffff;
+    background: #009900;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-right: 8px;
+}
+
+.savingsHeader .decore {
+    position: absolute;
+    left: -8px;
+    top: 0px;
+    width: 17px;
+    height: 26px;
+    display: inline;
+    background-image: url('/eBizATPRO/Themes/PersonifyDefault/ShoppingCartSavings/bgrsavings.png');
+    background-repeat: no-repeat;
+}
+
+.savingsHeader .savingsLink {
+    text-align: right;
+    border: none;
+    text-decoration: underline;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: transparent;
+    padding: 0px;
+    margin-right: 4px;
+}
+
+.membersSavingsList {
+    z-index: 100;
+    position: absolute;
+    right: 5%;
+    top: 30px;
+    width: 80%;
+    display: none;
+    background-color: #ffcc00;
+    border: 1px #ffcc00 solid;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    padding: 4px;
+}
+
+.membersSavingsListDecore {
+    position: absolute;
+    right: 10px;
+    top: -14px;
+    width: 26px;
+    height: 26px;
+    display: inline;
+    background-image: url('/eBizATPRO/Themes/PersonifyDefault/ShoppingCartSavings/bgrnotesavings.png');
+    background-repeat: no-repeat;
+}
+
+.productSaveName {
+    width: 57%;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: left;
+    vertical-align: top;
+    margin-right: 3%;
+}
+
+.productSaveValue {
+    display: inline-block;
+    background: none;
+    width: 40%;
+    text-align: right;
+    vertical-align: top;
+}
+
+
+.linkButton {
+    border: none;
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+    background-color: transparent;
+    padding: 0px;
+    margin-right: 4px;
+}
+
+.savingsLogin {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+    font-size: 0.9em;
+}
+
+.membersCanSave {
+    background: #e9e9e9;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-bottom: 10px;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+.membersCanSaveInCheckout {
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.memberSavings {
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.notMemberSavingsNote {
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.memberssave span {
+    font-size: 1.0em;
+}
+
+.savingsMembers {
+    width: 25%;
+    font-size: 1.0em;
+    color: #999999;
+}
+
+.savingsValue {
+    font-size: 0.9em;
+    color: #009900;
+    width: 50%;
+    text-align: center;
+}
+
+.savingsJoin {
+    width: 25%;
+    text-align: right;
+}
+
+.membersSaveCount {
+    
+}
+
+.membersLowRate {
+    padding: 8px;
+    
+}
+
+.membersLowRateHeader {
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+.membersLowRateNote {
+    font-size: 0.9em;
+    margin-bottom: 6px;
+}
+
+.imgSaveItemInfo {
+    position: absolute;
+    left: -20px;
+    top: 0px;
+    width: 16px;
+    height: 16px;
+    display: inline;
+}
+
+.clProductNameContainer {
+    position: relative;
+    
+}
+
+.productSavingsRow {
+    padding: 0px;
+}
+
+.viewMoreSavings {
+    border-top:1px dashed #c0c0c0;
+    padding-left: 20px; 
+    padding-top: 5px;
+}
+
+
+.saveProductList {
+   border: 1px solid #ffcc00;
+    white-space: nowrap;
+}
+
+.saveProductList .saveProductListRow {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: #000;
+    white-space: nowrap;
+    font-weight: normal;
+}
+
+.saveProductList .delimeter {
+   border-top: 1px dashed #000000;
+    height: 1px;
+}
+.OrderItemListControl_Container {
+    
+}
+
+.controlPanel {
+    border-bottom: #ddd 1px solid;
+    margin:12px 0 12px 0;
+    padding: 0px;
+}
+
+.free-shipping-amount-reminder-text {
+    font-weight: bold;
+    color: green;
+    padding:12px 0 12px 12px;
+    font-size: 125%;
+}
+
+
+
+.controlButton {
+    background: #666666;
+    border: #666666 1px solid;
+    font-family:Arial;
+    font-size:10px;
+    font-weight:normal;
+    font-style:normal;
+    color:#FFFFFF;
+    margin: 0px;
+}
+
+.controlButtonSelected {
+    background: #3b3b3b;
+    border: #3b3b3b 1px solid;
+    font-family:Arial;
+    font-size:10px;
+    font-weight:normal;
+    font-style:normal;
+    color:#FFFFFF;
+    margin: 0px;
+}
+
+.controlButtonLink {
+    margin: 0px;
+    background: #666666;
+    font-family:Arial;
+    border: #666666 1px solid;
+    
+    font-weight:normal;
+    font-style:normal;
+    text-decoration:underline;
+    color:#FFFFFF;
+}/* Telerik RadAjaxLoadingPanel Default Skin */
+
+.RadAjax_PersonifyDefault .raDiv
+{
+	background-image:url('/eBizATPRO/Themes/PersonifyDefault/Common/loading.gif');
+}
+
+.RadAjax_PersonifyDefault .raColor
+{
+	background-color:#fff;
+}
+
+.RadAjax_PersonifyDefault .raTransp
+{
+	opacity:0.7;
+	-moz-opacity:0.7;
+	filter:alpha(opacity=70);
+}/* Base Default Skin 
+    This file is for global settings that should apply to all controls when the PersonifyDefault skin is in use.
+    If these controls are in use on a site with its own preferred global css file, remove styles from this file.
+*/
+body
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.Base_PersonifyDefault, .RadWindow {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    line-height: 1.5em;
+}
+
+th
+{
+    text-align: left;
+}
+
+f-right {
+    float:right;
+}
+
+f-left {
+    float:left;
+}
+
+.strikethrough {
+    text-decoration: line-through;
+}
+
+
+.visibility-hidden { visibility: hidden !important;}
+
+.buorgP {position:absolute;position:fixed;z-index:111111;
+width:100%; top:0px; left:0px; 
+border-bottom:1px solid #A29330;
+background:#FDF2AB no-repeat 10px center url(//browser-update.org/img/dialog-warning.gif);
+text-align:left; cursor:pointer;
+font-family: Arial,Helvetica,sans-serif; color:#000; font-size: 12px;}
+.buorgP div { padding:5px 36px 5px 40px; } 
+.buorgP a,.buorgP a:visited  {color:#E25600; text-decoration: underline;}
+
+#buorgcloseP { position: absolute; right: 6px; top:-2px; height: 20px; width: 12px; font-weight: bold;font-size:18px; padding:0; }
+
+.address_PersonifyDefault .riTextBox, .name-demographics_PersonifyDefault .riTextBox {
+    width: 156px !important;
+    border:1px solid #aaa;
+}
+
+html body .RadInputMgr_PersonifyDefault, 
+html body .RadInput_PersonifyDefault .riTextBox {
+    
+}
+
+.address_PersonifyDefault .ctrlContent, .name-demographics_PersonifyDefault .ctrlContent
+{
+    border: 0px none;
+    background: transparent;
+    filter: none;
+    background-image: none;
+    margin: 0px;
+}
+
+.address_PersonifyDefault h3.ctrlTitle, .name-demographics_PersonifyDefault h3.ctrlTitle
+{
+    border-bottom: 1px solid #E7E7E7;
+    margin: 0px;
+    padding: .5em 1.6em;
+    font-size: 1.2em;
+    font-weight: normal;
+    color: #515151;
+}
+
+.clearfix {
+    clear:both;    
+}
+
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.clearfix {
+    *zoom: 1;
+}
+
+
+.div-row {
+    clear: both;
+    display: block;
+    margin: 8px auto;
+    width: 98%;
+    position:relative;
+    }
+
+.valmsg {
+    background-color: #ffff99;
+    color: red;
+    padding: 12px;
+    width: auto;
+}
+
+.ProductClassIconControl_PersonifyDefault img {
+    max-width:18px;
+    max-height: 18px;
+}
+
+
+
+div.credit {
+        border:0px none;
+    }
+
+.address_PersonifyDefault, .name-demographics_PersonifyDefault {
+    position: relative;
+}
+
+.address_PersonifyDefault .formLayout fieldset label, 
+.name-demographics_PersonifyDefault .formLayout fieldset label {
+        width: 130px;
+    }
+
+
+
+
+.formLayout fieldset .formRow input.ChangeLinkButton {
+    border: 0px none;
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+    background-color: transparent;
+    width: 110px;
+    float:none;
+    display: inline;
+}
+
+
+.AddressEditControl_PersonifyDefault .ChangeLinkButton {
+    width: 100px;
+    float: right;
+    text-shadow: 1px 1px 1px #efefef;
+    
+}
+
+.education-details .formRow .RadComboBox.RadComboBox_PersonifyDefault,
+.education-details .formRow textarea,
+.emailDetails .formRow .RadComboBox.RadComboBox_PersonifyDefault,
+.userDetails .formRow .RadComboBox.RadComboBox_PersonifyDefault
+ {
+    width: 204px !important;
+}
+
+.education-details .formRow .RadPicker .rcTable.rcSingle {
+   width: 210px !important; 
+}
+
+
+/*.AddressEditControl_PersonifyDefault .formRow .RadComboBox.RadComboBox_PersonifyDefault { width: 204px !important;}*/
+
+
+.rcbInputCell input[type="text"] {
+    border: 0 none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+
+}
+
+.AddressCountryLabel
+{
+    float: left;
+    width: 175px;
+}
+
+
+h1.ctrlTitle, h3.ctrlTitle
+{
+    font-size: 15px;
+    margin: 1em;
+    clear: both;
+}
+
+h2.ctrlTitle
+{
+    clear: both;
+    float: none;
+}
+
+
+h4.ctrlTitle {
+    font-size: 15px;
+    margin: 12px 0;
+    padding: 18px 0 12px 0;
+}
+
+
+
+/* base font for non-skin */
+.Base_PersonifyDefault, 
+.RadWindow
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 1.5em;
+}
+
+.Base_PersonifyDefault td
+{
+    vertical-align: top;
+}
+
+.Base_PersonifyDefault .active
+{
+    font-weight: bold;
+}
+
+.Base_PersonifyDefault table caption
+{
+    display: none;
+}
+
+.Base_PersonifyDefault hr
+{
+    border: 0px none;
+    background-color: #ccc;
+    color: #ccc;
+    height: 1px;
+}
+
+
+.full-container { 
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.full-container.inner-panel {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.RadTreeView .rtLines .rtLI {
+    background-image: none !important;
+}
+
+
+/*  forms */
+.join_PersonifyDefault .formLayout
+{
+    width: 800px;
+}
+
+.formLayout fieldset label, 
+.formLayout fieldset input, 
+.formLayout fieldset select
+{
+    display: inline-block;
+    width: 200px;
+    float: left;
+    clear: right;
+}
+
+.formLayout fieldset input[type="text"] {
+    margin-right: 1px;
+}
+
+.join_PersonifyDefault .formLayout fieldset input, .join_PersonifyDefault .formLayout fieldset select
+{
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    height: 1.7em;
+    vertical-align: middle;
+    line-height: 1.7em;
+}
+
+.formLayout label
+{
+    color: #666;
+    padding: 0 0 0 12px;
+}
+
+
+
+.source-destination span
+{
+    display: block;
+    float: left;
+    width: 153px;
+    margin-bottom: 5px;
+}
+
+    .source-destination span.destination
+    {
+        width: 100px;
+    }
+
+.source-destination br
+{
+    clear: both;
+    float: none;
+}
+
+.formLayout fieldset .PhoneEdit_PersonifyDefault input
+{
+    float: none;
+    clear: none;
+    display: inline;
+}
+
+.PhoneEdit_PersonifyDefault input.phone_country_code
+{
+	width: 100% !important;
+}
+.PhoneEdit_PersonifyDefault input.phone_area_code
+{
+	width: 100% !important;
+}
+.PhoneEdit_PersonifyDefault input.phone_extension
+{
+	width: 100% !important;
+}
+
+.PhoneEdit_PersonifyDefault input.phone_number
+{
+	width: 100% !important;
+}
+
+.formLayout fieldset.phoneUsage input, .formLayout fieldset.emailUsage input,
+.formLayout fieldset.filter input,
+.formLayout fieldset.filter label
+{
+    width: auto;
+}
+
+.formLayout .formRow.checkedValue
+{
+    background-image: url('/eBizATPRO/Themes/PersonifyDefault/Images/blue-check.png');
+    background-repeat: no-repeat;
+    background-position: 0px 5px;
+    padding: 2px 0px 5px 20px;
+    margin-left: 14px;
+}
+
+
+.buttonRow {
+    margin: 8px 0;
+}
+
+.buttonRow .addNew
+{
+    display: block;
+    padding: 10px 0;
+}
+
+.buttonRow .cancel, 
+.buttonRow .CancelEditButton, 
+.buttonRow .btn-link,
+.btn.btn-link
+{
+    border: 0 none;
+    text-decoration: underline;
+    color: blue;
+    background-image: none;
+    cursor: pointer;
+    background-color: transparent;
+    box-shadow: none;
+    
+}
+
+.formLayout fieldset label.filterGroup, 
+.formLayout fieldset.filter span.filterGroup
+{
+    float: none;
+    display: block;
+    padding: 5px 0;
+}
+
+span.formRow
+{
+    display: block;
+}
+
+.formLayout .formRow, .formLayout div.formRowGroup
+{
+    margin: 0;
+    clear: both;
+    float: none;
+    padding: 5px 0;
+   
+    vertical-align: middle;
+}
+
+    .formLayout .formRow div
+    {
+        float: left;
+        width: 180px;
+    }
+
+        .formLayout .formRow div div
+        {
+            float: none;
+            width: auto;
+        }
+
+.formLayout br
+{
+    clear: both;
+    overflow: hidden;
+    display: block;
+    height: 1px;
+}
+
+.formLayout em
+{
+    display: block;
+    padding: 10px;
+    margin: 0px;
+    float: none;
+    clear: both;
+}
+
+.requiredLegend span
+{
+    font-style: italic;
+}
+
+
+
+
+
+.req-note {
+    font-weight:normal;
+    font-size:97%;
+    font-style:italic;
+    color:#999;
+}
+
+.req-icon:before {
+    content:"*";
+    padding:0 5px 0 0;
+    color:#d11919;
+    font-weight:bold;
+    font-size:1.5em;
+    height:1.2em; line-height:100%; vertical-align:middle;
+
+}
+
+.emailMessagePanel.subjectRow {
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 12px;
+}
+
+.emailMessagePanel label {
+    padding-left: 12px;
+}
+
+.emailMessagePanel.ccRow {
+    padding-left:12px;
+}
+
+.formLayout div.requiredLegend
+{
+    
+    padding: 0;
+}
+
+.required label:before,
+.requiredLegend span:before,
+.comboboxLabel.required:before {
+    color: #CC0000;
+    content: "* ";
+    font-size: 155%;
+    font-weight: normal;
+    line-height: 20px;
+    margin-left: -12px;
+    vertical-align: middle;
+
+}
+
+label:before {
+    content: " ";
+    line-height: 20px;
+}
+
+
+.join_PersonifyDefault .formLayout div.requiredLegend
+{
+    width: 470px;
+}
+
+.formLayout div.requiredLegend span
+{
+    display: block;
+    padding-left: 12px;
+    color: #666;
+    font-style: italic;
+    padding-bottom: 5px;
+}
+
+.formLayout fieldset
+{
+    border: 0;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.formLayout .buttonRow
+{
+    padding: 5px 0;
+}
+
+
+.formLayout fieldset .buttonRow input
+{
+    width: auto;
+}
+
+
+.italic {font-style: italic;}
+
+
+/************* A L E R T S******************/
+
+.urgent-alert
+{
+    color: red;
+}
+
+
+
+
+
+.alert
+{
+    background-color: #fbf7d7;
+    margin: 20px;
+    position: relative;
+}
+
+.alert a.close
+    {
+        position: absolute;
+        top: 1em;
+        right: 1em;
+        font-size: 80%;
+    }
+
+.alert p
+    {
+        padding: 1em;
+        margin: 0;
+        font-size: 80%;
+    }
+
+.credentials .rlbTransferAllFrom, 
+.credentials .rlbTransferAllTo
+{
+    display: none;
+}
+
+
+.vertical-link-separator {
+    padding:0 10px;
+    color: #999;    
+}
+
+
+/*TITLES*/
+
+.control-title {
+    display: block;
+
+}
+
+
+/*FREE SHIPPING*/
+
+.FreeShippingPromotionControl_PersonifyDefault {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    width: auto;
+
+}
+
+.FreeShippingPromotionControl_PersonifyDefault a,
+.FreeShippingPromotionControl_PersonifyDefault a:hover {
+    text-decoration: none;
+}
+
+.free-shipping-promotion-content {
+    padding: 15px 12px;
+    width: auto;
+    display: block;
+    line-height: 145%
+}
+.FreeShippingReminderControl_PersonifyDefault {
+    border: 0;
+}
+
+.free-shipping-amount-reminder-text {
+    border: 1px dashed #bdb76b;
+}
+
+.infoTopSection {
+    color: #b22222;
+    font-style: italic;
+    
+}
+
+.free-shipping-amount-reminder-text,
+.free-shipping-promotion
+ {
+    background: rgb(252,252,232); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(252,252,232,1) 0%, rgba(247,255,196,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(252,252,232,1)), color-stop(100%,rgba(247,255,196,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(252,252,232,1) 0%,rgba(247,255,196,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(252,252,232,1) 0%,rgba(247,255,196,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(252,252,232,1) 0%,rgba(247,255,196,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(252,252,232,1) 0%,rgba(247,255,196,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfce8', endColorstr='#f7ffc4',GradientType=0 ); /* IE6-9 */
+
+}
+
+
+
+.free-shipping-promotion {
+    width: 100%;
+    display: block;
+    position: relative;
+    border: 0 none;
+    margin-bottom: 0;
+    /*padding: 8px 0;*/
+    /*border: 1px dashed #bdb76b;*/
+    vertical-align: middle;
+    text-decoration: none;
+}
+.free-shipping-promotion:hover,
+.free-shipping-promotion a:hover {
+    text-decoration: none;
+    background-color:#eee8aa;
+}
+
+.free-shipping-promotion-line1,
+.free-shipping-promotion-line2,
+.free-shipping-url
+ {  
+   display: inline-block;
+   max-width: 200px; 
+   vertical-align: middle;
+
+}
+
+.free-shipping-promotion-line1 {
+    border-right: 1px solid #CCCCCC;
+    color: #666666;
+    font-size: 180%;
+    font-weight: bold;
+    margin-right: 4px;    
+    padding-right: 8px;
+    text-transform: uppercase;
+    
+    
+}
+
+.free-shipping-promotion-line2 {
+    color: #228b22;
+    font-size: 160%;
+}
+
+.free-shipping-url {
+    font-size: 130%;
+    text-decoration: underline;
+    padding-left: 10px;
+    font-style: italic;
+
+}
+    .free-shipping-url:hover {
+        color: #132b4a;
+    }
+
+
+.free-shipping-promotion p { max-width: 400px; }
+
+
+.product-warning {
+        background-color: #ffffe0;
+}
+
+.product-warning p{
+    background-color: #ffffe0;
+    margin: 5px auto !important;
+    padding: 2px 0 2px 4px;
+    font-size: 11px;
+    color: #cc0000 !important;
+    max-height: 18px;
+}
+
+.ProductDetailLeftCell .product-warning {
+    font-style: italic;
+    
+}
+
+.loadCart .panelShoppingCart .productImage {margin-left:10px;}
+
+
+.item::after
+ {
+		content: " ";
+        width: 100%;
+        float: none;
+        clear: both;
+        height: 1px;
+        overflow: hidden;
+        border: 0 none;
+        display: table;
+        padding: 0;
+        margin: 0 auto;}
+
+.result-free {
+    color: #6b8e23;
+    text-shadow: 1px 1px 1px #fff;
+    font-weight: 700;
+    font-size: 120%;
+
+}
+
+.ProductDetailLeftCell div .RadComboBox table td.rcbInputCellLeft, div .RadComboBox .rcbInputCell .rcbInput {
+    padding-top:0;
+    border: 0 none;
+}
+
+/*END FREE SHIPPING*/
+
+
+
+
+/* wizards */
+
+
+
+
+
+div.afmWizardHeader {margin:0 auto;}
+div.afmWizardHeader .active,
+div .afmWizardHeader .step {background:none; border-top:0px none}
+
+.CheckoutControl_PersonifyDefault div.backToCartDiv {display:none}
+
+div.WizardHeaderControl_PersonifyDefault span.step {border-right:1px solid #fff !important; display:inline-block; background-color:#eff6ff; border-bottom:3px solid #bcd8ff;}
+div.WizardHeaderControl_PersonifyDefault span.stepLabel {background-color:transparent}
+div.WizardHeaderControl_PersonifyDefault span.step3 {border-right:0px}
+div.WizardHeaderControl_PersonifyDefault span.active + span {border-right:inherit}
+div.WizardHeaderControl_PersonifyDefault span span {padding:0px; border:0px none; width:292px; font-size:14px}
+div.WizardHeaderControl_PersonifyDefault span.step3 {border-right:0px none !important}
+div.WizardHeaderControl_PersonifyDefault span.active span {color:#2B5B84;}
+div.WizardHeaderControl_PersonifyDefault span {color:#BBD7F0; font-weight:bold; padding:15px 10px}
+
+.WizardHeaderControl_PersonifyDefault .step.active, div.afmWizardHeader .step { 
+background-color:#cee7ff; border-bottom:3px solid #96c3ff; padding:15px 0px; border-radius:0px !important;
+}
+div.afmWizardHeader .step {background-color:#eff6ff; border-bottom-color:#BCD8FF; color:#BBD7F0; font-weight:bold; 
+background-image: url('/eBizATPRO/Themes/PersonifyDefault/images/w.gif'); background-position: right center; background-repeat:repeat-y}
+div.afmWizardHeader .step.active {background-color:#cee7ff; border-bottom-color:#96C3FF; background-image:none}
+div.afmWizardHeader .active span.stepLabel {color:#2B5B84}
+div.afmWizardHeader {padding:0px}
+div.afmWizardHeader div {background-color:#eff6ff; border-bottom:3px solid #bcd8ff; font-size:14px}
+div.afmWizardHeader .stepList1 span {background:none; color:#BBD7F0; font-weight:bold; font-size:14px}
+div.afmWizardHeader .stepList1 span.active {background-color:#CEE7FF; color:#2B5B84}
+div.afmWizardHeader .stepList1 span.active span { color:#2B5B84}
+div.afmWizardHeader div.stepList1:last-child .step, div.afmWizardHeader div.stepList2:last-child .step {border-top:0px}
+.afmWizardHeader div.stepList1:first-child .step, .afmWizardHeader div.stepList2:first-child .step {
+    border-bottom-left-radius: 0px !important;
+    border-top-left-radius: 0px !important;
+	border-top:0px
+}
+
+
+
+
+/* gradient for headers */
+
+.address_PersonifyDefault h3.ctrlTitle, .name-demographics_PersonifyDefault h3.ctrlTitle
+{
+    background: rgb(247,247,247); /* Old browsers */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Y3ZjdmNyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlN2U3ZTciIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top, rgba(247,247,247,1) 0%, rgba(231,231,231,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(247,247,247,1)), color-stop(100%,rgba(231,231,231,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(247,247,247,1) 0%,rgba(231,231,231,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(247,247,247,1) 0%,rgba(231,231,231,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(247,247,247,1) 0%,rgba(231,231,231,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom, rgba(247,247,247,1) 0%,rgba(231,231,231,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#e7e7e7',GradientType=0 ); /* IE6-8 */
+}
+
+.name_PersonifyDefault .formLayout fieldset label, 
+.name_PersonifyDefault .formLayout fieldset input, 
+.formLayout fieldset select {
+    width: 120px;
+    }
+
+.name_PersonifyDefault, .demographics_PersonifyDefault {
+    position: relative;
+    }
+
+.name_PersonifyDefault .formLayout select.selected, .name_PersonifyDefault .formLayout select.available, .name_PersonifyDefault .credentials .buttonRow input {
+        width: auto;
+    }
+
+fieldset.name, fieldset.demographics {
+    margin-bottom: 0;
+    }
+
+.name_PersonifyDefault .buttonRow {
+    clear: none;
+    padding: 0px 1em;
+    margin: 0;
+    text-align: right;
+    margin-top: .5em;
+    }
+
+fieldset.credentials {
+    margin: 0;
+    clear: both;
+    margin: 1em 0px 0px 0px;
+    border: 1px solid #e7e7e7;
+    border-radius: .3em;
+    padding: 1em;
+    min-width: 290px;
+    }
+
+.credentials select, .credentials .buttonRow {
+    float: left;
+    }
+
+.credentials .buttonRow input {
+    clear: both;
+    float: none;
+    }
+
+.formLayout div.formRow .credentials .buttonRow {
+    margin-top: 0;
+    width: auto;
+    }
+
+.formlayout br {
+    height: 1px;
+    clear: both;
+    line-height: 1px;
+    }
+
+.editing span.value, .editing .edit {
+    display: none;
+    }
+
+.viewing fieldset div input, .viewing fieldset div select, .viewing .buttonRow, .viewing fieldset.credentials, .viewing .requiredLegend
+{
+    display: none;
+}
+
+.editing
+{
+    background-color: #eee;
+}
+
+
+/* myAccount page with responsive test layout */
+
+.no-skin
+{
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.psfy, 
+.ctrlContent, 
+.name-demographics_PersonifyDefault, 
+.address_PersonifyDefault, 
+.productRow
+{
+    border: 1px solid #e7e7e7;
+    /*margin: 1em;*/
+    border-radius: .4em;
+    background-color: #f7f7f7;
+}
+
+fieldset.credentials, .Profile_PersonifyDefault fieldset.credentials
+{
+    background: rgb(255,255,255); /* Old browsers */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmMmYyZjIiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(242,242,242,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(242,242,242,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(242,242,242,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(242,242,242,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(242,242,242,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(242,242,242,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f2f2f2',GradientType=0 ); /* IE6-8 */
+}
+
+.ie9 .ctrlContent
+{
+    filter: none;
+}
+
+.ctrlContent
+{
+    padding: 1em;
+}
+
+    .ctrlContent ul, .ctrlContent li
+    {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+    }
+
+    .ctrlContent ul
+    {
+        margin: 1em 0 0;
+    }
+
+    .ctrlContent .section
+    {
+        position: relative;
+        /*border: 1px solid #eee;*/
+        border-radius: .2em;
+    }
+
+    .ctrlContent a.edit
+    {
+        position: absolute;
+        /*top: .6em;
+        right: 1em;*/
+        right: -35px;
+        top: 0;
+    }
+
+    
+
+.ctrlContent a.edit.CusNameEditLink {
+    right: 10px;
+    top: 5px;
+}
+
+/*TELERIK GRID PAGINATION OVERIDE*/
+.rbDecorated {
+
+    border:1px outset #ccc;
+    border:1px solid #ddd;
+    border-radius:3px;
+    min-height: 28px;
+
+    /*Gradient*/
+background: -moz-linear-gradient(top,  rgba(226,226,226,1) 1%, rgba(242,242,242,1) 62%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,rgba(226,226,226,1)), color-stop(62%,rgba(242,242,242,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(226,226,226,1) 1%,rgba(242,242,242,1) 62%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(226,226,226,1) 1%,rgba(242,242,242,1) 62%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(226,226,226,1) 1%,rgba(242,242,242,1) 62%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(226,226,226,1) 1%,rgba(242,242,242,1) 62%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#f2f2f2',GradientType=0 ); /* IE6-9 */
+
+}
+
+
+.rbSkinnedButton .rbDecorated:hover {
+    background-size:contain;
+    box-shadow: 1px 1px 2px #888888;
+    border:1px outset #999999;
+}
+
+
+a.edit
+{
+    color: #36f;
+}
+
+
+.CustomerNameEditControl_PersonifyDefault .CusNameEdit.formRow span.RadInput.RadInput_PersonifyDefault {
+    max-width: 152px;
+}
+
+.CustomerNameEditControl_PersonifyDefault .credentials.CusNameEdit .source-destination span.source { width: 130px;}
+.CustomerNameEditControl_PersonifyDefault .credentials.CusNameEdit .source-destination span.destination { width: 100px;}
+
+div.name-demographics_PersonifyDefault .RadListBox.RadListBoxButtonAreaRight { max-width: 140px;}
+
+div.name-demographics_PersonifyDefault .RadListBox.RadListBox_PersonifyDefault.RadListBoxScrollable {max-width: 125px;}
+
+#leftCol, #rightCol
+{
+    width: 28%;
+    float: left;
+}
+
+#leftCol
+{
+    width: 66%;
+}
+
+.memberDemo #leftCol
+{
+    width: 60%;
+}
+
+.memberDemo #rightCol
+{
+    width: 40%;
+}
+
+address
+{
+    /*white-space: pre-wrap;*/
+    min-width: 150px;
+}
+
+.chkDailyRates {
+    min-width: 180px;
+}
+
+.chkDailyRates td label {
+    padding:0 0 0 4px;
+}
+
+
+ul.membershipValues li
+{
+    margin: .5em 0px;
+}
+
+ul.membershipValues
+{
+    max-width: 40em;
+    padding: 0;
+    overflow-x: hidden;
+    list-style: none;
+    margin-top: 0px;
+}
+
+    ul.membershipValues li:before
+    {
+        float: left;
+        width: 0;
+        white-space: nowrap;
+        content: ". . . . . . . . . . . . . . . . . . . . " ". . . . . . . . . . . . . . . . . . . . " ". . . . . . . . . . . . . . . . . . . . " ". . . . . . . . . . . . . . . . . . . . ";
+    }
+
+    ul.membershipValues span:first-child
+    {
+        padding-right: 0.33em;
+        background: #f7f7f7;
+    }
+
+    ul.membershipValues span + span
+    {
+        float: right;
+        padding-left: 0.33em;
+        background: #f7f7f7;
+    }
+
+.MembershipRenew_PersonifyDefault .ctrlContent
+{
+    text-align: center;
+}
+
+.MembershipSummary_PersonifyDefault .ctrlContent, .MembershipRenew_PersonifyDefault .ctrlContent
+{
+    min-height: 9em;
+}
+
+.MembershipRenew_PersonifyDefault input.renew
+{
+    padding: 1em 2em;
+    margin: 1.8em auto 0px auto;
+}
+
+input.renew
+{
+    margin: 0px auto;
+}
+
+.section.profile-pic
+{
+    float: right;
+    width: 160px;
+    position: absolute;
+    top: 36px;
+    right: 0px;
+}
+
+.section.contacts, .section.title-address
+{
+    /*margin-right: 160px;*/
+    margin-right: 40px;
+    padding-right: 22px;
+}
+
+.MembershipRenewalControl_PersonifyDefault .containerPanel .section.contacts
+{
+    margin-right: 0px;
+}
+
+.myContactInfo_PersonifyDefault .ctrlContent
+{
+    position: relative;
+}
+
+
+.req
+{
+    display: none;
+}
+
+span.validation, .validatedMessage
+{
+    color: #c00;
+    padding-left: 1em;
+    white-space: nowrap;
+    display: block;
+}
+
+.validatedMessage
+{
+    background-color: #ffc;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+    .validatedMessage ul
+    {
+        padding: 0px;
+        margin: 0px;
+    }
+
+        .validatedMessage ul li
+        {
+            margin: 0px;
+            padding: 5px 0px;
+        }
+
+.formLayout span.validatedMessage
+{
+    float: left;
+    margin-left: 155px;
+    padding: 5px 0px 0px 0px;
+    background-color: transparent;
+    margin-bottom: 0px;
+}
+
+.RadWindow .validatedMessage
+{
+    background-color: #ffc;
+    padding: 1em 2em;
+}
+
+.RadWindow .formLayout .validatedMessage
+{
+    padding: 2px 10px;
+    background-color: transparent;
+    margin-left: 0px;
+}
+
+.formRow .validatedMessage
+{
+    display: inline;
+}
+
+
+.wrong input
+{
+    background-color: #ff9 !important;
+    border: 1px solid #cc0000;
+    border-style: inset;
+}
+
+.formRow input[type="text"]
+{
+    border:1px solid #aaa;    
+    border-radius: 3px;
+    line-height: 105%;
+    padding: 1px;
+    vertical-align: middle;
+}
+
+.formRow .RadComboBox .rcbReadOnly input[type="text"] {
+    border: 0 none;
+
+}
+
+.AddAddressControl_PersonifyDefault .formRow .RadComboBox input[type="text"] {
+    border: 0 none;
+    box-shadow: none;    
+
+}
+
+
+.AddAddressControl_PersonifyDefault .formRow .RadComboBox_PersonifyDefault {
+ 
+}
+
+
+.AddAddressControl_PersonifyDefault.expanded-state .formRow .RadComboBox input[type="text"] {
+    border: 0 none;
+    box-shadow: none;    
+    min-width: 100px;   
+}
+
+input.wrong
+{
+    background: #ff9 !important;
+    border: 1px inset #666;
+}
+
+.validationSummary
+{
+    color: Red;
+}
+
+.validationError
+{
+    color: Red;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+
+.moveUp a
+{
+    background-image: url('/eBizATPRO/Themes/PersonifyDefault/Images/UpArrow.png');
+    background-repeat: no-repeat;
+    height: 20px;
+    width: 20px;
+    text-indent: -60px;
+    display: block;
+    overflow: hidden;
+    line-height: 20px;
+}
+
+.moveDown a
+{
+    background-image: url('/eBizATPRO/Themes/PersonifyDefault/Images/DownArrow.png');
+    background-repeat: no-repeat;
+    height: 20px;
+    width: 20px;
+    text-indent: -80px;
+    display: block;
+    overflow: hidden;
+    line-height: 20px;
+}
+
+.moveButtonContainerUp
+{
+    height: 20px;
+    width: 20px;
+    display: block;
+    line-height: 20px;
+    float: left;
+}
+
+.moveButtonContainerDown
+{
+    height: 20px;
+    width: 20px;
+    display: block;
+    line-height: 20px;
+    float: right;
+}
+
+.moveButtonsContainer
+{
+    width: 45px;
+}
+
+
+
+
+
+
+div.RadGrid_PersonifyDefault
+{
+    margin: 0px 1em;
+}
+
+.RadGrid .rgPager td {
+background: rgb(242,242,242); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(242,242,242,1) 0%, rgba(226,226,226,1) 87%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(242,242,242,1)), color-stop(87%,rgba(226,226,226,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(242,242,242,1) 0%,rgba(226,226,226,1) 87%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(242,242,242,1) 0%,rgba(226,226,226,1) 87%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(242,242,242,1) 0%,rgba(226,226,226,1) 87%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(242,242,242,1) 0%,rgba(226,226,226,1) 87%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#e2e2e2',GradientType=0 ); /* IE6-9 */
+
+
+text-shadow: 1px 1px 1px #fff;
+
+}
+
+.AFMRosterPlaceHolder > span {display:block}
+.AFMRosterPlaceHolder span a {border:1px solid #ccc; display:block; float:left; margin:3px 4px}
+.AFMRosterPlaceHolder span a.rgCurrentPage, .RadGrid .AFMRosterPlaceHolder .rgNumPart a{margin:3px 4px}
+
+.AFMRosterPlaceHolder span.afmLblDisplay { display: block;
+    float: left;
+    margin: 7px 4px;
+    text-align: left;
+    width: 200px;}
+
+.AFMRosterPlaceHolder div.AFMRosterPagerButtonsHolder { 
+    display: block;
+    float: right;
+    height: 28px;
+    margin: 2px 3px 0 3px;
+    padding: 0;
+    vertical-align: bottom;
+    line-height: 18px;
+
+}
+
+.AFMRosterPagerButtonsHolder span.RadButton {
+    position: relative;
+    top: 1px;
+}
+
+.buttonRow.inner-side {
+margin:0;
+ 
+}
+    /*REPORT CONTAINER*/
+
+    .dashboard-report-container #pageContainer {
+        position: relative !important;
+    }
+
+fieldset div.RadGrid_PersonifyDefault
+{
+    margin: 0px 12px;
+}
+
+.actionColumn
+{
+    width: 100px;
+}
+
+.RadGrid_PersonifyDefault .rgHeader.typeColumn
+{
+    width: 120px;
+}
+
+.RadGrid_PersonifyDefault .rgHeader.locationColumn
+{
+    width: 225px;
+}
+
+.ContactInformationPhone_PersonifyDefault .RadGrid_PersonifyDefault .rgHeader.locationColumn
+{
+    width: 93px;
+}
+
+
+.RadGrid_PersonifyDefault .rgHeader.noCallColumn
+{
+    width: 90px;
+    text-align: center;
+}
+
+.RadGrid_PersonifyDefault .rgHeader.mainColumn
+{
+    width: 90px;
+    text-align: center;
+}
+
+
+fieldset.phoneUsage, fieldset.emailUsage
+{
+    margin-left: 200px;
+}
+/* .RadWindow_PersonifyDefault .buttonRow {margin-left:190px} can't be global */
+.RadWindow_PersonifyDefault.confirmDeleteWindow .buttonRow
+{
+    margin-left: 0px;
+}
+
+fieldset.phoneUsage label, fieldset.faxUsage label, fieldset.emailUsage label
+{
+    width: 220px;
+}
+
+fieldset.phoneUsage input
+{
+    margin-top: 0px;
+}
+
+.RadWindow .RadComboBox
+{
+    width: 180px !important;
+}
+
+
+
+
+
+
+
+span.checked
+{
+    text-indent: -500px;
+    background-image: url('/eBizATPRO/Themes/PersonifyDefault/images/greencheck.gif');
+    overflow: hidden;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    padding-right: 5px;
+    background-repeat: no-repeat;
+}
+
+span.gridPrimary, span.gridDoNotCall
+{
+    display: block;
+    text-indent: -500px;
+    background-image: url('/eBizATPRO/Themes/PersonifyDefault/images/greencheck.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+}
+
+span.gridDoNotCall
+{
+    background-image: url('/eBizATPRO/Themes/PersonifyDefault/images/dnc.gif');
+}
+
+
+.grey-gradient {
+   background: #f7f7f7; /* Old browsers */
+    background: -moz-linear-gradient(top,  #f7f7f7 0%, #e2e2e2 68%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f7f7f7), color-stop(68%,#e2e2e2)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #f7f7f7 0%,#e2e2e2 68%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #f7f7f7 0%,#e2e2e2 68%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #f7f7f7 0%,#e2e2e2 68%); /* IE10+ */
+    background: linear-gradient(to bottom,  #f7f7f7 0%,#e2e2e2 68%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#e2e2e2',GradientType=0 ); /* IE6-9 */
+    
+    /*Text on a grey background*/
+    text-shadow:1px 1px 1px #f9f9f9;
+}
+
+div.RadGrid .rgMasterTable
+{
+    border-collapse: collapse;
+}
+
+
+.rgMasterTable {
+    margin:0 auto;
+    width:100%;
+}
+
+
+.rgMasterTable td{
+
+    padding:10px;
+    text-align:left;
+    
+}
+
+.rgMasterTable th {
+      padding:12px 8px; 
+      font-size:1.1em;
+	  font-weight:bold;
+
+}
+
+.primary-table-item {
+    color:#555;
+    letter-spacing:normal;
+}
+
+.sub-table-item {
+    color:#777;
+    font-style:italic;
+    font-size:90%;
+    letter-spacing:normal;
+}
+
+
+.trComMembers td:first-child {
+    /*max-width:250px;*/
+    min-width:110px;
+}
+
+
+.date-field {
+    max-width:104px;
+}
+
+.RadPicker table.rcTable, .RadPicker table.rcTable td {
+    min-width:15px;
+}
+
+.RadWindow .rwWindowContent {
+    padding:1% 0;
+    margin:0 auto;
+    
+}
+
+.RadWindow .rwWindowContent > div {
+    height: 100%;
+}
+
+div.RadGrid_PersonifyDefault .rgRow td, div.RadGrid_PersonifyDefault .rgAltRow td
+{
+    border-top: 0px solid #ccc;
+}
+
+.ContactInformationPhone_PersonifyDefault .RadGrid_PersonifyDefault .rgHeader.mainColumn
+{
+    width: 95px;
+}
+
+body .RadGrid_PersonifyDefault .rgHeader, body .RadGrid_PersonifyDefault th.rgResizeCol, body .RadGrid_PersonifyDefault
+{
+    border-color: #ccc;
+}
+
+.ContactInformationPhone_PersonifyDefault .rgRow td:last-child, .ContactInformationPhone_PersonifyDefault .rgAltRow td:last-child, .ContactInformationPhone_PersonifyDefault div.RadGrid th.actionColumn,
+.ContactInformationEmail_PersonifyDefault .rgRow td:last-child, .ContactInformationEmail_PersonifyDefault .rgAltRow td:last-child, .ContactInformationEmail_PersonifyDefault div.RadGrid th.actionColumn,
+.ContactInformationWeb_PersonifyDefault .rgRow td:last-child, .ContactInformationWeb_PersonifyDefault .rgAltRow td:last-child, .ContactInformationWeb_PersonifyDefault div.RadGrid th.actionColumn,
+.ContactInformationFax_PersonifyDefault .rgRow td:last-child, .ContactInformationFax_PersonifyDefault .rgAltRow td:last-child, .ContactInformationFax_PersonifyDefault div.RadGrid th.actionColumn
+{
+    text-align: center;
+}
+
+
+/* no record */
+div.noRecord, .companyNotFound, tr.rgNoRecords div {
+    text-align: center;
+    font-style: italic;
+    padding: 1.5em;
+    color: #666;
+    display: block;
+	}
+
+span.companyNotFound {
+    border: 1px solid #ccc;
+	}	
+
+
+/* rad window */
+.RadWindow_PersonifyDefault {
+    border: 0px none;
+	}
+
+    .RadWindow_PersonifyDefault .ctrlContent {
+        border: 0px none;
+        background-color: transparent;
+    }
+
+    .RadWindow_PersonifyDefault .rwControlButtons a.rwCloseButton {
+        height: 24px;
+        width: 24px;
+        background-image: url('/eBizATPRO/Themes/PersonifyDefault/images/closeico.png');
+        background-position: top left;
+        position: relative;
+        bottom: 15px;
+        left: 15px;
+	}
+
+.TelerikModalOverlay {
+    background-color: #000 !important;
+	}
+
+div.RadWindow em {
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+	}
+
+
+#ctl02Panel {
+    display: none !important;
+	}
+
+
+.RadGrid_PersonifyDefault .rgHeader {
+    font-weight: bold;
+	}
+
+.RadGrid_PersonifyDefault .rgRow a, .RadGrid_PersonifyDefault .rgAltRow a, .RadGrid_PersonifyDefault .rgEditRow a, .RadGrid_PersonifyDefault tr.rgEditRow a, .RadGrid_PersonifyDefault tr.rgHoveredRow a, .RadGrid_PersonifyDefault tr.rgActiveRow a, .RadGrid_PersonifyDefault .rgFooter a, .RadGrid_PersonifyDefault .rgEditForm a {
+    color: #03f;
+}
+
+tr.rgAltRow + tr
+{
+    background-color: #F2F2F2;
+}
+
+    tr.rgAltRow + tr.rgRow
+    {
+        background-color: #fff;
+    }
+
+	tr.rgRow.rgSelectedRow { background-color: #828282 !important; }
+
+.stringColumn
+{
+    text-align: left;
+}
+
+.numberColumn, 
+.dateColumn, 
+.RadGrid .rgHeader.numberColumn, 
+.RadGrid .rgHeader.dateColumn
+{
+    text-align: right;
+}
+
+.subItem
+{
+    padding-left: 1em;
+    margin-left: 1em;
+}
+
+.searchMatch, searchMatch *
+{
+    background-color: #f6ebc5;
+}
+
+ .ProductLegendIconControl_PersonifyDefault {
+    position: relative;   
+    width: 80px;
+    top: 8px;
+    
+}
+
+.ProductLegendIconControl_PersonifyDefault:after {
+    
+	border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #444;
+    content: " ";
+    width: 0;
+    height: 0;
+    top: 6px;
+    position: absolute;
+    
+}
+
+span.active + span
+{
+    border: 0px solid red;
+}
+
+.MembershipJoinRegistrationControl_PersonifyDefault .formLayout .buttonRow
+{
+    margin-left: 160px;
+}
+
+.bottom-nav {
+padding:2% 0;
+width:auto;
+
+}
+
+.formLayout fieldset.userDetails span.validatedMessage
+{
+    margin-left: 2em;
+}
+
+.formLayout fieldset.userDetails .RadComboBox
+{
+    width: 180px;
+}
+
+#registrationControl_FullRegisterPanel .buttonRow
+{
+    margin-left: 190px;
+}
+
+
+.FindCompanyControl_PersonifyDefault .RadGrid .rgRow td, .FindCompanyControl_PersonifyDefault .RadGrid .rgAltRow td
+{
+    border-color: #ccc;
+}
+
+.formLayout .FindCompanyControl_PersonifyDefault .RadGrid input
+{
+    margin: 0;
+    width: auto;
+    float: none;
+}
+
+
+.foundCompanyPanel .buttonRow input
+{
+    float: none;
+}
+
+#registrationControl_FullRegisterPanel .foundCompanyPanel .buttonRow
+{
+    margin-left: 0px;
+}
+
+.foundCompanyPanel colgroup col:first-child
+{
+    width: 50px;
+}
+
+span.bold
+{
+    font-weight: bold;
+}
+
+.buyBox
+{
+    float: right;
+    margin: 1em 1em 0px 0px;
+    width: 25%;
+    border: 1px solid #ccc;
+}
+
+    .buyBox h3
+    {
+        background-color: #999;
+        color: #fff;
+        margin: 0px;
+        padding: .3em;
+    }
+
+.MembershipJoinOptionsControl_PersonifyDefault .MembershipDetailControl_PersonifyDefault .productImage
+{
+    margin-left: 0px;
+}
+
+.MembershipDetailControl_PersonifyDefault
+{
+    width: 72%;
+    float: left;
+}
+
+.MembershipJoinOptionsControl_PersonifyDefault .detailsPanel
+{
+    margin-left: 150px;
+}
+
+.MembershipJoinOptionsControl_PersonifyDefault .buttonRow
+{
+    margin-left: 150px;
+}
+
+.MembershipBuyBoxControl_PersonifyDefault .memberDetails > div
+{
+    border-bottom: 1px solid #ccc;
+    margin: 1em;
+    padding-bottom: 1em;
+}
+
+.autoRenew input
+{
+    float: left;
+}
+
+.autoRenew label
+{
+    display: block;
+    margin-left: 25px;
+}
+
+ul.rateCodes
+{
+    padding: 1em;
+}
+
+    ul.rateCodes li
+    {
+        margin: 5px 0px;
+    }
+
+    ul.rateCodes input
+    {
+        margin: 0px 8px 0px 0px;
+        position: relative;
+        top: 2px;
+    }
+
+.rateCodes span
+{
+    float: right;
+}
+
+.amount
+{
+    float: right;
+}
+
+
+.memOptions
+{
+    border: 1px solid #ccc;
+    padding: 1em;
+    margin: 1em 0px;
+    background-color: #fff;
+}
+
+.optOut
+{
+    opacity: .6;
+    background-color: #f7f7f7;
+}
+
+.yourChapter, .optionName
+{
+    font-weight: bold;
+    font-size: 110%;
+}
+
+.optOuts
+{
+    float: right;
+    width: 230px;
+}
+
+    .optOuts .RadComboBox
+    {
+        width: 90px !important;
+    }
+
+    .optOuts input[type=checkbox] 
+    {
+        margin: 10px;
+    }
+
+div.memOptions > .optOuts input[type="checkbox"][checked]
+{
+    border: 2px solid #999;
+}
+
+span.deliveryMethod
+{
+    padding-left: 10px;
+}
+
+.renewOptions
+{
+    margin: 1em 0px;
+}
+
+    .renewOptions h3
+    {
+        margin-top: 20px;
+        margin-bottom: .5em;
+    }
+
+.MembershipJoinOptionsControl_PersonifyDefault .ctrlContent
+{
+}
+
+.memOptions .shortDescription
+{
+    clear: both;
+    float: none;
+    margin: .5em 0px;
+}
+
+.memOptions .priceLabel, .memOptions .optionName
+{
+    float: left;
+}
+
+.memOptions .optionName
+{
+    display: block;
+    min-width: 40%;
+    margin-right: .5em;
+}
+
+
+.clear
+{
+    clear: both;
+    display: block;
+    float: none;
+}
+
+
+
+
+
+/**************** Add to Cart Window - START ************/
+.MessageWindowTable
+{
+    float: left;
+    width: 100%;
+    text-align: left;
+}
+
+    .MessageWindowTable .ProductDetailDisplayImage
+    {
+        padding: 10px;
+        margin: 10px;
+        max-height: 125px;
+        max-width: 125px;
+        border: 1px solid #CCCCCC;
+    }
+
+
+    td.quantity input.update {
+        padding:1px; 
+        font-size:11px; 
+        margin:4px 0; 
+        clear:both
+    }
+
+
+
+    .MessageWindowTable .CartProductName
+    {
+    }
+
+    .MessageWindowTable .CartOptionValue
+    {
+        padding-left: 5px;
+    }
+
+    .MessageWindowTable .CartItemPrice, .MessageWindowTable .CartItemQuantity, .MessageWindowTable .CartItemTotalPrice
+    {
+    }
+
+    .MessageWindowTable .CartTotalRow
+    {
+    }
+
+/**************** Add to Cart Window - END ************/
+
+
+.step3Left, .step2Left
+{
+    float: left;
+    width: 50%;
+}
+
+.benefits, .benefits h2
+{
+    clear: both;
+    float: none;
+}
+
+.breakWord
+{
+    max-width: 150px !important;
+    word-break: break-all !important;
+    word-wrap: break-word !important;
+    vertical-align: top;
+    line-height: 15px;
+}
+
+
+div.PhoneEdit_PersonifyDefault.Base_PersonifyDefault
+{
+    float: left;
+    width: 205px !important;
+    
+}
+
+.viewMore
+{
+    cursor: pointer;
+    cursor: pointer;
+    cursor: pointer;
+}
+
+.hiddenElement {
+    display: none;
+}
+
+.rlbDisabled {
+    cursor: not-allowed !important;
+}
+
+.dnnSendPassword .dnnFormMessage {
+    margin-top: 30px;
+    margin-right: 8px;
+    color: #444;
+}
+
+.dnnSendPassword .dnnFormItem .dnnLabel {
+    margin-left: -135px;
+}
+
+.dnnActions .dnnClear ul {
+    margin-left: -145px;
+}
+
+.dnnActions .dnnClear li {
+    padding-top: 7px;
+    padding-left: 30px;
+}
+
+#AddNewIndividual.RegistrationControl_PersonifyDefault .ctrlContent {
+    margin-top: -35px;
+}
+
+.phone_number
+{
+	margin-right: 10px;
+}
+
+input.purchaseButton 
+{
+    
+}
+.printPopup .printLink {
+    float:left;
+    text-decoration:underline;
+    cursor:pointer;
+    margin-left: 20px;
+    font-size: larger;
+    font-weight: 600;
+}
+.printPopup .closeLink {
+    float:right;
+    text-decoration:underline;
+    cursor:pointer;
+    margin-right: 20px;
+    font-size: larger;
+    font-weight: 600;
+}
+
+/* START: the html default rendering */
+.htmlContent h1 {
+	
+	font-size:138.5%;  
+}
+.htmlContent h2 {
+	
+	font-size:123.1%; 
+}
+.htmlContent h3 {
+	
+	font-size:108%;  
+}
+.htmlContent h1,h2,h3 {
+	
+	margin:1em 0;
+}
+.htmlContent h1,
+.htmlContent h2,
+.htmlContent h3,
+.htmlContent h4,
+.htmlContent h5,
+.htmlContent h6,
+.htmlContent strong {
+	/*bringing boldness back to headers and the strong element*/
+	font-weight:bold; 
+}
+.htmlContent abbr,
+.htmlContent acronym {
+	/*indicating to users that more info is available */
+	border-bottom:1px dotted #ccc;
+	cursor:help;
+} 
+.htmlContent em {
+	/*bringing italics back to the em element*/
+	font-style:italic;
+}
+.htmlContent blockquote,
+.htmlContent ul,
+.htmlContent ol,
+.htmlContent dl {
+	/*giving blockquotes and lists room to breath*/
+	margin:1em;
+}
+.htmlContent ol,
+.htmlContent ul,
+.htmlContent dl {
+	/*bringing lists on to the page with breathing room */
+	margin-left:2em;
+}
+.htmlContent ol li {
+	/*giving OL's LIs generated numbers*/
+	list-style: decimal outside;	
+}
+.htmlContent ul li {
+	/*giving UL's LIs generated disc markers*/
+	list-style: disc outside;
+}
+.htmlContent dl dd {
+	/*giving UL's LIs generated numbers*/
+	margin-left:1em;
+}
+.htmlContent th,
+.htmlContent td {
+	/*borders and padding to make the table readable*/
+	border:1px solid #ddd;
+	padding:.5em;
+}
+.htmlContent th {
+	/*distinguishing table headers from data cells*/
+	font-weight:bold;
+	text-align:center;
+}
+.htmlContent caption {
+	/*coordinated marking to match cell's padding*/
+	margin-bottom:.5em;
+	/*centered so it doesn't blend in to other content*/
+	text-align:center;
+}
+.htmlContent p,
+.htmlContent fieldset,
+.htmlContent table {
+	/*so things don't run into each other*/
+	margin-bottom:1em;
+}
+/* END: the html default rendering */
+
+/*TABLES*/
+
+.Base_PersonifyDefault table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.Base_PersonifyDefault table {
+  max-width: 100%;
+  background-color: transparent;
+}
+
+.Base_PersonifyDefault th {
+  text-align: left;
+}
+
+.Base_PersonifyDefault .table {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.Base_PersonifyDefault .table thead > tr > th,
+.Base_PersonifyDefault .table tbody > tr > th,
+.Base_PersonifyDefault .table tfoot > tr > th,
+.Base_PersonifyDefault .table thead > tr > td,
+.Base_PersonifyDefault .table tbody > tr > td,
+.Base_PersonifyDefault .table tfoot > tr > td {
+  padding: 8px;
+  line-height: 1.428571429;
+  vertical-align: top;
+  border-top: 1px solid #dddddd;
+}
+
+.Base_PersonifyDefault .table thead > tr > th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #dddddd;
+}
+
+.Base_PersonifyDefault .table caption + thead tr:first-child th,
+.Base_PersonifyDefault .table colgroup + thead tr:first-child th,
+.Base_PersonifyDefault .table thead:first-child tr:first-child th,
+.Base_PersonifyDefault .table caption + thead tr:first-child td,
+.Base_PersonifyDefault .table colgroup + thead tr:first-child td,
+.Base_PersonifyDefault .table thead:first-child tr:first-child td {
+  border-top: 0;
+}
+
+.Base_PersonifyDefault .table tbody + tbody {
+  border-top: 2px solid #dddddd;
+}
+
+.Base_PersonifyDefault .table .table {
+  background-color: #ffffff;
+}
+
+.table-bordered th,
+  .table-bordered td {
+    /*border: 1px solid #ddd !important;*/
+  }
+
+
+.table-bordered {
+  border: 1px solid #dddddd;
+}
+
+.table-bordered > thead > tr > th,
+.table-bordered > tbody > tr > th,
+.table-bordered > tfoot > tr > th,
+.table-bordered > thead > tr > td,
+.table-bordered > tbody > tr > td,
+.table-bordered > tfoot > tr > td {
+  border: 1px solid #dddddd;
+}
+
+.table-bordered > thead > tr > th,
+.table-bordered > thead > tr > td {
+  border-bottom-width: 2px;
+}
+
+.table-striped > tbody > tr:nth-child(odd) > td,
+.table-striped > tbody > tr:nth-child(odd) > th {
+  background-color: #f9f9f9;
+}
+
+.table-striped2 > tbody > tr:nth-child(even) > td,
+.table-striped2 > tbody > tr:nth-child(even) > th {
+  background-color: #f9f9f9;
+}
+
+
+.Base_PersonifyDefault table col[class*="col-"] {
+  display: table-column;
+  float: none;
+}
+
+.Base_PersonifyDefault table td[class*="col-"],
+.Base_PersonifyDefault table th[class*="col-"] {
+  display: table-cell;
+  float: none;
+}
+
+.Base_PersonifyDefault .table > thead > tr > td.active,
+.Base_PersonifyDefault .table > tbody > tr > td.active,
+.Base_PersonifyDefault .table > tfoot > tr > td.active,
+.Base_PersonifyDefault .table > thead > tr > th.active,
+.Base_PersonifyDefault .table > tbody > tr > th.active,
+.Base_PersonifyDefault .table > tfoot > tr > th.active,
+.Base_PersonifyDefault .table > thead > tr.active > td,
+.Base_PersonifyDefault .table > tbody > tr.active > td,
+.Base_PersonifyDefault .table > tfoot > tr.active > td,
+.Base_PersonifyDefault .table > thead > tr.active > th,
+.Base_PersonifyDefault .table > tbody > tr.active > th,
+.Base_PersonifyDefault .table > tfoot > tr.active > th {
+  background-color: #f5f5f5;
+}
+
+.Base_PersonifyDefault .table > thead > tr > td.success,
+.Base_PersonifyDefault .table > tbody > tr > td.success,
+.Base_PersonifyDefault .table > tfoot > tr > td.success,
+.Base_PersonifyDefault .table > thead > tr > th.success,
+.Base_PersonifyDefault .table > tbody > tr > th.success,
+.Base_PersonifyDefault .table > tfoot > tr > th.success,
+.Base_PersonifyDefault .table > thead > tr.success > td,
+.Base_PersonifyDefault .table > tbody > tr.success > td,
+.Base_PersonifyDefault .table > tfoot > tr.success > td,
+.Base_PersonifyDefault .table > thead > tr.success > th,
+.Base_PersonifyDefault .table > tbody > tr.success > th,
+.Base_PersonifyDefault .table > tfoot > tr.success > th {
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+}
+
+
+
+/*TABS AFM Header*/
+
+
+.container.account a {
+    line-height: 23px;
+    margin-top: 4px;
+    padding: 0;
+    vertical-align: middle;
+}
+
+.RadComboBox .rcbInput {
+    padding:2px 2px 0 2px;
+    vertical-align: top;
+}
+
+.container.account, .container.group {
+    border:1px solid #ccc;
+    border-radius: 3px 3px 0 0;
+    display: block;
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    height: 29px;
+    margin: 0 5px 0 0;
+    padding: 5px 10px 0;
+    background: #fefefe; /* Old browsers */
+    background: -moz-linear-gradient(top,  #fefefe 0%, #d1d1d1 54%, #dbdbdb 59%, #e2e2e2 99%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fefefe), color-stop(54%,#d1d1d1), color-stop(59%,#dbdbdb), color-stop(99%,#e2e2e2)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #fefefe 0%,#d1d1d1 54%,#dbdbdb 59%,#e2e2e2 99%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #fefefe 0%,#d1d1d1 54%,#dbdbdb 59%,#e2e2e2 99%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #fefefe 0%,#d1d1d1 54%,#dbdbdb 59%,#e2e2e2 99%); /* IE10+ */
+    background: linear-gradient(to bottom,  #fefefe 0%,#d1d1d1 54%,#dbdbdb 59%,#e2e2e2 99%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#e2e2e2',GradientType=0 ); /* IE6-9 */
+    text-shadow:1px 1px 1px #fff;
+}
+
+
+.RadComboBoxDropDown li {
+    font-size:115%;
+}
+
+.rcbHovered .rcbArrowCellRight{
+    background-position:-36px -88px !important;
+      
+}
+
+.RadComboBox_Default .rcbHovered .rcbReadOnly .rcbArrowCellRight,
+.RadComboBox_Default .rcbHovered .rcbArrowCellRight  {
+    
+    background-position:-18px -176px !important;
+}
+
+
+.container.account:hover, 
+.container.group:hover {
+    background: #f1f1f1; /* Old browsers */
+    background: -moz-linear-gradient(top,  #f1f1f1 17%, #f6f6f6 45%, #eaeaea 51%, #e1e1e1 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(17%,#f1f1f1), color-stop(45%,#f6f6f6), color-stop(51%,#eaeaea), color-stop(100%,#e1e1e1)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #f1f1f1 17%,#f6f6f6 45%,#eaeaea 51%,#e1e1e1 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #f1f1f1 17%,#f6f6f6 45%,#eaeaea 51%,#e1e1e1 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #f1f1f1 17%,#f6f6f6 45%,#eaeaea 51%,#e1e1e1 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #f1f1f1 17%,#f6f6f6 45%,#eaeaea 51%,#e1e1e1 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1f1f1', endColorstr='#e1e1e1',GradientType=0 ); /* IE6-9 */
+    border:1px solid #aaa;
+     /*Text on a grey background*/
+        text-shadow:2px 2px 2px #fff;
+   
+}
+
+.container.account:active,
+.container.group:active 
+ {
+    background: #d8f4ff; /* Old browsers */
+    background: -moz-linear-gradient(top,  #d8f4ff 0%, #deefff 37%, #98bede 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d8f4ff), color-stop(37%,#deefff), color-stop(100%,#98bede)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #d8f4ff 0%,#deefff 37%,#98bede 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #d8f4ff 0%,#deefff 37%,#98bede 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #d8f4ff 0%,#deefff 37%,#98bede 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #d8f4ff 0%,#deefff 37%,#98bede 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d8f4ff', endColorstr='#98bede',GradientType=0 ); /* IE6-9 */
+    border:1px solid #2264ac;
+     /*Text on a grey background*/
+        text-shadow:2px 2px 2px #fff;
+}
+
+.container.account {
+    max-width: 120px;
+}
+
+.container.group {
+    max-width: 260px;
+}
+
+.Base_PersonifyDefault.AFMHeader_PersonifyDefault .ctrlContent {
+    background-color: #FFFFFF;
+    border-color: #666666 #666666 #CCCCCC;
+    border-radius: 3px 3px 0 0;
+    border-style: none none solid;
+    border-width: 0 0 1px;
+    height: 35px;
+    margin: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-top: 0;
+}
+
+/*TELERIK OVERIDES */
+
+
+
+
+.RadComboBox_Default .rcbReadOnly .rcbArrowCellRight {
+     background-position: -162px -176px;
+}
+
+div.RadComboBox .rcbArrowCell a {
+    width:18px !important;
+}
+
+
+.RadComboBox_PersonifyDefault .rcbReadOnly td.rcbArrowCellRight {
+    background-position: 0 -88px;
+}
+
+
+.afmCmtSearch, 
+.afmSearch {
+     border:0 none;   
+}
+
+
+.afmCmtSearch .riTextBox {
+        vertical-align:top;
+        padding-top:3px;
+        padding-bottom:3px;
+		margin-top:0;
+        border-radius:3px;
+    }
+
+.col-4 {
+    width:31%;
+    float:left;
+    padding:5px;
+    margin:0 4px;
+}
+
+.col-4 .RadComboBox table,
+.RadComboBox table {
+        display:block;
+    }
+
+    .col-4 .afmRow {
+        margin:6px 0;
+    }
+
+.formRow input .rcbInputCell {
+    border:0 none;
+}
+
+.FindCompanyControl_PersonifyDefault span.validatedMessage {
+    float:left;
+    margin:0 10px;
+}
+
+
+.rcbDisabled .rcbImage {
+    -ms-opacity: .2;
+    opacity: .3;
+}
+
+.div-row .rosterAction {
+
+}
+
+.rosterAction .actionsContainer {
+    float: left;
+    height: 100%;
+    line-height: 100%;
+    vertical-align: middle;
+}
+
+
+.buttonRow .btnAddNew {
+    position:absolute;
+    right:5px;
+    float:left;
+    top:-5px;
+}
+
+.afmLblDisplay {
+    line-height: 1.8em;
+    vertical-align: middle;
+}
+
+.SmryBillingAddress, .SmryShippingAddress
+{
+    white-space: pre;
+}
+
+.RadComboBox_PersonifyDefault .rcbFocused .rcbReadOnly .rcbArrowCellRight {
+    background-position: -72px -88px;
+}
+
+
+.AFMSettings_PersonifyDefault .hyper-link,
+.AFMSettings_PersonifyDefault h3
+ {
+    float:left;
+}
+
+.AFMSettings_PersonifyDefault h3.ctrlTitle {
+    margin-left: 12px;
+}
+
+.AFMSettings_PersonifyDefault .pnlNoSettings {
+    float:none;
+    clear:both;
+}
+
+.AFMSettings_PersonifyDefault .hyper-link {
+    margin: 16px 0 0;
+    padding: 0 10px;
+
+}
+
+.CommitteePositions_PersonifyDefault .rgMasterTable td {
+    min-width:60px;
+}
+
+.regContactsTitle
+{
+    color: #0c65ab;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.MembershipJoinRegistrationControl_PersonifyDefault .regContactsTitle
+{
+	margin-top: 0.5em;
+}
+
+/*PREPARING RESPOSNIVE*/
+
+.desktop-version {
+    display: block;
+    
+}
+
+.mobile-version {
+    display: none;
+}/* Base Default css for Print 
+    This file is for global settings that should apply to all controls when the PersonifyDefault skin is in use.
+    If these controls are in use on a site with its own preferred global css file, remove styles from this file.
+*/
+
+
+@media print 
+{
+    #header, 
+    #footer, 
+    header, 
+    footer, /*fieldset,*/ .utility {
+        display:none
+    }
+}
+
+.hide { display: none;visibility: hidden;}
+.show {display: block; visibility: visible;}
+
+
+
+@media screen and (min-width: 42.0em) {
+    .desktop-hide {
+        display:none !important;
+        visibility:hidden !important;
+    }
+}
+
+/*****************************************************************************************/
+/*****************************************************************************************/
+/***********888*********888***8888888888***8888888888****88**88************88888888888888*/
+/***********8888*******8888**888888888888**88********88**88**88************88888888888888*/
+/***********88*88*****88*88**88********88**88********88**88**88************88*************/
+/***********88**88***88**88**88********88**88********88**88**88************8888888888*****/
+/***********88***88*88***88**88********88**8888888888****88**88************8888888888*****/
+/***********88****888****88**88********88**88********88**88**88************88*************/
+/***********88***********88**88********88**88********88**88**88************88*************/
+/***********88***********88**888888888888**88********88**88**888888888888**88888888888888*/
+/***********88***********88***8888888888***8888888888****88**888888888888**88888888888888*/
+/*****************************************************************************************/
+/*****************************************************************************************/
+/*****************************************************************************************/
+/*****************************************************************************************/
+
+
+@media screen and (max-width: 42.0em) {
+    
+    
+.mobile-hide {
+    display: none;
+    visibility: hidden;
+}
+
+    .mobile-clearfix { clear: both;float: none;}
+    fieldset { padding: 0;
+        -webkit-padding-before: 0;
+        -webkit-margin-end: 0;
+        -webkit-margin-start: 0;
+        -webkit-margin-start: 0;
+        -webkit-margin-end: 0;
+        -webkit-padding-before: 0;
+        -webkit-padding-start: 0;
+        -webkit-padding-end: 0;
+        -webkit-padding-after: 0;
+
+    }
+
+
+    select { cursor: pointer;}
+
+   
+ .desktop-version {
+        display: none;
+        
+    }
+
+    .mobile-version {
+        display: block;
+    }
+
+
+
+.fluid-wrapper {
+        position: relative;
+    }
+
+.fluid-wrapper:before {
+            font-family: Arial, helvetica, sans-serif;
+            font-weight: 700;
+            font-size: 2.3em;
+            display: block;
+            content: "Store";
+            text-align: center;
+            height: 48px;
+            width: 100%;
+            color: #efefef;
+            text-shadow: 1px 1px 1px #222;
+            line-height: 48px;
+            vertical-align: middle;
+            margin: 0 auto 5px auto;
+            float: none;
+            clear: both;
+            position: relative;
+            background: rgb(28,65,111); /* Old browsers */
+            background: -moz-linear-gradient(top, rgba(28,65,111,1) 27%, rgba(19,43,74,1) 100%); /* FF3.6+ */
+            background: -webkit-gradient(linear, left top, left bottom, color-stop(27%,rgba(28,65,111,1)), color-stop(100%,rgba(19,43,74,1))); /* Chrome,Safari4+ */
+            background: -webkit-linear-gradient(top, rgba(28,65,111,1) 27%,rgba(19,43,74,1) 100%); /* Chrome10+,Safari5.1+ */
+            background: -o-linear-gradient(top, rgba(28,65,111,1) 27%,rgba(19,43,74,1) 100%); /* Opera 11.10+ */
+            background: -ms-linear-gradient(top, rgba(28,65,111,1) 27%,rgba(19,43,74,1) 100%); /* IE10+ */
+            background: linear-gradient(to bottom, rgba(28,65,111,1) 27%,rgba(19,43,74,1) 100%); /* W3C */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c416f', endColorstr='#132b4a',GradientType=0 ); /* IE6-9 */
+        }
+
+input[type="button"] {
+    padding: 6px 3%;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    text-align: center;
+    line-height: 100% !important;
+    vertical-align: middle;    
+    color: #666;
+    text-shadow:1px 1px 1px #eee;        
+    text-shadow: 1px 1px 2px #f9f9f9;
+    background-size: calc(1.5% + 1px);   
+
+    
+}
+
+
+
+input[type="text"]
+
+ {
+
+        border: 1px solid #ccc !important;
+        padding:0 4px;
+	    color:#666;
+	    text-shadow:1px 1px 1px #efefef;    
+	    
+	    border-radius:4px;
+        min-height: 32px;
+        -moz-box-shadow: 0 1px 1px #e2e2e2 inset, 0 1px 0 #fff;
+        -webkit-box-shadow: 0 1px 1px #e2e2e2 inset, 0 1px 0 #fff;
+        box-shadow: 0 1px 1px #e2e2e2 inset, 0 1px 0 #fff;
+	
+	}
+
+
+
+.FindCompanyControl_PersonifyDefault input[type="text"],
+.AddressEditControl_PersonifyDefault input[type="text"]{ 
+    height: 30px;
+    
+}
+
+.FindCompanyControl_PersonifyDefault .RadComboBox input[type="text"],
+.AddressEditControl_PersonifyDefault .RadComboBox input[type="text"]{
+    height: 28px;
+    
+}
+
+
+.FindCompanyControl_PersonifyDefault .RadComboBox.RadComboBox_PersonifyDefault,
+.AddressEditControl_PersonifyDefault .RadComboBox.RadComboBox_PersonifyDefault {
+    z-index: 99999999999999999999 !important;
+}
+
+
+.shippingEstimates .riTextBox.postal{
+    height: 38px;
+}
+
+.rcbInputCell input[type="text"] {
+    border: 0 none !important;
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+
+}
+
+.AddressCountryLabel {
+    margin-top: 12px !important;
+    float: left;
+}
+
+
+.ChangeLinkButton {
+    float: right !important;
+    width: 110px !important;
+    padding: 8px 0 !important;
+}
+
+.AddressEditControl_PersonifyDefault .ChangeLinkButton {
+    width: 100px !important;
+    height: 44px;
+    border: 1px solid #ccc !important;
+    box-shadow: 0 0 5px #ccc !important;
+    text-decoration: none !important;
+    color: blue;
+    text-shadow: 1px 1px 1px #fff;
+    font-size: 120%;
+    background-color: #eee;
+}
+
+
+.ctrlContent.formLayout .buttonRow { 
+    padding: 4px 0;
+    
+}
+
+.ctrlContent.formLayout .buttonRow input {
+    height: auto;
+    background-size: contain;
+    }
+
+.formLayout em { color: #555;}
+
+ 
+
+
+
+
+    /*Shopping cart Tabs*/
+
+    /*end shopping cart*/
+
+
+     .btn.btn--soft {
+        line-height: 25px;
+        vertical-align: middle;
+        margin-top: 5px;
+    }
+
+
+    .btn.btn-regular {
+        width: 100%;
+        margin: 8px auto;
+        padding: 4% 0;
+        text-align: center;
+
+
+    }
+
+      .mobile-back-icon {
+        display: block;
+        float: left;
+        width: 30px;
+        height: 28px;
+        line-height: 28px;
+        vertical-align: middle;
+        margin: 4px 6px 0 0px;
+        padding: 0;
+        background: url('/eBizATPRO/Themes/PersonifyDefault/Images/icon-back-arrow-left.png') no-repeat center center;
+    }
+
+
+
+      
+.mobile-share-control {
+    float: none;
+    text-align: center;
+    
+    width: 98%;
+    margin: 5px auto;
+    padding: 1%;
+    display: block;
+    
+}
+
+
+.mobile-share-control ul li{
+    padding: 3% 1%;
+}
+
+/*Goes in Skin.css*/
+
+.mobile-share-control ul li .sshShareOnFacebook, 
+.mobile-share-control ul li .sshLinkedIn,
+.mobile-share-control ul li .sshShareOnTwitter,
+.mobile-share-control ul li .sshMailTo,
+.mobile-share-control ul li .sshPinterestPin
+ {
+    width: 47px !important;
+    height: 47px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+
+.mobile-share-control ul li .sshShareOnFacebook {
+    background-image: url('/eBizATPRO/Themes/PersonifyDefault/Images/FB-f-Logo__blue_50.png') !important;
+
+}
+
+.mobile-share-control ul li .sshLinkedIn
+{
+ background-image: url('/eBizATPRO/Themes/PersonifyDefault/Images/linked-in-icon.png') !important;    
+}
+
+
+.mobile-share-control ul li .sshShareOnTwitter
+{
+ background-image: url('/eBizATPRO/Themes/PersonifyDefault/Images/twitter-mobile-icon.png') !important;    
+}
+
+.mobile-share-control ul li .sshMailTo
+{
+ background-image: url('/eBizATPRO/Themes/PersonifyDefault/Images/email-mobile-icon.png') !important;    
+}
+
+.mobile-share-control ul li .sshPinterestPin
+{
+ background-image: url('/eBizATPRO/Themes/PersonifyDefault/Images/pinterest-mobile-icon.png') !important;
+}
+
+.mobile-no-underline {
+    text-decoration: none !important;
+}
+
+.mobile-underline {
+    text-decoration: underline;
+    display: none;
+}
+
+/*end goes input skin.css*/
+
+
+/*FREE SHIPPING*/
+
+
+.FreeShippingPromotionControl_PersonifyDefault {
+    background: rgb(245,255,221); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(245,255,221,1) 0%, rgba(227,245,171,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(245,255,221,1)), color-stop(100%,rgba(227,245,171,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(245,255,221,1) 0%,rgba(227,245,171,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(245,255,221,1) 0%,rgba(227,245,171,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(245,255,221,1) 0%,rgba(227,245,171,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(245,255,221,1) 0%,rgba(227,245,171,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5ffdd', endColorstr='#e3f5ab',GradientType=0 ); /* IE6-9 */
+
+}
+
+    .free-shipping-promotion-content {
+        line-height: 160%;
+        padding: 3px 0 3px 5px;
+    }
+    
+    .free-shipping-promotion-content {
+        padding: 12px 0 12px 5px;
+    }
+
+    .free-shipping-promotion-content p {
+        text-shadow: 1px 1px 1px #efefef;
+    }
+    
+    .free-shipping-promotion-line1 {
+         
+    color: #555;
+    font-size: 150%;
+    font-weight: bold;
+    margin-right: 0;    
+    padding-right: 4px;
+    text-transform: none;
+    border: 0 none;
+    }
+
+    .free-shipping-promotion-line2 {
+         font-size: 150%;
+    }
+
+    .free-shipping-url {
+        float: right;
+        padding-right: 5px;
+        min-width: 40px;
+        text-align: right;
+        padding-left: 2px;
+    }
+
+
+
+/*BUTTONS*/
+
+
+.productbuttons input[type="button"],
+.productbuttons input[type="submit"], 
+.ProductDetailControl_PersonifyDefault .donateNow 
+
+{
+    
+    border: 1px solid #ddd;
+    text-shadow: 1px 1px 2px #cdeb8e;
+    color: #556b2f;
+
+    background: rgb(205,235,142); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(205,235,142,1) 0%, rgba(135,170,54,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(205,235,142,1)), color-stop(100%,rgba(135,170,54,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(205,235,142,1) 0%,rgba(135,170,54,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(205,235,142,1) 0%,rgba(135,170,54,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(205,235,142,1) 0%,rgba(135,170,54,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(205,235,142,1) 0%,rgba(135,170,54,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cdeb8e', endColorstr='#87aa36',GradientType=0 ); /* IE6-9 */
+
+}
+
+/**Input Login**/
+
+.buttonRow .proccedAsGuest {
+    width: 100%;
+    padding: 3% 0;
+    clear: both;
+    float: none;
+   
+}
+
+
+.mainCheckoutDiv {   
+    margin:auto !important;
+    float: none;
+    display: block;	
+    color: #555;
+    min-width: 300px;
+    width: auto;
+
+}
+
+.mainCheckoutDiv h3.control-title { padding: 5px 12px;}
+
+
+.mainCheckoutDiv .formLayout .ctrlContent fieldset input[type="text"] {
+    width: 98%;
+    border: 1px solid #DDDDDD;
+    border-radius: 3px;
+    line-height: 105%;
+    padding: 2px 1px 2px 3px;
+    vertical-align: middle;
+    font-size: 1.1em;
+    display: block;
+    text-align: left;
+    
+}
+
+
+.mainCheckoutDiv #ctl00_ContentPlaceHolderContent_PayNowControl_btnRespondToVI {
+    width: 98%;
+    min-height: 42px;
+    margin-top: 15px;
+}
+
+
+.checkoutControlsInnerDiv address span br { 
+    float: none;
+    display: block;
+    clear: both;
+    width: 100%;
+    height: 1px;
+}
+
+/**********************************************************************************************************************************/
+/**********************************************************************************************************************************/
+/***********888888888888888**8888*****8888***8888*****8888********8888*************************************************************/
+/***********888888888888888**8888***8888*****8888*****8888888*****8888*************************************************************/
+/***********8888*************8888*8888*******8888*****8888*8888***8888*************************************************************/
+/***********8888*************888888**********8888*****8888**8888**8888*************************************************************/
+/***********888888888888888**888888**********8888*****8888***8888*8888*************************************************************/
+/***********888888888888888**8888*8888*******8888*****8888*****8888888*************************************************************/
+/**********************8888**8888**8888******8888*****8888*******88888*************************************************************/
+/***********888888888888888**8888****8888****8888*****8888********8888*************************************************************/
+/***********888888888888888**88888*****8888**8888*****8888********8888*************************************************************/
+/**********************************************************************************************************************************/
+/**********************************************************************************************************************************/
+/**********************************************************************************************************************************/
+/**********************************************************************************************************************************/
+
+
+
+
+   
+    input, textarea {
+  /*-webkit-appearance: none;*/
+  -webkit-border-radius: 0;
+}
+
+   
+fieldset {margin: 0; padding:0;}
+
+
+
+
+    .product-listing-nav #leftMenu {
+        display: none !important;
+    }
+
+
+    #content.mobile-way {
+        width: 100% !important;
+        max-width: 680px !important;
+        background-color: #fff;
+    }
+
+    #content h1 {
+        margin-left: 10px;
+    }
+
+
+#content.mobile-way.myAccount .main.mobile-way, 
+#content.mobile-way.general .main {
+            background: transparent !important;
+            color: #ffffff;
+        }
+
+
+
+
+.general .main, .myAccount .main {
+        min-height: 0;
+    }
+
+    /*SEARH RESPONSIVE ABOVE NAV BAR*/
+    .SearchControl_PersonifyDefault  {
+        width: 99.9%;
+        max-width: 680px;
+        margin: 0 auto 15px auto !important;                        
+        height: 60px !important;
+        border-bottom: 1px solid #ddd !important;
+    }
+
+
+
+
+
+
+    .mobile-promotional-products {
+        border-bottom: 1px solid #ddd !important;
+    }
+
+    #leftMenu li ul {
+    margin: 0;
+    }
+
+
+    #SearchControl_SearchBox_wrapper {
+        margin: 6px 2px;
+        position: relative;
+        float: left;
+    }
+
+    .SearchControl_PersonifyDefault span.RadInput { margin-right: 1px;}
+
+    .SearchControl_PersonifyDefault span.RadInput input.riTextBox {
+        height: 40px;
+        border-radius: 18px;
+        border: 1px solid #ccc;
+        padding: 8px 45px 8px 40px !important;
+        font-size: 140%;
+        line-height: 140%;
+        vertical-align: middle;
+        font-style: italic;
+        color: #888;
+        margin: 4px 0 0 6px !important;
+        -moz-box-shadow:    inset 0 0 10px #ccc;
+        -webkit-box-shadow: inset 0 0 10px #ccc;
+        box-shadow:         inset 0 0 10px #ccc;
+            
+    }
+
+
+    
+
+    /*NAVIGATION for mobile-store page*/
+
+    .mobile-store #leftMenu li a,
+    .mobile-store .store-nav-category {
+        color: #1a62ba;
+    }
+
+    .mobile-store #leftMenu li a {
+        font-size: 100%;
+    }
+
+    .store-nav-header { border-bottom: 0 none !important;}
+
+    .store-nav-header a {
+        font-weight: bold !important;
+        color: #333 !important;
+        font-size: 115% !important;
+        border: 0 none !important;
+    }
+
+
+
+    .mobile-store #leftMenu * {
+        overflow: visible; /* background-image:none interferes with new ols */
+    }
+
+    .mobile-store #leftMenu li a {
+        display: block;
+        padding: 1px 4px 1px 10px;
+    }
+
+
+    .store-nav .store-nav-category {
+        border-bottom: 1px solid #DDDDDD !important;
+    }
+
+
+    .mobile-store div.SearchControl_PersonifyDefault {
+        float: none;
+        margin: 10px auto !important;
+    }
+
+
+    .store-nav-showAll {
+        color: #fff !important;
+    }
+
+    .store-nav-category ul li {
+        padding: 0 !important;
+    }
+     
+    .store-nav-sub-category-list li {
+        padding: 0;
+    }
+
+    .store-nav-sub-category-list li a{
+        border-bottom: 1px solid #eee !important;
+    }
+
+    /*PRODUCT LISTING MOBILE*/
+    
+   
+
+    
+    .product-listing-nav h1,    
+    .mobile-way .ProductLegendIconControl_PersonifyDefault,
+    .listing-mobile-way .ProductLegendIconControl_PersonifyDefault,
+    .TopPane.mobile-store
+     { display: none;}
+
+
+    
+    .center .ControlPanel_PromtionalProductListControl { display: none;}
+
+    .listing-mobile-way,
+    .detail-mobile-way {
+        display: block;
+        float: none;
+    }
+
+   
+      
+    .SearchControl_PersonifyDefault .btn.btn--soft {
+        padding:1% 2% !important;
+        font-size:15px;
+        margin-right: 3px;
+        float: right;
+        height: 35px !important;
+        line-height: 25px;
+        vertical-align: middle;
+        
+    }
+
+    /*search*/
+    .icon-clear-search { right: 17% !important;top: 11px !important;}
+    .icon-magnify-search { left: 11px !important;}
+
+    /*end search*/
+
+
+     div.PersonifyPagerControl_PersonifyDefault .pagerItemsDisplay, 
+     div.PersonifyPagerControl_PersonifyDefault .pagerPagesDisplay { border: 0 none;margin-left: 0;}
+     .personifypager { border: 0 none;background: transparent;height: 35px;line-height: 35px;vertical-align: middle;margin-bottom: 15px;}
+
+     
+     
+     .personifypager .pagerItemsDisplay {
+         font-size: 140%;
+         margin-top: 15px;
+         
+        
+     }
+
+
+     .PriceValueLabel, 
+     .PCKListPriceSavingsValue,
+     .PCKMemberPriceSavingsValue { font-weight: bold;text-shadow: 1px 1px 1px #efefef;}
+
+     /*PRODUCT DETAILS*/
+     .ProductDetailControl_PersonifyDefault .ProductDetailNameDisplay {
+         color: #555 !important;
+         text-shadow: 1px 1px 1px #efefef;
+         border: 0 none;
+
+     }
+
+
+     .mobile-share-control .sshContent { display: table;width: 100%;}
+     .mobile-share-control .sshListItem { float: none;display: table-cell;padding: 2%;}
+
+
+
+     .mobile-product-actions .PriceListUL {
+         color: #888;text-shadow: 1px 1px 1px #efefef;
+     }
+
+     .main.productDetail {
+         margin: 0 auto;
+     }
+
+
+    .ProductDetailImageCERibbon
+      {
+         
+    background-color: #003366;
+    border: 2px solid #F9F9F9;
+    box-shadow: 1px 1px 2px #222222;
+    font-size: 120%;
+    line-height: 130%;
+    margin: 0;
+    max-height: 68px;
+    max-width: 40px;
+    padding: 3%;
+    position: absolute;
+    right: 2px;
+    text-align: center;
+    top: 3px;
+    z-index: 999;
+
+     }
+
+    .mobile-mermbership-renew span { margin-left: 6px;}
+
+    .mobile-mermbership-renew .mark img {
+        background-image: none !important;
+    }
+    .mobile-mermbership-renew .mark {
+        border: 2px solid #efefef;
+        width: 28px;
+        height: 28px;
+        position: relative;
+        -moz-box-shadow: inset 0 0 5px #000;
+        -webkit-box-shadow: inset 0 0 5px#000;
+        box-shadow: inset 0 0 5px #000;
+        -moz-box-shadow: 0 1px 1px #000 inset, 0 1px 0 #222;
+        -webkit-box-shadow: 0 1px 1px #000 inset, 0 1px 0 #222;
+        box-shadow: 0 1px 1px #000 inset, 0 1px 0 #222;
+
+
+
+    }
+
+
+    .mobile-mermbership-renew .dnnCheckbox {
+        max-width: 40px !important;
+        margin-top: 5px;
+
+    }
+
+    .mobile-mermbership-renew .dnnCheckbox-checked .mark
+    {
+   	-moz-box-shadow: inset 0 0 5px #000;
+    -webkit-box-shadow: inset 0 0 5px#000;
+    box-shadow: inset 0 0 5px #000;
+    -moz-box-shadow: 0 1px 1px #000 inset, 0 1px 0 #222;
+    -webkit-box-shadow: 0 1px 1px #000 inset, 0 1px 0 #222;
+    box-shadow: 0 1px 1px #000 inset, 0 1px 0 #222;
+
+    background: rgb(165,205,91); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(165,205,91,1) 1%, rgba(151,196,27,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,rgba(165,205,91,1)), color-stop(100%,rgba(151,196,27,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(165,205,91,1) 1%,rgba(151,196,27,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(165,205,91,1) 1%,rgba(151,196,27,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(165,205,91,1) 1%,rgba(151,196,27,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(165,205,91,1) 1%,rgba(151,196,27,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a5cd5b', endColorstr='#97c41b',GradientType=0 ); /* IE6-9 */
+
+
+
+    }
+
+    .mobile-mermbership-renew .dnnCheckbox-checked .mark:before {
+    color: #ffffff;
+    content: "\2713";
+    font-size: 155%;
+    font-weight: 700;
+    height: 28px;
+    left: 6px;
+    position: absolute;
+    text-shadow: 1px 1px 1px #333333;
+    top: 3px;
+    width: 28px;
+    
+}
+
+
+    .ProductINVBuyBoxControl_PersonifyDefault span.info { padding-left: 0;}
+
+    .componentsList a,
+    .ProductDetailControl_PersonifyDefault .productDetail a {color: #006699 !important;}
+
+    .productDetailBlock h5 { color: #555;text-shadow: 1px 1px 1px #f9f9f9;}
+
+    div.componentsControl { margin: 0;}
+
+    .ProductECDInfoControl_PersonifyDefault:empty {
+        display: none;
+    }
+
+     
+    div.RadWindow_PersonifyDefault .WindowButtonRow input {
+        height: auto;
+        line-height: 100%;
+        vertical-align: middle;
+        }
+
+
+
+     /*RAD COMBO DROPDOWN RESPONSIVE*/
+
+.RadComboBoxDropDown .rcbList {
+    max-height: 200px !important;
+    overflow-y: scroll !important;
+    cursor: pointer !important;
+    overflow-x: hidden !important;
+}
+
+html > body .RadComboBoxDropDown li.rcbItem, 
+html > body .RadComboBoxDropDown li.rcbHovered {
+         line-height: 190%;
+         font-size: 160%;
+         cursor: pointer;
+        min-height: 28px;
+        
+     }
+
+.RadComboBoxDropDown .rcbList:after {
+    content: " ";
+    height:1px !important;
+    clear: both;
+    display: block;
+}
+
+.mobile-mermbership-renew .dnnCheckbox {
+         float: left;
+         max-width: 40px !important;
+     }
+
+
+.Breadcrumb-top .Breadcrumb {
+    color: #F9F9F9;
+    font-size: 75%;
+    font-weight: 700;
+    margin-left: -30%;
+    overflow: hidden;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    text-shadow: 1px 1px 1px #222222;
+    white-space: nowrap;
+    width: 10%;
+         
+     }
+    
+div.SearchControl_PersonifyDefault + div {
+         float: none !important;
+         clear: both;    
+     }
+
+.productDetail .ProductDetailImageCell {
+    margin: 15px 1px 1px 15px !important;
+}
+
+div.MultipleRatesPanel, div.quantityContainer {
+    border: 0 none;background-color: transparent;
+}
+
+
+.productbuttons-mobile .productbuttons .addToCart, 
+.ProductDetailControl_PersonifyDefault .productbuttons .wishList,
+.general .ModPersonifyLoginC input[type="submit"], 
+.ProductDetailControl_PersonifyDefault .donateNow 
+     {
+        font-size: 105% !important;
+        border-radius: 4px !important;
+        box-shadow: 2px 2px 2px #ddd !important;
+        font-weight: 700 !important;
+        padding: 4% 4%!important;
+        cursor: pointer;
+        margin: 1% auto!important;
+        letter-spacing: .2px!important;
+        width: 100%!important;
+       
+    
+} 
+
+ 
+.ProductDetailControl_PersonifyDefault .productbuttons .wishList, 
+.ProductDetailControl_PersonifyDefault .donateNow {
+        background-size: cover;
+        background-repeat: no-repeat;
+}
+
+.productbuttons-mobile .productbuttons .addToCart
+ {
+    background-size: auto;
+    background-repeat: repeat-x;
+}
+
+.general .ModPersonifyLoginC input[type="submit"]
+{  background-repeat: repeat-x;
+   background-size: contain;
+}
+
+.ProductDetailParagraphFullLabel {
+        font-size: 1.2em;
+        line-height: 1.5em;
+
+    }
+
+    .details-mobile-way .moduleTitle { display: none;}
+
+    .moduleTitle { margin: 15px 0;}
+    
+    div.ReviewItemControl_PersonifyDefault .ReviewItemContent { width: 99.8%;}
+    .ReviewHeader td { vertical-align: middle !important;}
+
+    .ReviewHeaderTitle { font-size: 1.5em;}
+     
+    
+    
+
+
+
+    div.badgeCaption {
+        text-align: left;
+        color: #ff4000;
+        font-style: italic;
+        background-color: transparent !important;
+        background-image: none;
+      
+    }
+
+
+  
+
+    
+
+   
+
+     .PromtionalProductListControlTitle {display:none;}
+
+
+
+
+
+
+     /*RESPONSIVE DNN MENU*/
+
+     .mainMenu.responsive-menu
+     { width: 99.9% !important;
+
+     }
+
+     .mainMenu.responsive-menu > li > a {
+         background-color: #003366;
+         height: 38px;
+         line-height: 38px;
+         vertical-align: middle;
+
+     }
+
+    
+      
+     /*USER REGISTRATION RESPONSIVE*/
+
+.mobile-fullwidth .formLayout .buttonRow { text-align: center;}
+.mobile-fullwidth .formLayout .buttonRow input {
+    clear: both !important;
+    width: 98% !important;
+    margin: 5px 0 !important;
+    padding: 4% 1%;
+    font-size: 105%;
+}
+
+.mobile-fullwidth .formLayout .buttonRow .CancelEditButton {
+    color: #888;
+    font-weight: normal;
+    font-size: 130%;
+    position: relative;
+}
+
+
+.mobile-fullwidth .formLayout fieldset label {
+    min-width: 244px;
+    clear: both;
+    float: none;
+    
+}
+
+
+/*SHOPPING CART*/
+
+.controlPanel {
+ 
+    margin:0 auto;
+    padding: 0px;
+}
+
+div.segmentsListPanel .RadListBox .rlbGroup ul li { border: 0 none;}
+
+.segmentsListTabs ul li { margin-right: 0;}
+
+
+.segmentsListPanel .RadListBox_PersonifyDefault .rlbGroup .rlbList .rlbItem .rlbText{
+    color: #444;
+    font-size: 120%;
+    text-shadow: 1px 1px 1px #fff;
+
+}
+
+
+.segmentsListPanel .RadListBox_PersonifyDefault .rlbGroup .rlbList .rlbItem{
+    background-color: #f7f7f7;
+    
+
+}
+
+.segmentsListPanel .RadListBox .rlbGroup ul li.rlbSelected {
+    cursor: pointer;
+    background-color: #EAF5FD !important;
+    font-weight: 700;
+    text-shadow: 1px 1px 1px #FFFFFF !important;
+    padding: 5px 12px;
+    
+}
+
+
+
+.segmentsListPanel .RadListBox .rlbGroup ul li.rlbSelected:before {
+    content:" ";
+    width: 12px;
+    height: 12px;
+    border-radius: 15px;
+    background-color: #9CCFF5 !important;
+    display: block !important;
+    position: absolute;
+    top: 35%;
+}
+
+
+
+.ProductDetailLeftCell div .RadComboBox table td.rcbInputCellLeft, div .RadComboBox .rcbInputCell .rcbInput {
+    padding-top: 0px;
+}
+
+
+.RadListBox.segmentsListTabs {
+    width: 100% !important;
+}
+
+/*CLEARING AFTER THE CANCEL BUTON*/
+
+.buttonRow .cancel:after  {
+		content: " ";
+        width: 100%;
+        float: none;
+        clear: both;
+        height: 1px;
+        overflow: hidden;
+        border: 0 none;
+        display: table;
+        padding: 0;
+        margin: 0 auto;}
+
+
+
+/*STYLING THE DROPDOWN BOX FOR ALL THE MOBILE WORLD - WE WILL NEED TO DELETE THE OTHER INDIVIDUAL STYLES BELOW*/
+
+
+.RadComboBox_Default .rcbReadOnly .rcbInputCellLeft {
+    background-position: 0 0 !important;
+}
+
+.RadComboBox input[type="text"] {
+    border: 0 none;
+    box-shadow: none;
+    height: 18px;
+    
+    
+}
+
+
+.RadComboBox_PersonifyDefault .rcbInputCellLeft,
+.RadComboBox_PersonifyDefault .rcbInputCellRight,
+.RadComboBox_PersonifyDefault .rcbArrowCellLeft,
+.RadComboBox_PersonifyDefault .rcbArrowCellRight,
+.RadComboBox_Default .rcbInputCellLeft,
+.RadComboBox_Default .rcbInputCellRight,
+.RadComboBox_Default .rcbArrowCellLeft,
+.RadComboBox_Default .rcbArrowCellRight
+
+ {
+        padding: 4px;
+        background: rgb(252,252,252); /* Old browsers */
+        background: -moz-linear-gradient(top, rgba(252,252,252,1) 45%, rgba(238,238,238,1) 96%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(45%,rgba(252,252,252,1)), color-stop(96%,rgba(238,238,238,1))); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top, rgba(252,252,252,1) 45%,rgba(238,238,238,1) 96%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top, rgba(252,252,252,1) 45%,rgba(238,238,238,1) 96%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top, rgba(252,252,252,1) 45%,rgba(238,238,238,1) 96%); /* IE10+ */
+        background: linear-gradient(to bottom, rgba(252,252,252,1) 45%,rgba(238,238,238,1) 96%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#eeeeee',GradientType=0 ); /* IE6-9 */
+        box-shadow: 1px 1px 4px #ccc;
+    }
+
+
+.RadComboBox_PersonifyDefault .rcbInputCellLeft,
+.RadComboBox_PersonifyDefault .rcbInputCellRight,
+.RadComboBox_Default .rcbInputCellLeft,
+.RadComboBox_Default .rcbInputCellRight {
+        border: 1px solid #ccc;
+        border-right: 0 none;
+    }
+
+.RadComboBox_PersonifyDefault .rcbArrowCellLeft,
+.RadComboBox_PersonifyDefault .rcbArrowCellRight,
+.RadComboBox_Default .rcbArrowCellLeft,
+.RadComboBox_Default .rcbArrowCellRight {
+        border: 1px solid #ccc;
+    }
+
+
+.RadComboBox_PersonifyDefault .rcbInputCellLeft:hover,
+.RadComboBox_PersonifyDefault .rcbHovered td.rcbInputCellLeft,
+.RadComboBox_PersonifyDefault .rcbHovered td.rcbInputCell .rcbReadOnly,
+.RadComboBox_Default .rcbInputCellLeft:hover,
+.RadComboBox_Default .rcbHovered td.rcbInputCellLeft,
+.RadComboBox_Default .rcbHovered td.rcbInputCell .rcbReadOnly {
+        background-position: 0 0 !important;
+    }
+
+
+
+.RadComboBox_PersonifyDefault .rcbInput,
+.RadComboBox_Default .rcbInput {
+        font-style: normal;
+        font-size: 120%;
+        color: #888 !important;
+    }
+
+
+.RadComboBox_PersonifyDefault .rcbArrowCell.rcbArrowCellRight,
+.RadComboBox_PersonifyDefault .rcbReadOnly td.rcbArrowCellRight,
+.RadComboBox_PersonifyDefault .rcbHovered td.rcbArrowCellRight,
+.RadComboBox_PersonifyDefault td.rcbArrowCellRight,
+.RadComboBox_Default .rcbArrowCell.rcbArrowCellRight,
+.RadComboBox_Default .rcbReadOnly td.rcbArrowCellRight,
+.RadComboBox_Default .rcbHovered .rcbReadOnly td.rcbArrowCellRight,
+.RadComboBox_Default .rcbHovered td.rcbArrowCellRight,
+.RadComboBox_Default td.rcbArrowCellRight {
+        background: #fff url('/eBizATPRO/Themes/PersonifyDefault/images/icon-nav-arrow-down.png') no-repeat;
+        background-position: 1px 4px !important;
+        
+    }
+
+.RadComboBox table td.rcbArrowCell {
+    padding: 4px;
+}
+
+
+ 
+/*STYLING THE DROPDOWN BOX RAD COMBOBOX*/
+
+
+
+
+.ShoppingCartItemControl_Container .addressesSection .RadComboBox input[type="text"],
+.shippingEstimates .RadComboBox input[type="text"] {
+    border: 0 none;
+    box-shadow: none;    
+    min-width: 233px;
+    
+}
+
+.ShoppingCartItemControl_Container .addressesSection .RadComboBox input[type="text"] {
+    height: 28px;
+    
+}
+
+.ShoppingCartItemControl_Container .addressesSection .RadComboBox,
+.ShoppingCartItemControl_Container .addressesSection .shippingCompany .RadComboBox {
+    width: 100% !important;
+}
+
+.shippingEstimates .RadComboBox input[type="text"] {
+    height: 18px;
+    
+}
+
+.shippingEstimates div.RadComboBox .rcbArrowCell a,
+.ShoppingCartItemControl_Container .addressesSection .RadComboBox .rcbArrowCell a{
+    width: 26px !important;
+}
+
+
+.ShoppingCartItemControl_Container .addressesSection .RadComboBox .rcbInputCellLeft,
+.ShoppingCartItemControl_Container .addressesSection .RadComboBox .rcbInputCellRight,
+.ShoppingCartItemControl_Container .addressesSection .RadComboBox .rcbArrowCellLeft,
+.ShoppingCartItemControl_Container .addressesSection .RadComboBox .rcbArrowCellRight,
+.shippingEstimates  .RadComboBox_PersonifyDefault .rcbInputCellLeft,
+.shippingEstimates .RadComboBox_PersonifyDefault .rcbInputCellRight,
+.shippingEstimates .RadComboBox_PersonifyDefault .rcbArrowCellLeft,
+.shippingEstimates .RadComboBox_PersonifyDefault .rcbArrowCellRight {
+        padding: 4px;
+        background: rgb(252,252,252); /* Old browsers */
+        background: -moz-linear-gradient(top, rgba(252,252,252,1) 45%, rgba(238,238,238,1) 96%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(45%,rgba(252,252,252,1)), color-stop(96%,rgba(238,238,238,1))); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top, rgba(252,252,252,1) 45%,rgba(238,238,238,1) 96%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top, rgba(252,252,252,1) 45%,rgba(238,238,238,1) 96%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top, rgba(252,252,252,1) 45%,rgba(238,238,238,1) 96%); /* IE10+ */
+        background: linear-gradient(to bottom, rgba(252,252,252,1) 45%,rgba(238,238,238,1) 96%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#eeeeee',GradientType=0 ); /* IE6-9 */
+        box-shadow: 1px 1px 4px #ccc;
+    }
+
+
+
+.ShoppingCartItemControl_Container .addressesSection .RadComboBox .rcbInputCellLeft,
+.ShoppingCartItemControl_Container .addressesSection .RadComboBox .rcbInputCellRight,
+.shippingEstimates .RadComboBox_PersonifyDefault .rcbInputCellLeft,
+.shippingEstimates .RadComboBox_PersonifyDefault .rcbInputCellRight {
+        border: 1px solid #ccc;
+        border-right: 0 none;
+    }
+
+
+.ShoppingCartItemControl_Container .addressesSection .RadComboBox  .rcbArrowCellLeft,
+.ShoppingCartItemControl_Container .addressesSection .RadComboBox  .rcbArrowCellRight,
+.shippingEstimates .RadComboBox_PersonifyDefault .rcbArrowCellLeft,
+.shippingEstimates .RadComboBox_PersonifyDefault .rcbArrowCellRight {
+        border: 1px solid #ccc;
+    }
+
+.ShoppingCartItemControl_Container .addressesSection .RadComboBox  .rcbInputCellLeft:hover,
+.ShoppingCartItemControl_Container .addressesSection .RadComboBox  .rcbHovered td.rcbInputCellLeft,
+.ShoppingCartItemControl_Container .addressesSection .RadComboBox  .rcbHovered td.rcbInputCell .rcbReadOnly, 
+.shippingEstimates .RadComboBox_PersonifyDefault .rcbInputCellLeft:hover,
+.shippingEstimates .RadComboBox_PersonifyDefault .rcbHovered td.rcbInputCellLeft,
+.shippingEstimates .RadComboBox_PersonifyDefault .rcbHovered td.rcbInputCell .rcbReadOnly {
+        background-position: 0 !important;
+    }
+
+ 
+.shippingEstimates .rcbInput {
+        font-style: normal;
+        font-size: 120%;
+        color: #888 !important;
+    }
+
+.ShoppingCartItemControl_Container .addressesSection
+
+
+/*ADDRESS EDIT CONTROL FORM OBJECTS RESPONSIVE*/
+
+ .AddAddressControl_PersonifyDefault .formRow .RadComboBox input[type="text"] {
+    
+    
+    min-width: 100px;
+    width: 100%;
+}
+
+
+    .AddAddressControl_PersonifyDefault .formRow label,
+    .AddAddressControl_PersonifyDefault .formRow input
+    {
+        float: none;
+        clear: both;
+        
+        min-width: 250px;
+    }
+
+    .AddAddressControl_PersonifyDefault .formRow label {
+         min-width: 290px;
+         width: 100%;
+        }
+
+    .AddAddressControl_PersonifyDefault .formRow input {
+         min-width: 250px;  
+         width: 98%; 
+
+    }
+
+
+
+    
+    .AddAddressControl_PersonifyDefault input:after,
+    .AddAddressControl_PersonifyDefault .formRow label:after
+     {
+        display: table;
+        content: " ";
+        width: 100%;
+        height: 0px;
+        overflow: hidden;
+        clear: both;
+        float: none;
+        margin: 0;
+        padding: 0;
+        border: 0 none;
+        opacity: 0;
+           
+    }
+
+.AddAddressControl_PersonifyDefault .formRow input[type="text"] {
+    height: 28px;
+    padding-left: 2px;
+}
+
+
+
+    .AddAddressControl_PersonifyDefault .buttonRow{
+        width: 100%;
+        clear: both;
+        background-color: #eeeeee;
+        padding: 4% 1% !important;
+        text-align: center;
+        line-height: 120%;
+        vertical-align: middle;
+        margin: 0 auto;        
+    }
+
+.AddAddressControl_PersonifyDefault .buttonRow input[type="button"] {
+    display: inline-block;
+    margin: 1%;
+    padding: 4% 4%;
+    min-width: 120px;
+}
+
+.AddAddressControl_PersonifyDefault .formRow div.RadComboBox .rcbArrowCell a {
+    width: 26px !important;
+}
+
+.AddAddressControl_PersonifyDefault .formRow  .RadComboBox_PersonifyDefault .rcbInputCellLeft,
+.AddAddressControl_PersonifyDefault .formRow .RadComboBox_PersonifyDefault .rcbInputCellRight,
+.AddAddressControl_PersonifyDefault .formRow .RadComboBox_PersonifyDefault .rcbArrowCellLeft,
+.AddAddressControl_PersonifyDefault .formRow .RadComboBox_PersonifyDefault .rcbArrowCellRight {
+        padding: 4px;
+        background: rgb(252,252,252); /* Old browsers */
+        background: -moz-linear-gradient(top, rgba(252,252,252,1) 45%, rgba(238,238,238,1) 96%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(45%,rgba(252,252,252,1)), color-stop(96%,rgba(238,238,238,1))); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top, rgba(252,252,252,1) 45%,rgba(238,238,238,1) 96%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top, rgba(252,252,252,1) 45%,rgba(238,238,238,1) 96%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top, rgba(252,252,252,1) 45%,rgba(238,238,238,1) 96%); /* IE10+ */
+        background: linear-gradient(to bottom, rgba(252,252,252,1) 45%,rgba(238,238,238,1) 96%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#eeeeee',GradientType=0 ); /* IE6-9 */
+        box-shadow: 1px 1px 4px #ccc;
+    }
+
+
+.AddAddressControl_PersonifyDefault .formRow .RadComboBox_PersonifyDefault .rcbInputCellLeft,
+.AddAddressControl_PersonifyDefault .formRow .RadComboBox_PersonifyDefault .rcbInputCellRight {
+        border: 1px solid #ccc;
+        border-right: 0 none;
+    }
+
+.AddAddressControl_PersonifyDefault .formRow .RadComboBox_PersonifyDefault .rcbArrowCellLeft,
+.AddAddressControl_PersonifyDefault .formRow .RadComboBox_PersonifyDefault .rcbArrowCellRight {
+        border: 1px solid #ccc;
+    }
+
+
+.AddAddressControl_PersonifyDefault .formRow .RadComboBox_PersonifyDefault .rcbInputCellLeft:hover,
+.AddAddressControl_PersonifyDefault .formRow .RadComboBox_PersonifyDefault .rcbHovered td.rcbInputCellLeft,
+.AddAddressControl_PersonifyDefault .formRow .RadComboBox_PersonifyDefault .rcbHovered td.rcbInputCell .rcbReadOnly {
+        background-position: 0 !important;
+    }
+
+ 
+
+
+
+.AddAddressControl_PersonifyDefault .formRow .rcbInput {
+        font-style: normal;
+        font-size: 110%;
+        color: #888 !important;
+    }
+
+
+.coupon .apply {
+    padding: 8px 4% !important;
+    text-shadow: 1px 1px 2px #444;
+
+}
+
+/*DROP DOWNS FOR REGISTRATION ADDRESS CHANGE*/
+
+
+.userDetails .formRow .RadComboBox input[type="text"] {
+    border: 0 none;
+    box-shadow: none;
+    height: 18px;
+    min-width: 234px;
+    
+    
+}
+
+.userDetails .formRow  .RadComboBox_PersonifyDefault .rcbInputCellLeft,
+.userDetails .formRow .RadComboBox_PersonifyDefault .rcbInputCellRight,
+.userDetails .formRow .RadComboBox_PersonifyDefault .rcbArrowCellLeft,
+.userDetails .formRow .RadComboBox_PersonifyDefault .rcbArrowCellRight {
+        padding: 4px;
+        background: rgb(252,252,252); /* Old browsers */
+        background: -moz-linear-gradient(top, rgba(252,252,252,1) 45%, rgba(238,238,238,1) 96%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(45%,rgba(252,252,252,1)), color-stop(96%,rgba(238,238,238,1))); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top, rgba(252,252,252,1) 45%,rgba(238,238,238,1) 96%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top, rgba(252,252,252,1) 45%,rgba(238,238,238,1) 96%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top, rgba(252,252,252,1) 45%,rgba(238,238,238,1) 96%); /* IE10+ */
+        background: linear-gradient(to bottom, rgba(252,252,252,1) 45%,rgba(238,238,238,1) 96%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#eeeeee',GradientType=0 ); /* IE6-9 */
+        box-shadow: 1px 1px 4px #ccc;
+    }
+
+
+    .userDetails .formRow .RadComboBox_PersonifyDefault .rcbInputCellLeft,
+    .userDetails .formRow .RadComboBox_PersonifyDefault .rcbInputCellRight {
+        border: 1px solid #ccc;
+        border-right: 0 none;
+    }
+
+    .userDetails .formRow .RadComboBox_PersonifyDefault .rcbArrowCellLeft,
+    .userDetails .formRow .RadComboBox_PersonifyDefault .rcbArrowCellRight {
+        border: 1px solid #ccc;
+    }
+
+
+    .userDetails .formRow .RadComboBox_PersonifyDefault .rcbInputCellLeft:hover,
+    .userDetails .formRow .RadComboBox_PersonifyDefault .rcbHovered td.rcbInputCellLeft,
+    .userDetails .formRow .RadComboBox_PersonifyDefault .rcbHovered td.rcbInputCell .rcbReadOnly {
+        background-position: 0 !important;
+    }
+
+    .userDetails .formRow .RadComboBox_PersonifyDefault .rcbReadOnly td.rcbArrowCellRight,
+    .userDetails .formRow .RadComboBox_PersonifyDefault .rcbReadOnly td.rcbArrowCellRight:hover,
+    .userDetails .formRow .RadComboBox_PersonifyDefault .rcbReadOnly .rcbHovered td.rcbArrowCellRight,
+    .userDetails .formRow .RadComboBox_PersonifyDefault .rcbReadOnly td.rcbArrowCellRight:focus {
+        background: #fff url('/eBizATPRO/Themes/PersonifyDefault/images/icon-nav-arrow-down.png') repeat;
+        background-position: 1px 102px !important;
+    }
+
+
+
+    .userDetails .formRow .rcbInput {
+        font-style: normal;
+        font-size: 120%;
+        color: #888 !important;
+        line-height: 120%;
+    }
+
+    .RegistrationControl_PersonifyDefault .userDetails .emailRow {
+    padding-top: 5px !important;
+    position: relative;
+}
+
+
+    .PhoneEdit_PersonifyDefault .riSingle.RadInput.RadInput_PersonifyDefault { max-width: 90px;}
+
+
+
+ /*SHIPPING ESTIMATE DROPDOWN */      
+  
+    .item .RadComboBox_PersonifyDefault .rcbReadOnly td.rcbArrowCellRight,        
+    .shippingEstimates .RadComboBox_PersonifyDefault .rcbReadOnly td.rcbArrowCellRight,    
+    .AddAddressControl_PersonifyDefault .formRow .RadComboBox_PersonifyDefault .rcbReadOnly td.rcbArrowCellRight,        
+    .mainCheckoutDiv .formLayout .ctrlContent fieldset  .RadComboBox_PersonifyDefault .rcbReadOnly td.rcbArrowCellRight,
+    .ShoppingCartItemControl_Container .addressesSection .RadComboBox .rcbReadOnly td.rcbArrowCellRight
+    
+     {
+        
+        background: #fff url('/eBizATPRO/Themes/PersonifyDefault/images/icon-nav-arrow-down.png');        
+        background-attachment: scroll;
+        background-clip: border-box;
+        background-color: #F8F8F8 !important;    
+        background-origin: padding-box;
+        background-position: 5px 6px !important;
+        background-repeat: no-repeat;
+        /*background-size: auto auto;*/
+        background-size: cover;
+    }
+
+    .item .RadComboBox_PersonifyDefault .rcbReadOnly td.rcbArrowCellRight {
+        background-position: 1px 4px !important;
+    }
+
+    /*Item Summary Dropdown*/
+
+
+    
+
+    .item .RadComboBox input[type="text"] {
+    border: 0 none;
+    box-shadow: none;
+    height: 22px;
+    min-width: 233px;
+    
+}
+
+
+.item .RadComboBox_PersonifyDefault .rcbInputCellLeft,
+.item .RadComboBox_PersonifyDefault .rcbInputCellRight,
+.item .RadComboBox_PersonifyDefault .rcbArrowCellLeft,
+.item .RadComboBox_PersonifyDefault .rcbArrowCellRight {
+        padding: 4px;
+        background: rgb(252,252,252); /* Old browsers */
+        background: -moz-linear-gradient(top, rgba(252,252,252,1) 45%, rgba(238,238,238,1) 96%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(45%,rgba(252,252,252,1)), color-stop(96%,rgba(238,238,238,1))); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top, rgba(252,252,252,1) 45%,rgba(238,238,238,1) 96%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top, rgba(252,252,252,1) 45%,rgba(238,238,238,1) 96%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top, rgba(252,252,252,1) 45%,rgba(238,238,238,1) 96%); /* IE10+ */
+        background: linear-gradient(to bottom, rgba(252,252,252,1) 45%,rgba(238,238,238,1) 96%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#eeeeee',GradientType=0 ); /* IE6-9 */
+        box-shadow: 1px 1px 4px #ccc;
+    }
+
+
+.item  .RadComboBox_PersonifyDefault .rcbInputCellLeft,
+.item  .RadComboBox_PersonifyDefault .rcbInputCellRight {
+        border: 1px solid #ccc;
+        border-right: 0 none;
+    }
+
+.item  .RadComboBox_PersonifyDefault .rcbArrowCellLeft,
+.item  .RadComboBox_PersonifyDefault .rcbArrowCellRight {
+        border: 1px solid #ccc;
+    }
+
+
+.item  .RadComboBox_PersonifyDefault .rcbInputCellLeft:hover,
+.item  .RadComboBox_PersonifyDefault .rcbHovered td.rcbInputCellLeft,
+.item  .RadComboBox_PersonifyDefault .rcbHovered td.rcbInputCell .rcbReadOnly {
+        background-position: 0 !important;
+    }
+
+
+
+ .item .rcbInput {
+        font-style: normal;
+        font-size: 120%;
+        color: #888 !important;
+    }
+
+    /*E-CHECK DROPDOWN*/
+
+
+
+
+
+
+ .mainCheckoutDiv .formLayout .ctrlContent fieldset .RadComboBox input[type="text"] {
+    border: 0 none;
+    box-shadow: none;
+    height: 18px;
+    min-width: 233px;
+    
+}
+
+
+.mainCheckoutDiv .formLayout .ctrlContent fieldset .RadComboBox_PersonifyDefault .rcbInputCellLeft,
+.mainCheckoutDiv .formLayout .ctrlContent fieldset .RadComboBox_PersonifyDefault .rcbInputCellRight,
+.mainCheckoutDiv .formLayout .ctrlContent fieldset .RadComboBox_PersonifyDefault .rcbArrowCellLeft,
+ .mainCheckoutDiv .formLayout .ctrlContent fieldset .RadComboBox_PersonifyDefault .rcbArrowCellRight {
+        padding: 4px;
+        background: rgb(252,252,252); /* Old browsers */
+        background: -moz-linear-gradient(top, rgba(252,252,252,1) 45%, rgba(238,238,238,1) 96%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(45%,rgba(252,252,252,1)), color-stop(96%,rgba(238,238,238,1))); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top, rgba(252,252,252,1) 45%,rgba(238,238,238,1) 96%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top, rgba(252,252,252,1) 45%,rgba(238,238,238,1) 96%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top, rgba(252,252,252,1) 45%,rgba(238,238,238,1) 96%); /* IE10+ */
+        background: linear-gradient(to bottom, rgba(252,252,252,1) 45%,rgba(238,238,238,1) 96%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#eeeeee',GradientType=0 ); /* IE6-9 */
+        box-shadow: 1px 1px 4px #ccc;
+    }
+
+
+.mainCheckoutDiv .formLayout .ctrlContent fieldset  .RadComboBox_PersonifyDefault .rcbInputCellLeft,
+.mainCheckoutDiv .formLayout .ctrlContent fieldset  .RadComboBox_PersonifyDefault .rcbInputCellRight {
+        border: 1px solid #ccc;
+        border-right: 0 none;
+    }
+
+.mainCheckoutDiv .formLayout .ctrlContent fieldset  .RadComboBox_PersonifyDefault .rcbArrowCellLeft,
+.mainCheckoutDiv .formLayout .ctrlContent fieldset  .RadComboBox_PersonifyDefault .rcbArrowCellRight {
+        border: 1px solid #ccc;
+    }
+
+
+.mainCheckoutDiv .formLayout .ctrlContent fieldset  .RadComboBox_PersonifyDefault .rcbInputCellLeft:hover,
+.mainCheckoutDiv .formLayout .ctrlContent fieldset  .RadComboBox_PersonifyDefault .rcbHovered td.rcbInputCellLeft,
+.mainCheckoutDiv .formLayout .ctrlContent fieldset  .RadComboBox_PersonifyDefault .rcbHovered td.rcbInputCell .rcbReadOnly {
+        background-position: 0 !important;
+    }
+
+
+
+ .mainCheckoutDiv .formLayout .ctrlContent fieldset  .rcbInput {
+        font-style: normal;
+        font-size: 120%;
+        color: #888 !important;
+    }
+
+/*END STYLING THE DROPDOWN*/
+
+.userDetails .formRow span { 
+    margin: 02px 5px 12px 12px;
+    font-size: 110%;
+    font-weight: 700;}
+
+
+.registration-form-container .userDetails .formRow span .validatedMessage{
+
+    font-weight: normal !important;
+}
+
+.registration-form-container { width: 92%;}
+
+.userDetails .formRow {
+    position: relative !important;
+}
+
+.formLayout fieldset.userDetails span.validatedMessage {
+    margin: 0 !important;
+    position: absolute !important;
+    right: 35px;
+    top: -1px;
+    font-weight: normal;
+}
+
+
+
+.userDetails input[type=text],
+.userDetails input[type=password], 
+.passwordDetails input[type=password]
+{
+   clear: both;
+    width: 98%;
+    margin: 5px 0;
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+    font-size: 120%;
+    color: #777;
+    text-shadow: 1px 1px 1px #efefef;
+    border: 1px solid #ddd;
+    padding: 0 0 0 4px;
+    box-shadow: 0 1px 1px #E2E2E2 inset, 0 1px 0 #FFFFFF;
+    
+}
+
+
+
+
+
+/*CHECKOUT*/
+.GuestCheckoutControl_PersonifyDefault {
+    margin: 0 auto;
+    color: #555;
+}
+.GuestCheckoutControl_PersonifyDefault .billingAddress,
+.guestBillingAddress,
+.guestShippingAddress,
+.passwordFields 
+ {
+    width: 100%;
+    display: block;
+}
+
+.checkoutControlsInnerDiv .billingAddress {
+    margin: auto;    
+}
+
+
+.checkoutItemSummary:after {
+    content: " ";
+    width: 100%;
+    height: 1px;    
+    float: none !important;
+    clear: both;
+    display: table !important;
+}
+
+
+.checkout {
+    border: 1px solid #ddd !important;
+	}
+
+.checkout {
+    background: none repeat scroll 0 0 #EEE;
+    
+    border-top:0 none !important;
+    padding: 20px 4px !important;
+    text-align: center;
+}
+
+
+.prevNextCancelButtons {
+	border-top:0 none !important;
+	}
+
+.ShoppingCartSummaryControl_PersonifyDefault .checkout .purchaseButton,
+.prevNextCancelButtons .next, 
+#NextButton, 
+#PreviousButton {
+        margin-bottom: 10px;
+        padding: 16px 50px !important;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        font-size: 105% !important;
+        width: 98%;
+        margin-left: 0 !important;
+        text-align: center;
+    }
+
+
+.summaryData .summary {
+    font-size: 101%;
+}
+
+
+
+.mainCheckoutDiv .leftPane h3.control-title { padding: 8px 0 8px 12px;}
+
+.ECheckInfoControl_PersonifyDefault input[type="text"] {
+    height: 34px;
+    font-size: 130%;
+    width: 90%;
+}
+
+    .comboboxLabel,
+    .comboboxLabel {
+        margin: 15px 0 5px 12px;
+    }
+
+
+.fullWidth .ContentPane {
+    padding: 0 !important;
+}
+
+
+/*CHECKOUT*/
+
+.checkoutControlsInnerDiv .ctrlContent.formLayout .formRow  .required label {
+	clear:both;
+	display:block;
+	
+
+	}
+
+
+.checkoutControlsInnerDiv {
+	clear:both;
+	float:none !important;
+	margin:0 auto !important;
+	}
+
+
+.CheckoutAddressChooserControl_PersonifyDefault br {
+    display: none;
+}
+
+
+
+
+.dcdValidator
+ {display: block !important;
+    float: left;
+    font-size: 150%;
+    padding: 3% 0;
+    width: 45px;
+
+}
+
+.dcdValidator span {
+    color: #cc0000 !important;
+
+    
+}
+
+
+.mainCheckoutDiv .summaryControl {
+    display: block;
+    float: none;
+    margin: 5px auto;
+    padding: 0 !important;
+    width: 93%;
+}
+
+.summaryControl .header {
+    font-size: 130%;
+}
+
+.mainCheckoutDiv .leftPane {
+    width: auto;
+    float: none;
+	padding:0;
+    /*min-width: 310px;*/
+}
+
+
+.ShoppingCartItemControl_Container .addressesSection  {display:block; border:1px solid #ddd;padding-bottom: 18px;}
+
+
+
+.mainCheckoutDiv .leftPane h3 {
+    display: block;
+    font-size: 1.5em;
+    font-weight: 700;
+    margin: 15px 0 !important;
+    padding:8px 0;
+    background-color: #eee;
+    text-shadow: 1px 1px 1px #fff;
+
+}
+
+.summaryTopDiv h3 {
+    background-color: transparent !important;
+    font-size: 1.5em !important;
+}
+
+.summaryTopDiv 
+{
+    float: none;
+    margin: 12px auto 15px auto;    
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    padding: 0;
+    text-shadow: 1px 1px 1px #fff;
+    border-radius: 0;
+    max-width: 92%;
+}
+
+
+.summaryTopDiv .name {
+    font-size: 130%;
+    font-weight: normal;
+}
+.cbAuthorize {width:3% !important;}
+
+.checkoutItemName {
+font-size: 1.2em !important;
+text-overflow: ellipsis !important;
+
+}
+
+.summaryTopDiv .summaryTopColumn {
+    margin: 15px;
+    max-width: 90%;
+}
+
+
+.creditCard .row.mobile-way {
+    border: 1px solid #ccc;
+    border-bottom: 0 none;  
+    width: 92%;
+    margin: 5px auto;
+}
+
+.listComponents ul li .cbAuthorize .dnnCheckbox .mark img {
+	display:none !important;
+	}
+	
+
+/*THANK YOU PAGE*/
+
+.OrderSummaryControl_PersonifyDefault .billingAddress {
+    padding: 2%;
+    
+}
+
+
+h2.checkoutHeader,
+.main h2 {
+    font-size: 1.6em !important;
+    font-weight: 700;
+	line-height:130%;   
+    vertical-align: middle
+}
+
+.main h2 span.Head { margin-bottom: 2px;}
+
+.orderSummary {
+    color: #555;
+    text-shadow: 1px 1px 1px #efefef;
+}
+
+
+.orderSummary tr {
+    display: block;
+    
+}
+
+
+
+.orderSummary .orderItem td {
+    display: none;
+    
+    
+}
+
+
+
+.orderSummary .orderItem .cellProductName {
+    display: block;
+    
+    
+}
+
+.orderSummary .orderItem {
+    float: left;
+    max-width: 55%;
+    display: block;
+}
+
+.orderSummary tr td.borderTop  {
+
+    display: block;
+    /*clear: both;*/
+    
+    width: 100%;
+    border: 0 none;
+    text-align: right;
+    padding: 4px 0 !important;
+    margin: 0 !important;
+}
+
+
+
+.orderSummary .orderItem.row-order-headers {
+
+    float: left;
+    
+}
+
+.orderSummary .totals tbody {display: block; width: 100% !important;}
+
+.orderItem.row-order-headers .cellProductName {
+    width: 100%;
+    max-width: 100%;
+}
+
+.row-order-values {
+    float: right;
+
+}
+
+.borderTop.label-first-cell { display: none;height: 0;overflow: hidden;text-align: right;}
+.borderTop.label-quantity { font-weight: normal;text-align: right;}
+.borderTop.label-unit-price.lblUnitPrice { }
+.borderTop.label-total.lblTotal { color: #333;text-shadow: 1px 1px 1px #efefef;text-align: right;}
+
+
+.borderTop.label-quantity:before { content: "Qty: ";}
+.borderTop.label-unit-price.lblUnitPrice:before { content: "Unit: ";}
+.borderTop.label-total.lblTotal:before { content: "Total: ";}
+
+
+.orderSummary .row-order-share { 
+    float: none;
+    clear: both;
+    border-bottom: 1px solid #ddd;
+}
+
+
+.OrderSummaryControl_PersonifyDefault, 
+.CheckoutThankYouControl_PersonifyDefault
+{
+    margin: 0 auto !important;
+}
+
+.row-order-summary .borderTop .tblTotal {
+    
+    width: 100% !important;
+    
+
+}
+
+
+.row-order-summary .borderTop .tblTotal tr {
+    display: block;
+    width: 100% !important;
+}
+
+.row-order-summary .borderTop .tblTotal tr td {
+    display: inline-block;  
+    max-width: 45%;
+    text-align: right;    
+    height: 25px;
+    line-height: 25px !important;
+    vertical-align: middle !important;
+    margin: 0 !important;
+    padding: 4px !important;
+}
+
+
+.summaryLine.mobile-summary {
+    font-weight: 700;
+    vertical-align: middle;
+    height: 25px;
+    line-height: 25px !important;
+}
+
+.row-order-summary .summaryLine { float: left;}
+
+
+.borderTop.mobile-summary, 
+.borderTop.mobile-payment {
+    width: 100% !important;
+    text-align: right !important;
+    max-width: 40%;
+    /*width: 45%;*/
+}
+
+.tblTotal.mobile-summary {
+    width: 100% !important;
+    background-color: #f9f9f9 !important;
+    max-width: 100% !important;
+    min-width: 300px;
+
+}
+
+.summaryLine.mobile-summary,
+.summaryLine.mobile-payment {
+    text-align: right !important;
+    max-width: 40%;
+    width: 45%;
+    margin: 0 !important;
+}
+
+.summaryLine.mobile-payment,
+.borderTop.mobile-payment {
+    height: 25px !important;
+    line-height: 25px !important;
+}
+
+.borderTop.mobile-payment {
+    width: 99% !important;
+    max-width: 100% !important;
+}
+
+.balanceRow tr {
+    line-height: 100%;
+    vertical-align: middle;
+    min-height: 25px;
+}
+
+.summaryLine.mobile-payment { display: inline-block;}
+.summaryLine.mobile-payment:after,
+.borderTop.mobile-payment:after,
+.balanceRow tr:after{
+    content: ". ";
+    opacity: 0;
+    height: 0 !important;
+    overflow: hidden;
+    visibility: hidden;    
+    width: 100%;
+    clear: both;
+    float: none;
+}
+
+.tblTotal.mobile-payment {
+    width: 100%;
+
+}
+
+.row-order-actions { display: block;
+    clear: both;
+    
+    text-align: left;
+
+}
+
+.checkoutHeader.orderNumber { font-weight: 700;margin: 0;}
+
+.borderTop.label-total.lblTotal { font-weight: 700;}
+
+.CheckoutThankYouControl_PersonifyDefault { display: none;}
+
+.OrderSummaryControl_PersonifyDefault .ShareControl_PersonifyDefault {
+    left: -7px !important;
+    bottom: 0 !important;
+}
+
+/*THANK YOU PAYMENT TABLES*/
+
+
+
+
+#divPrintAreaOrderSummaryControl  .totals tr:first-child {
+    background-color:#efefef; 
+    font-size:130%; 
+    width: 100%; 
+    text-shadow:1px 1px 1px #fff; 
+    color:#444;
+}
+#divPrintAreaOrderSummaryControl  .totals tr:nth-of-type(2) {font-size:110% !important; width: 100% !important; text-shadow:1px 1px 1px #fff !important; color:#444 !important;}
+
+#divPrintAreaOrderSummaryControl .totals .orderItem td:nth-of-type(n+1) {
+	text-align:left !important;
+	padding:2% !important;
+	height:auto !important;
+	line-height:1.2em !important;
+	vertical-align:middle !important;
+	}
+	
+
+	
+
+	
+	
+#divPrintAreaOrderSummaryControl  .cellProductName {
+	/*position:absolute;*/
+	
+	margin-top:20px;
+	}
+	
+#divPrintAreaOrderSummaryControl .productName{
+	
+	font-size:1.1em !important;
+	line-height:1.1em !important;
+	}
+
+#divPrintAreaOrderSummaryControl .totals .orderItem td:nth-of-type(1), 
+#divPrintAreaOrderSummaryControl .totals .orderItem td:nth-of-type(3) {
+	display:none !important;
+ }
+
+#divPrintAreaOrderSummaryControl .totals td:nth-child(1) {
+	width:auto;
+	min-width: 0 !important;
+	max-width: 100% !important;
+	line-height: 100%;
+	vertical-align: middle !important;
+	margin-top:5px;
+}
+
+
+
+
+#divPrintAreaOrderSummaryControl .totals .orderItem .cellAdditionalInfo {
+	display:none !important; 
+	float:left !important; 
+	font-size:150% !important; 
+	width:100% !important; 
+	height:80% !important; 
+	vertical-align:middle !important; 
+	line-height:150% !important; 
+	text-shadow:1px 1px 1px #fff !important;
+	}
+
+
+#divPrintAreaOrderSummaryControl  .totals tr:last-child {display: table!important; width:100% !important; min-width:175px !important; margin:0.1% auto !important;}
+#divPrintAreaOrderSummaryControl  .totals tr:last-child tr:nth-child(2) {font-size:130% !important; width: 100% !important; text-shadow:1px 1px 1px #fff !important; color:#444 !important;}
+#divPrintAreaOrderSummaryControl .tblTotal {
+    display:block !important; 
+    margin:0 auto !important; 
+    float:left !important; 
+    padding:0 !important;
+    width: 98%;
+}
+
+.tblTotal .summaryLine, 
+.tblTotal.summaryLabel  {
+	float:left !important;
+	
+	}
+
+.summaryLine .summaryLabel {margin-top:10px !important;}	
+	
+
+#divPrintAreaOrderSummaryControl .totals .balanceRow .summaryLabel {
+	margin-top:5px !important;
+}
+ 	
+	
+#divPrintAreaOrderSummaryControl .tblTotal tr:nth-of-type(5) {width:100%; width:175px; font-size:1.4em;}
+#divPrintAreaOrderSummaryControl .tblTotal tr:nth-of-type(5) .summaryLabel {width:140px;}
+
+
+/*#divPrintAreaOrderSummaryControl  .totals tr:not(:last-child) {
+    display:none !important;
+}*/
+
+
+#divPrintAreaOrderSummaryControl .paidWithLabel {
+	font-size:1.3em !important;
+	line-height:1.4em !important;
+	float:left !important;
+	text-align:left !important;
+	font-weight:bold !important;
+	color:#A7BB2F !important;
+	margin:10px 0 !important;
+}
+
+/*END THANK YOU PAYMENT TABLES*/
+
+
+
+/*REGISTRATION*/
+
+
+
+div.RegistrationControl_PersonifyDefault {
+    margin: 2% auto;
+    width: 96%;
+    overflow: hidden;
+    position: relative;
+    display: block;
+    clear: both;
+    float: none;
+}
+
+
+.RadWindow .buttonRow input {
+    padding: 17px 4px;
+    margin: 3% auto;
+    width: 99%;
+    background-size: contain;
+    text-align: center;
+}
+
+    
+.RegistrationControl_PersonifyDefault .formLayout .emailRow {
+        position: relative !important;
+    }
+    
+.RegistrationControl_PersonifyDefault .userDetails.mobile-way { padding: 0;margin: 0;}
+
+    
+.RegistrationControl_PersonifyDefault .userDetails.mobile-way .formRow {
+    position: relative !important;
+    color: #444;
+    text-shadow: 1px 1px 1px #efefef;
+    }
+
+.RegistrationControl_PersonifyDefault .formLayout fieldset.userDetails span.validatedMessage {
+        position: absolute !important;
+        right: 10px;
+        top: -1px;
+    }
+
+.formLayout fieldset.userDetails .RadComboBox {
+        margin: 5px 0;
+    }
+
+    /*Registration Rad window*/
+
+
+
+.RegistrationControl .RadWindow {
+    position: fixed !important;
+    top: 40px !important;
+    width: 80% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    z-index: 9999930;
+    height: 100%;
+    
+}
+
+.rwWindowContent { width: auto !important;height: auto !important;}
+
+.RadWindow_PersonifyDefault .ctrlContent {
+       
+    padding: 3%;
+    margin: 1% auto;
+}
+
+.RadWindow_PersonifyDefault .confirmWindow.addr .rwIcon { display: none;}
+
+.RadWindow_PersonifyDefault .confirmWindow .buttonRow .mobile-way {
+    width: 90%;
+    max-width: 350px;
+    margin: 1% auto;
+    text-align: center;
+
+}
+
+.RadWindow_PersonifyDefault .buttonRow.mobile-way  input[type="button"] {
+    clear: both !important;
+    float: none !important;
+    font-weight: 700;
+    margin: 2% auto;
+    padding: 14px 4%;
+    width: 99%;
+    text-align: center;
+
+    
+   
+}
+
+.RadWindow_PersonifyDefault .buttonRow input .cancel, 
+.RadWindow_PersonifyDefault .buttonRow input .CancelEditButton,
+.buttonRow.mobile-way .cancel, 
+.buttonRow.mobile-way .CancelEditButton {
+    background: transparent !important;
+    color: #888;
+}
+
+.buttonRow.mobile-way {
+    text-align: center;
+}
+
+.buttonRow.mobile-way input{
+    clear: both;
+    float: none;
+    
+}
+
+
+.cartlayout .RightPane.mobile-way {
+    width: 98%;
+}
+
+td.logintd {}
+
+
+
+div.ContentPane {margin-bottom: 18px; padding-bottom: 22px;}
+
+
+html body .RadInputMgr_PersonifyDefault, 
+html body .RadInput_PersonifyDefault .riTextBox {
+    
+     box-shadow: 0 1px 1px #E2E2E2 inset, 0 1px 0 #FFFFFF;
+}
+
+
+
+ 
+
+.userDetails.mobile-way .RadToolTip .rtCalloutMiddleLeft {
+	background-position: 0 1px;
+	margin-top: -35px;
+    left: 20px !important;
+    top: 31px;
+}
+
+.userDetails.mobile-way .rtVisibleCallout.rtShadow {
+    top: 73px !important;
+    left: -4px !important;
+
+}
+
+.registration-form-container em{ color: #666 !important;}
+
+    
+/*SHOPPING CART*/
+
+.RadWindow_PersonifyDefault .rwControlButtons a.rwCloseButton {
+    
+    background-image: url('/eBizATPRO/Themes/PersonifyDefault/images/icon-back-arrow-left.png') !important;
+    position: absolute !important;
+    left: 5px !important;
+    top: 5px;      
+}
+
+span.validation, .validatedMessage
+{
+ 
+    padding-left: .5em;
+    white-space: normal !important;
+    
+}
+
+.ShoppingCartItemControl_Container {
+    margin: auto;
+}
+
+.panelWishList {
+    padding-top: 0;
+    border-top: 0 none;
+}
+
+
+.panelWishList input {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+.panelWishList input.controlButton { 
+    width: 100%;
+    padding: 12px 0;
+    font-size: 125%;
+    text-shadow: 1px 1px 1px #222;
+    border-radius: 0;
+    color: #f9f9f9;
+    background: rgb(28,65,111); /* Old browsers */
+        background: -moz-linear-gradient(top, rgba(28,65,111,1) 27%, rgba(19,43,74,1) 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(27%,rgba(28,65,111,1)), color-stop(100%,rgba(19,43,74,1))); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top, rgba(28,65,111,1) 27%,rgba(19,43,74,1) 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top, rgba(28,65,111,1) 27%,rgba(19,43,74,1) 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top, rgba(28,65,111,1) 27%,rgba(19,43,74,1) 100%); /* IE10+ */
+        background: linear-gradient(to bottom, rgba(28,65,111,1) 27%,rgba(19,43,74,1) 100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c416f', endColorstr='#132b4a',GradientType=0 ); /* IE6-9 */
+
+
+}
+
+.userDetails .formRow .RadComboBox.RadComboBox_PersonifyDefault {
+    width: 98% !important;
+}
+
+.checkoutControlsInnerDiv div.billingAddress {
+    width: 98% !important;
+}
+
+
+
+.RadListBox.segmentsListTabs {
+    width: 100%;
+}
+
+
+.RadWindow.RadWindow_PersonifyDefault.rwNormalWindow { margin: 15px auto;}
+
+.lineItemTotals th {
+    text-align: center !important;
+}
+
+
+.AddCreditCardControl_PersonifyDefault .rbDiv {
+
+    display: inline-block;
+    min-width: 90px;
+    max-width: 120px;
+    margin-right: 4px;
+    line-height: 100%;
+    vertical-align: middle;
+    
+}
+
+
+.contentSection .lineItemTotals .totals{
+    display: table;
+    flex-flow: row;
+    
+}
+
+.rwTitleRow .rwTitlebar .rwTitlebarControls tr td:nth-child(2) {
+display:block !important;
+float:left;
+padding-left:45px; 
+width:auto !important;}
+
+div.RadWindow .rwTitleRow em { width: auto !important;}
+
+/* rad items */
+.RadWindow_PersonifyDefault .rwControlButtons a.rwCloseButton {
+    width: 32px !important;
+    height: 32px !important;
+    background-size: cover;
+}
+
+.RadWindow .rwTitleRow em {
+    
+	font-size: 17em !important;
+    line-height: 235% !important;
+    vertical-align: middle !important;
+	padding: 0 0 0 1px !important;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.mainCheckoutDiv .ValidationIssuesSummary_PersonifyDefault .valmsg {
+    width: 92%;
+    
+    text-shadow: 1px 1px 1px #efefef;
+    margin: 5px auto;
+    clear: both;
+}
+
+
+    .CheckoutControl_PersonifyDefault div.wizardHeader
+    {
+        float: none;
+        border-radius: 0 !important;
+        margin: 0;
+        padding: 0 !important;
+        display: block;
+        width: 100%;
+        background-color: transparent;
+
+    }
+
+    .CheckoutItemSummaryControl_PersonifyDefault {
+        width: 100%;
+        max-width: 100%;
+    }
+   
+
+    .WizardHeaderControl_PersonifyDefault span.step  {display: none!important; }
+
+    .WizardHeaderControl_PersonifyDefault span.step.active {display: block!important; }
+
+
+
+    .WizardHeaderControl_PersonifyDefault .step.active{
+	margin:0 auto; 
+	clear:both; 
+	line-height:130%; 
+	text-align:center;
+	}
+
+    .WizardHeaderControl_PersonifyDefault .step.active {
+        width: 100%; 
+        padding: 15px 0;
+        margin-top: -1px;
+        margin-left: -2px;
+        
+    }
+
+
+}
+
+
+  @media screen and (max-width: 20.0em)
+    {
+
+        .free-shipping-url
+        {
+            display: none;
+        }
+    }
+  /*Do not delete the following closing accolade, it ends the media query*//* RadComboBox Default skin */
+
+/*global*/
+
+.RadComboBox_PersonifyDefault,
+.RadComboBox_PersonifyDefault .rcbInput,
+.RadComboBoxDropDown_PersonifyDefault
+{
+	/*font: 12px "Segoe UI", Arial, sans-serif;*/
+	color: #444;
+
+}
+
+.RadComboBox_PersonifyDefault .rcbInput {
+    font-style: normal;
+}
+
+/* combobox */
+
+.RadComboBox_PersonifyDefault .rcbInputCellLeft,
+.RadComboBox_PersonifyDefault .rcbInputCellRight,
+.RadComboBox_PersonifyDefault .rcbArrowCellLeft,
+.RadComboBox_PersonifyDefault .rcbArrowCellRight
+{
+	background-image: url('/eBizATPRO/Themes/PersonifyDefault/ComboBox/rcbSprite.png');
+}
+
+* html .RadComboBox_PersonifyDefault .rcbInputCellLeft,
+* html .RadComboBox_PersonifyDefault .rcbInputCellRight,
+* html .RadComboBox_PersonifyDefault .rcbArrowCellLeft,
+* html .RadComboBox_PersonifyDefault .rcbArrowCellRight
+{
+	background-image: url('/eBizATPRO/Themes/PersonifyDefault/ComboBox/rcbSpriteIE6.png');
+}
+
+.RadComboBox_PersonifyDefault td.rcbInputCellLeft { background-position: 0 0; }
+.RadComboBox_PersonifyDefault td.rcbInputCellRight { background-position: 100% 0; }
+
+.RadComboBox_PersonifyDefault .rcbHovered .rcbInputCellLeft { background-position: 0 0; }
+.RadComboBox_PersonifyDefault .rcbHovered .rcbInputCellRight { background-position: 100% 0; }
+
+.RadComboBox_PersonifyDefault .rcbFocused .rcbInputCellLeft { background-position: 0 0; }
+.RadComboBox_PersonifyDefault .rcbFocused .rcbInputCellRight { background-position: 100% 0; }
+
+.RadComboBox_PersonifyDefault .rcbHovered .rcbReadOnly td.rcbInputCellLeft { background-position: 0 -22px; }
+.RadComboBox_PersonifyDefault .rcbHovered .rcbReadOnly td.rcbInputCellRight { background-position: 100% -22px; }
+
+.RadComboBox_PersonifyDefault .rcbFocused .rcbReadOnly td.rcbInputCellLeft { background-position: 0 -44px; }
+.RadComboBox_PersonifyDefault .rcbFocused .rcbReadOnly td.rcbInputCellRight { background-position: 100% -44px; }
+
+.RadComboBox_PersonifyDefault .rcbInputCell .rcbEmptyMessage
+{
+	color: #666;
+}
+
+.RadComboBox_PersonifyDefault .rcbHovered .rcbInputCell .rcbInput
+{
+	color: #444;
+}
+
+.RadComboBox_PersonifyDefault td.rcbArrowCellLeft { background-position: -18px -88px; }
+.RadComboBox_PersonifyDefault td.rcbArrowCellRight { background-position: 0 -88px; }
+
+.RadComboBox_PersonifyDefault .rcbHovered .rcbArrowCellLeft { background-position: -54px -88px; }
+.RadComboBox_PersonifyDefault .rcbHovered .rcbArrowCellRight { background-position: -36px -88px; }
+
+.RadComboBox_PersonifyDefault .rcbFocused .rcbArrowCellLeft { background-position: -90px -88px; }
+.RadComboBox_PersonifyDefault .rcbFocused .rcbArrowCellRight { background-position: -72px -88px; }
+
+.RadComboBox_PersonifyDefault td.rcbArrowCellHidden,
+.RadComboBox_PersonifyDefault .rcbHovered td.rcbArrowCellHidden,
+.RadComboBox_PersonifyDefault .rcbFocused td.rcbArrowCellHidden { background-position: -15px -88px; }
+
+.RadComboBox_PersonifyDefault_rtl td.rcbArrowCellHidden,
+.RadComboBox_PersonifyDefault_rtl .rcbHovered td.rcbArrowCellHidden,
+.RadComboBox_PersonifyDefault_rtl .rcbFocused td.rcbArrowCellHidden { background-position: -18px -88px; }
+
+/* Read-only styles */
+
+.RadComboBox_PersonifyDefault .rcbReadOnly td.rcbArrowCellLeft { background-position: -18px -88px; }
+.RadComboBox_PersonifyDefault .rcbReadOnly td.rcbArrowCellRight { background-position: 0 -88px; }
+
+.RadComboBox_PersonifyDefault .rcbHovered .rcbReadOnly .rcbArrowCellLeft { background-position: -54px -88px; }
+.RadComboBox_PersonifyDefault .rcbHovered .rcbReadOnly .rcbArrowCellRight { background-position: -38px -88px; }
+
+.RadComboBox_PersonifyDefault .rcbFocused .rcbReadOnly .rcbArrowCellLeft { background-position: -90px -88px; }
+.RadComboBox_PersonifyDefault .rcbFocused .rcbReadOnly .rcbArrowCellRight { background-position: -74px -88px; }
+
+.RadComboBox_PersonifyDefault .rcbReadOnly td.rcbArrowCellHidden { background-position: -15px -88px; }
+.RadComboBox_PersonifyDefault .rcbHovered .rcbReadOnly td.rcbArrowCellHidden { background-position: -51px -88px; }
+.RadComboBox_PersonifyDefault .rcbFocused .rcbReadOnly td.rcbArrowCellHidden { background-position: -87px -88px; }
+
+.RadComboBox_PersonifyDefault_rtl .rcbReadOnly td.rcbArrowCellHidden { background-position: -18px -88px; }
+.RadComboBox_PersonifyDefault_rtl .rcbHovered .rcbReadOnly td.rcbArrowCellHidden { background-position: -54px -88px; }
+.RadComboBox_PersonifyDefault_rtl .rcbFocused .rcbReadOnly td.rcbArrowCellHidden { background-position: -90px -88px; }
+
+/* dropdown */
+
+.RadComboBoxDropDown_PersonifyDefault .rcbHeader,
+.RadComboBoxDropDown_PersonifyDefault .rcbFooter,
+.RadComboBoxDropDown_PersonifyDefault .rcbMoreResults,
+.RadComboBoxDropDown_PersonifyDefault .rcbMoreResults a
+{
+	background-image: url('/eBizATPRO/Themes/PersonifyDefault/ComboBox/rcbSprite.png');
+}
+
+* html .RadComboBoxDropDown_PersonifyDefault .rcbHeader,
+* html .RadComboBoxDropDown_PersonifyDefault .rcbFooter,
+* html .RadComboBoxDropDown_PersonifyDefault .rcbMoreResults,
+* html .RadComboBoxDropDown_PersonifyDefault .rcbMoreResults a
+{
+	background-image: url('/eBizATPRO/Themes/PersonifyDefault/ComboBox/rcbSpriteIE6.png');
+}
+
+.RadComboBoxDropDown_PersonifyDefault
+{
+	background: #fff;
+	border-color: #c6c7d2;
+	border-top-color: #83868d;
+}
+
+.RadComboBoxDropDown_PersonifyDefault .rcbHeader,
+.RadComboBoxDropDown_PersonifyDefault .rcbFooter
+{
+	background-color: #f1f2f4;
+	background-position: 0 -110px;
+}
+
+.RadComboBoxDropDown_PersonifyDefault .rcbHeader
+{
+	border-bottom-color: #d5d5d5;
+}
+
+.RadComboBoxDropDown_PersonifyDefault .rcbFooter
+{
+	border-top-color: #d5d5d5;
+}
+
+.RadComboBoxDropDown_PersonifyDefault .rcbItem em
+{
+	background: #e5e5e5;
+}
+
+.RadComboBoxDropDown_PersonifyDefault .rcbHovered
+{
+	background: #dfdfdf;
+	color: #333;
+}
+
+.RadComboBoxDropDown_PersonifyDefault .rcbCheckAllItems,
+.RadComboBoxDropDown_PersonifyDefault .rcbCheckAllItemsHovered {
+	color: #676767;
+	background-color: #c5c5c5;
+}
+.RadComboBoxDropDown_PersonifyDefault .rcbCheckAllItemsHovered {
+	color: #000000;
+	background-color: #9e9e9e;
+}
+
+.RadComboBoxDropDown_PersonifyDefault .rcbSeparator
+{
+    color: #fff;
+    background: #8a8a8a;
+}
+
+.RadComboBox_PersonifyDefault .rcbDisabled .rcbInputCell .rcbInput,
+.RadComboBoxDropDown_PersonifyDefault .rcbDisabled
+{
+	color: #999;
+}
+
+.RadComboBox_PersonifyDefault .rcbDisabled td.rcbInputCellLeft { background-position: 0 -66px; }
+.RadComboBox_PersonifyDefault .rcbDisabled td.rcbInputCellRight { background-position: 100% -66px; }
+.RadComboBox_PersonifyDefault .rcbDisabled td.rcbArrowCellLeft { background-position: -126px -88px; }
+.RadComboBox_PersonifyDefault .rcbDisabled td.rcbArrowCellRight { background-position: -108px -88px; }
+.RadComboBox_PersonifyDefault .rcbDisabled .rcbReadOnly td.rcbArrowCellRight { background-position: -110px -88px; }
+.RadComboBox_PersonifyDefault table.rcbDisabled td.rcbArrowCellHidden,
+.RadComboBox_PersonifyDefault .rcbDisabled .rcbReadOnly td.rcbArrowCellHidden { background-position: -123px -88px; }
+.RadComboBox_PersonifyDefault_rtl table.rcbDisabled td.rcbArrowCellHidden,
+.RadComboBox_PersonifyDefault_rtl .rcbDisabled .rcbReadOnly td.rcbArrowCellHidden { background-position: -126px -88px; }
+
+.RadComboBoxDropDown_PersonifyDefault .rcbLoading
+{
+	background: #f0f0f0;
+}
+
+.RadComboBoxDropDown_PersonifyDefault .rcbMoreResults
+{
+	border-top-color: #c6c7d2;
+	background-position: 0 -132px;
+	background-color: #e6e6e6;
+	color: #8a8a8a;
+}
+
+.RadComboBoxDropDown_PersonifyDefault .rcbMoreResults a
+{
+	background-position: -157px -94px;
+}
+
+
+/*****************************************************************************************/
+/*****************************************************************************************/
+/***********888*********888***8888888888***8888888888****88**88************88888888888888*/
+/***********8888*******8888**888888888888**88********88**88**88************88888888888888*/
+/***********88*88*****88*88**88********88**88********88**88**88************88*************/
+/***********88**88***88**88**88********88**88********88**88**88************8888888888*****/
+/***********88***88*88***88**88********88**8888888888****88**88************8888888888*****/
+/***********88****888****88**88********88**88********88**88**88************88*************/
+/***********88***********88**88********88**88********88**88**88************88*************/
+/***********88***********88**888888888888**88********88**88**888888888888**88888888888888*/
+/***********88***********88***8888888888***8888888888****88**888888888888**88888888888888*/
+/*****************************************************************************************/
+/*****************************************************************************************/
+/*****************************************************************************************/
+/*****************************************************************************************/
+
+
+
+
+@media screen and (max-width: 42.0em) {
+
+    /* dropdown */
+
+.RadComboBoxDropDown_PersonifyDefault .rcbHeader,
+.RadComboBoxDropDown_PersonifyDefault .rcbFooter,
+.RadComboBoxDropDown_PersonifyDefault .rcbMoreResults,
+.RadComboBoxDropDown_PersonifyDefault .rcbMoreResults a
+{
+	background-image: none;
+}
+
+* html .RadComboBoxDropDown_PersonifyDefault .rcbHeader,
+* html .RadComboBoxDropDown_PersonifyDefault .rcbFooter,
+* html .RadComboBoxDropDown_PersonifyDefault .rcbMoreResults,
+* html .RadComboBoxDropDown_PersonifyDefault .rcbMoreResults a
+{
+	background-image: none;
+}
+
+.RadComboBoxDropDown_PersonifyDefault
+{
+	background: #fff;
+	border-color: #ccc;
+	border-top-color: #83868d;
+}
+
+    .RadComboBoxDropDown_PersonifyDefault .rcbHeader,
+    .RadComboBoxDropDown_PersonifyDefault .rcbFooter {
+        background-color: #f1f2f4;
+    }
+
+.RadComboBoxDropDown_PersonifyDefault .rcbHeader
+{
+	border-bottom-color: #d5d5d5;
+}
+
+.RadComboBoxDropDown_PersonifyDefault .rcbFooter
+{
+	border-top-color: #d5d5d5;
+}
+
+.RadComboBoxDropDown_PersonifyDefault .rcbItem em
+{
+	background: #e5e5e5;
+}
+
+.RadComboBoxDropDown_PersonifyDefault .rcbHovered
+{
+	background: #dfdfdf;
+	color: #333;
+}
+
+.RadComboBoxDropDown_PersonifyDefault .rcbCheckAllItems,
+.RadComboBoxDropDown_PersonifyDefault .rcbCheckAllItemsHovered {
+	color: #676767;
+	background-color: #c5c5c5;
+}
+.RadComboBoxDropDown_PersonifyDefault .rcbCheckAllItemsHovered {
+	color: #000000;
+	background-color: #9e9e9e;
+}
+
+.RadComboBoxDropDown_PersonifyDefault .rcbSeparator
+{
+    color: #fff;
+    background: #8a8a8a;
+}
+
+.RadComboBox_PersonifyDefault .rcbDisabled .rcbInputCell .rcbInput,
+.RadComboBoxDropDown_PersonifyDefault .rcbDisabled
+{
+	color: #999;
+}
+
+.RadComboBox_PersonifyDefault .rcbDisabled td.rcbInputCellLeft { background-position: 0 -66px; }
+.RadComboBox_PersonifyDefault .rcbDisabled td.rcbInputCellRight { background-position: 100% -66px; }
+.RadComboBox_PersonifyDefault .rcbDisabled td.rcbArrowCellLeft { background-position: -126px -88px; }
+.RadComboBox_PersonifyDefault .rcbDisabled td.rcbArrowCellRight { background-position: -108px -88px; }
+.RadComboBox_PersonifyDefault .rcbDisabled .rcbReadOnly td.rcbArrowCellRight { background-position: -110px -88px; }
+.RadComboBox_PersonifyDefault table.rcbDisabled td.rcbArrowCellHidden,
+.RadComboBox_PersonifyDefault .rcbDisabled .rcbReadOnly td.rcbArrowCellHidden { background-position: -123px -88px; }
+.RadComboBox_PersonifyDefault_rtl table.rcbDisabled td.rcbArrowCellHidden,
+.RadComboBox_PersonifyDefault_rtl .rcbDisabled .rcbReadOnly td.rcbArrowCellHidden { background-position: -126px -88px; }
+
+.RadComboBoxDropDown_PersonifyDefault .rcbLoading
+{
+	background: #f0f0f0;
+}
+
+.RadComboBoxDropDown_PersonifyDefault .rcbMoreResults
+{
+	border-top-color: #c6c7d2;
+	background-position: 0 -132px;
+	background-color: #e6e6e6;
+	color: #8a8a8a;
+}
+
+.RadComboBoxDropDown_PersonifyDefault .rcbMoreResults a
+{
+	background-position: -157px -94px;
+}
+
+.RadComboBox_PersonifyDefault .rcbFocused .rcbReadOnly td.rcbInputCellLeft {
+    background-position: 0 0;
+}
+
+}/* the norm */
+#gritter-notice-wrapper {
+	position:fixed;
+	top:20px;
+	left:50%;
+	width:301px;
+	z-index:9999;
+    margin-left: -150px;
+}
+#gritter-notice-wrapper.top-left {
+    left: 20px;
+    right: auto;
+}
+#gritter-notice-wrapper.bottom-right {
+    top: auto;
+    left: auto;
+    bottom: 20px;
+    right: 20px;
+}
+#gritter-notice-wrapper.bottom-left {
+    top: auto;
+    right: auto;
+    bottom: 20px;
+    left: 20px;
+}
+.gritter-item-wrapper {
+	position:relative;
+	margin:0 0 10px 0;
+	background:url('PersonifyScriptResource.axd?s=Personify.WebControls.Base-*-Personify.WebControls.Base.Images.ie-spacer.gif&t=image/636198359573768340&v=gif"'); /* ie7/8 fix */ 
+}
+.gritter-top {
+	background:url('PersonifyScriptResource.axd?s=Personify.WebControls.Base-*-Personify.WebControls.Base.Images.gritter.png&t=image/636198359573768340&v=png') no-repeat left -30px;
+	height:10px;
+}
+.hover .gritter-top {
+	background-position:right -30px;
+}
+.gritter-bottom {
+	background:url('PersonifyScriptResource.axd?s=Personify.WebControls.Base-*-Personify.WebControls.Base.Images.gritter.png&t=image/636198359573768340&v=png') no-repeat left bottom;
+	height:8px;
+	margin:0;
+}
+.hover .gritter-bottom {
+	background-position: bottom right;
+}
+.gritter-item {
+	display:block;
+	background:url('PersonifyScriptResource.axd?s=Personify.WebControls.Base-*-Personify.WebControls.Base.Images.gritter.png&t=image/636198359573768340&v=png') no-repeat left -40px;
+	color:#eee;
+	padding:2px 11px 8px 11px;
+	font-size: 11px;
+	font-family:verdana;
+}
+.hover .gritter-item {
+	background-position:right -40px;
+}
+.gritter-item p {
+	padding:0;
+	margin:0;
+}
+.gritter-close {
+	display:none;
+	position:absolute;
+	top:5px;
+	right:3px;
+	background:url('PersonifyScriptResource.axd?s=Personify.WebControls.Base-*-Personify.WebControls.Base.Images.gritter.png&t=image/636198359573768340&v=png') no-repeat left top;
+	cursor:pointer;
+	width:30px;
+	height:30px;
+}
+.gritter-title {
+	font-size:14px;
+	font-weight:bold;
+	padding:0 0 7px 0;    
+	display:block;
+	text-shadow:1px 1px 0 #000; /* Not supported by IE :( */
+}
+.gritter-image {
+	width:48px;
+	height:48px;
+	float:left;
+}
+.gritter-with-image,
+.gritter-without-image {
+	padding:0 0 5px 0;
+}
+.gritter-with-image {
+	width:220px;
+	float:right;
+}
+/* for the light (white) version of the gritter notice */
+.gritter-light .gritter-item,
+.gritter-light .gritter-bottom,
+.gritter-light .gritter-top,
+.gritter-close {
+    background-image: url('PersonifyScriptResource.axd?s=Personify.WebControls.Base-*-Personify.WebControls.Base.Images.gritter-light.png&t=image/636198359573768340&v=png');
+    color: #222;
+}
+.gritter-light .gritter-title {
+    text-shadow: none;
+}

@@ -1,0 +1,101 @@
+/* @font-face { font-family: 'OpenSansRegular'; src: url("../fonts/OpenSans-Regular-webfont.eot"); src: url("../fonts/OpenSans-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSans-Regular-webfont.woff") format("woff"), url("../fonts/OpenSans-Regular-webfont.ttf") format("truetype"), url("../fonts/OpenSans-Regular-webfont.svg#OpenSansRegular") format("svg"); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: 'OpenSansSemibold'; src: url("../fonts/OpenSans-Semibold-webfont.eot"); src: url("../fonts/OpenSans-Semibold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSans-Semibold-webfont.woff") format("woff"), url("../fonts/OpenSans-Semibold-webfont.ttf") format("truetype"), url("../fonts/OpenSans-Semibold-webfont.svg#OpenSansSemibold") format("svg"); font-weight: normal; font-style: normal; } */
+
+
+
+
+#content { width: 960px; margin: auto; overflow: hidden; clear:both }
+#content.myAccount .main, #content.general .main { background: white url(../images/sub/profileBg.png) repeat-y; }
+div#content.general .productDetail {background-image:none}
+#content.onecolumn .main {background-image:none; background-color:white}
+
+.main h1, .main h2  
+{
+    
+    font-size: 2.25rem;
+    line-height: 1.25;
+    color: #55616D;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    /*
+    color: #e47d37; font-family: Arial,sans-serif; font-weight: normal; 
+    */
+    }
+/* .main h1 { margin: 0 0 44px 20px; font-size: 25px; } */
+.main h1 {font-size: 25px; }
+.main .main h1 {font-size:14px; padding-left:0px; margin-left:0px}
+.main h2  
+{
+
+    color: #e47d37; font-size: 18px; margin-bottom: 17px; 
+   
+    
+    }
+.main p { color: #515151; margin-bottom: 13px; }
+.main {font-size:12px; line-height:16px}
+.main address { font-style: normal; }
+.main .amount { font-size: 1.167em; font-weight: bold; display: block; }
+.main a.viewAll { color: #e47d37; position: absolute; font-size: 1.2em; right: 30px; margin-top: 4px; text-decoration: underline; }
+.main a.viewAll:hover, .main a.viewAll:focus { text-decoration: none; }
+.main a.renew, .main a.payNow, .main a.update { width: 66px; height: 22px; display: block; text-indent: -9999px; background: url(../images/sub/buttons.png) no-repeat; margin: auto; }
+.main a.renew:hover, .main a.renew:focus, .main a.payNow:hover, .main a.payNow:focus, .main a.update:hover, .main a.update:focus { background-position: 100% 0; }
+.main a.payNow { background-position: 0 100%; float: right; }
+.main a.payNow:hover, .main a.payNow:focus { background-position: 100% 100%; }
+.main a.update { background-position: 0 50%; float: right; }
+.main a.update:hover, .main a.update:focus { background-position: 100% 50%; }
+/* .main table { width: 100%; margin-bottom: 48px; } interferes with existing tables */
+.main table.data th, table.data .tmar_demo_DataHeader td, .payOrders th, table.data tr.th td { color: #515151; font-size: 14px; background: #E1E1E1; padding: 10px; border: 1px solid #D7D7D7; }
+.data tbody td { font-size: 12px; padding: 10px; border: 1px solid #F2F2F2; }
+.data tbody td p { font-size: 12px; }
+.data tbody td.button { vertical-align: middle; padding: 10px 0 11px; text-align: center; }
+.data tbody td.even { background: #F7F7F7; }
+.data tbody tr:nth-child(even) td { background: #F7F7F7; }
+.data tbody tr:nth-child(odd) { background: #FFF; }
+.data tbody a { text-decoration: underline; color: #515151; }
+.data tbody a.title { font-weight: bold; display: block; margin-bottom: 9px; }
+.data tbody a:hover, .main tbody a:focus { text-decoration: none; }
+
+.subCol h2 { margin-bottom: 11px; }
+.subCol address { padding-top: 10px; }
+.subCol address p { line-height: 1.5; margin-bottom: 17px; }
+.subCol .portlet { border-bottom: 1px solid #E7E7E7; width: 219px; padding-bottom: 24px; margin-bottom: 22px; }
+.subCol .portlet.last { border: none; }
+.subCol .portlet a { color: #515151; text-decoration: underline; }
+.subCol .portlet a:hover, .subCol .portlet a:focus { text-decoration: none; }
+.subCol .date { display: inline-block; }
+.subCol .callout { background: #366188 url(../images/sub/callout.png) no-repeat; margin-top: -14px; padding: 32px 0 40px 25px; }
+.subCol .callout h2 { color: #FFF; font-size: 2.5em; margin-bottom: 19px; }
+.subCol .callout p, .subCol .callout a { color: #FFF; margin-left: 1px; margin-bottom: 21px; }
+.subCol .callout a { font-size: 1.2em; text-decoration: underline; }
+.subCol .callout a:hover, .subCol .callout a:focus { text-decoration: none; }
+
+.twoCol { width: 720px; float: right; }
+.twoCol .center { float: left; margin-left: 30px; width: 412px; position: relative; }
+.general .twoCol .center { float: none; margin-left: 30px; width: auto; margin-right:20px }
+.twoCol .subCol { float: left; width: 240px; margin-left: 30px; }
+
+
+.breadCrumbs { margin: 25px 0 26px 20px; }
+.breadCrumbs li { color: #515151; display: inline; margin-right: 2px; }
+.breadCrumbs li a { color: #515151; }
+
+.navCol { width: 240px; float: left; }
+.navCol h2 { background: none no-repeat; height: 30px; padding: 13px 10px 0 19px; color: #FFF; }
+.navCol h3 { font-size: 1.6em; color: #e47d37; font-family: Arial,sans-serif; font-weight: normal; padding-left: 19px; margin-bottom: 16px; }
+.navCol h3 a { color: #e47d37; }
+.navCol .RadPanelBar ul { margin-bottom: 25px; }
+.navCol .RadPanelBar li { padding: 0 0 0 22px; margin-bottom: 9px; }
+.navCol .RadPanelBar li li { margin-bottom: 0px; }
+.navCol .RadPanelBar li a { display: block; color: #515151; font-size: 1.3em; background: url(../images/sub/subNavLi.png) no-repeat 0 50%; padding-left: 20px; letter-spacing: 0.03em; font-weight: bold; }
+.navCol .RadPanelBar li a.current { text-decoration: underline; }
+.navCol #leftMenu .RadPanelBar li ul {  border-top: 0px solid #F1F1F1; border-bottom: 0px solid #FFF; margin: 14px 0 0px 0px; padding-left:0px }
+.navCol .RadPanelBar li li { padding-left: 44px; }
+.navCol .RadPanelBar li li a { letter-spacing: 0; font-weight: normal; color: #838383; }
+.navCol .RadPanelBar li li.first, .navCol li li:first-child { border-top: 1px solid #D8D8D8; padding-top: 14px; }
+.navCol .RadPanelBar li li.last, .navCol li li:last-child { border-bottom: 1px solid #D8D8D8; padding-bottom: 14px; margin-bottom: 0; }
+
+.clearFix:after, .main:after, .subCol .portlet:after { content: ""; display: block; height: 0; clear: both; }
+

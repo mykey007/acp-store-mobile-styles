@@ -1,0 +1,68 @@
+/**********DNN WebControls Container - Start **********/
+
+.EditContainerSettingsTable
+{
+                padding: 2px;
+}
+
+.EditContainerControlNameTable
+{
+                padding: 2px;
+}
+
+div .RadGrid .rgGroupHeader td p
+	{
+		display: inline-block;
+	}
+	
+	.ContainerAssemblySelectDiv 
+	{
+	    padding: 15px;
+	    
+	}
+	
+	.ContainerLabel 
+	{
+	    padding-left: 5px;    
+	    padding-right: 10px;    
+	    padding-bottom: 1px;
+	    padding-top: 1px;
+	    font-weight: bold;  
+	}
+	
+	.ContainerNotSetLabel 
+	{
+	    color:gray
+	}
+	
+	.ContainerSearchButton {
+	    float: right;
+	}
+	
+	.ContainerSettingRow
+	{
+		border-bottom: lightgray solid 1px;
+		width:100%;
+	}
+
+	.NameTD, .ValeTD, .EditTD
+	{
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}	
+	.rfdCheckboxChecked
+	{
+	    position: absolute;
+        top: -9999px;
+        left: -9999px;
+	}
+	.rfdCheckboxUnchecked
+	{
+	    position: absolute;
+        top: -9999px;
+        left: -9999px;
+	}
+	
+
+
+/**********DNN WebControls Container - End **********/

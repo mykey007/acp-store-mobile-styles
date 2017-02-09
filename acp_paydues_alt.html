@@ -1,0 +1,1274 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html class="mac firefox firefox5 gecko gecko5" lang="en-US"><head id="Head">
+<!--************************************************************************************-->
+<!-- DNN Platform - http://www.dnnsoftware.com                                        -->
+<!-- Copyright (c) 2002-2014                                                          -->
+<!-- by DNN Corporation                                                               -->
+<!--**********************************************************************************-->
+<title>
+	ACP Store &gt; ACP Pay Dues
+</title><meta content="text/html; charset=UTF-8" http-equiv="Content-Type"><meta content="text/javascript" http-equiv="Content-Script-Type"><meta content="text/css" http-equiv="Content-Style-Type"><meta id="MetaDescription" name="DESCRIPTION" content="ACP Pay Dues"><meta id="MetaKeywords" name="KEYWORDS" content="ACP Store,DotNetNuke,DNN"><meta id="MetaCopyright" name="COPYRIGHT" content="Powered by Personify eBusiness"><meta id="MetaGenerator" name="GENERATOR" content="DotNetNuke "><meta id="MetaAuthor" name="AUTHOR" content="ACP Store"><meta name="RESOURCE-TYPE" content="DOCUMENT"><meta name="DISTRIBUTION" content="GLOBAL"><meta id="MetaRobots" name="ROBOTS" content="INDEX, FOLLOW"><meta name="REVISIT-AFTER" content="1 DAYS"><meta name="RATING" content="GENERAL"><meta http-equiv="PAGE-ENTER" content="RevealTrans(Duration=0,Transition=1)"><style id="StylePlaceholder" type="text/css"></style><link href="acp_paydues_files/default.css" type="text/css" rel="stylesheet"><link href="acp_paydues_files/module_002.css" type="text/css" rel="stylesheet"><link href="acp_paydues_files/module.css" type="text/css" rel="stylesheet"><link href="acp_paydues_files/skin.css" type="text/css" rel="stylesheet"><link href="acp_paydues_files/portal.css" type="text/css" rel="stylesheet"><script type="text/javascript" async="" src="acp_paydues_files/elqCfg.js"></script><script type="text/javascript" async="" src="acp_paydues_files/linkid.js"></script><script async="" src="acp_paydues_files/analytics.js"></script><script src="acp_paydues_files/jquery.js" type="text/javascript"></script><script src="acp_paydues_files/jquery-migrate.js" type="text/javascript"></script><script src="acp_paydues_files/jquery-ui.js" type="text/javascript"></script><!--[if LT IE 8]><link id="IE6Minus" rel="stylesheet" type="text/css" href="/eBizATPRO/Portals/_default/Skins/PersonifySkin/css/ie6skin.css" /><![endif]--><link href="acp_paydues_files/Telerik.css" type="text/css" rel="stylesheet"><script>try {  for(var lastpass_iter=0; lastpass_iter < document.forms.length; lastpass_iter++){    var lastpass_f = document.forms[lastpass_iter];    if(typeof(lastpass_f.lpsubmitorig)=="undefined"){      if (typeof(lastpass_f.submit) == "function") {        lastpass_f.lpsubmitorig = lastpass_f.submit;        lastpass_f.submit = function(){          var form = this;          try {            if (document.documentElement && 'createEvent' in document)            {              var forms = document.getElementsByTagName('form');              for (var i=0 ; i<forms.length ; ++i)                if (forms[i]==form)                {                  var element = document.createElement('lpformsubmitdataelement');                  element.setAttribute('formnum',i);                  element.setAttribute('from','submithook');                  document.documentElement.appendChild(element);                  var evt = document.createEvent('Events');                  evt.initEvent('lpformsubmit',true,false);                  element.dispatchEvent(evt);                  break;                }            }          } catch (e) {}          try {            form.lpsubmitorig();          } catch (e) {}        }      }    }  }} catch (e) {}</script></head>
+<body id="Body" class="dnnEditState dnnEditState loggedin firefox5Mac">
+    
+    <form method="post" action="/ebizatpro/ACPPayDues.aspx" id="Form" enctype="multipart/form-data">
+<div class="aspNetHidden">
+<input name="StylesheetManager_TSSM" id="StylesheetManager_TSSM" value=";Telerik.Web.UI, Version=2013.2.717.40, Culture=neutral, PublicKeyToken=121fae78165ba3d4:en-US:0507d587-20ad-4e22-b866-76bd3eaee2df:a3b7d93f:45085116" type="hidden">
+<input name="ScriptManager_TSM" id="ScriptManager_TSM" value=";;System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35:en:ef65094e-0933-42b4-9c9b-32ad33f13ebc:ea597d4b:b25378d2;Telerik.Web.UI, Version=2013.2.717.40, Culture=neutral, PublicKeyToken=121fae78165ba3d4:en:0507d587-20ad-4e22-b866-76bd3eaee2df:16e4e7cd:f7645509:24ee1bba:6a6d718d:ed16cbdc" type="hidden">
+<input name="__EVENTTARGET" id="__EVENTTARGET" value="" type="hidden">
+<input name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" type="hidden">
+<input name="__VIEWSTATE" id="__VIEWSTATE" value="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" type="hidden">
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['Form'];
+if (!theForm) {
+    theForm = document.Form;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="acp_paydues_files/WebResource_002.js" type="text/javascript"></script>
+
+
+<script src="acp_paydues_files/WebResource.js" type="text/javascript"></script><script type="text/javascript" src="acp_paydues_files/CreditCard.js"></script>
+<script src="acp_paydues_files/PersonifyScriptResource.js" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+jQuery(function() { manager.createPropBag('PropBagInputId');});//]]>
+</script>
+
+<script src="acp_paydues_files/Telerik.js" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="3E2A713E" type="hidden">
+	<input name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" type="hidden">
+	<input name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="Qup1mFDxNOF66haYnY6DNGEmLmMQdrMovcc1X47jhH4eJXAxynAlBDeOFuOMMEFKqJyPpY0N+eJkcrZ44RgeKpddiK7nzpkqA6xK/y5bqv09SvsPOe3KcllJ6JyZvPuTWhWqfGR8i/SIRzJrjNSBBtWp4Bm5T+cJ9sBB9hJVXmHNZOD0/kt23s1E/n0CiHZSqo7DHOBSr5yKTK96YHcTynqPf2svmzxgKM4WF4lMyg3KGEVU7srsbn3XMYfA8BI5Lr+QTGro+QDN61Eg7CQQ8mDniZQwC02cEcOQPJ0ZIX1vtioBvGaOqWhJ9vQ/BRCccGEYytG6gf9gJoN8VB5kbzFjMXqizEMFJuaz4LKNaJ161bs6fQXsOXe3vvZhXzfB5RPAczQ8cxpShrDi4qeAoEjxguc0bsVOVj855XnTXCQEqBGtdc1MlObMy1JkFZODrXbl5G4zHErXWMqwURi5KB4AGJ5Q3XYmcomqwIRZ0M8spwIl4ksKMCvHnbjMhaISvBV27nlpHxIT0qN9Wh+qAahq0WSOmFjrArrL1bXvEXcQdU5PgPgukGP11zYwws/0BpBf4TUDDEBHkN9fdV5SHbrgP7GTcfv7f0J5clWho0bLV1XJkTlQNsDFHcQwi9iotHb2kTlgr9PE0A3RANO7q4m+3O/w+4VISEhevmCqG11Hquy9EQDhYzdYks3z3BVpPdgOxHRddDsuVaN5kUnXSB3+jbOiTZVrADtfbATTMIqWRjKb1841W1AlrJ1OnDqyh+6EpMMDxbrpqZ2QiIrWflLYvLQdzN7b9bbf4i3sAqZTBMk+RwAdiQFtdOBOfw3n/6rweFKAnaOVaAAS+ZarvH0/ybzdnqvsjB+HrTR5JyWoGQhChLcONtp2NQhT6mepnFsgD1JaUzECHrLR+s+4Ep46hy1Q2eWq9JBKmhyfEPbHaYOyY66BzjtReHFApZOUvdn+WcIxPp2/AnLgqxXRV7h2qqiDQkawTMjCAgPMwyajsJYhxae4KdZ6KZN61yEdhSVKAQ==" type="hidden">
+</div><script src="acp_paydues_files/dnn.js" type="text/javascript"></script><script src="acp_paydues_files/dnn_002.js" type="text/javascript"></script><script src="acp_paydues_files/dnn_003.js" type="text/javascript"></script><script src="acp_paydues_files/dnncore.js" type="text/javascript"></script><script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'Form', ['tManagerControlPanelIdPanel','','tRadAjaxManagerIdSU',''], ['RadAjaxManagerId','','dnn$ctr2374$DNNWebControlContainer$ctl00',''], [], 90, '');
+//]]>
+</script>
+
+        
+        
+        
+
+<link href="acp_paydues_files/shared.css" rel="stylesheet" media="screen">
+<link href="acp_paydues_files/sub.css" rel="stylesheet" media="screen">
+
+
+
+<div id="wrapper" class="mobile-fullwidth ACP Pay Dues page1483">
+
+<div id="header" class="mobile-way" role="banner">
+    <a href="https://store.acponline.org/ebizatpro/default.aspx" class="mobile-logo-url"><span class="mobile-logo"></span></a>			 
+   <div class="Breadcrumb-top desktop-hide">
+
+    </div>
+    <a href="https://store.acponline.org/ebizatpro/ShoppingCart.aspx" class="cart-count-badge-link desktop-hide"><div class="cart-count-badge"><span class="cart-count-number">(0)</span></div></a>
+        
+
+<!-- Commented out Patrick W. https warning -->
+
+
+
+
+<script type="text/javascript">
+
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+  m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-5664001-1', 'auto');
+    ga('require', 'linkid', 'linkid.js');
+    ga('send', 'pageview');
+
+</script>
+
+
+
+
+<!-- end Free Shipping Header -->
+
+
+<a href="https://www.acponline.org/" class="logo">American College of Physicians</a>
+
+  
+ 
+            
+            
+            <!-- secondary -->
+
+            <div class="action">
+
+ 
+
+
+
+
+
+          
+
+
+<span class="welcome">
+    
+          
+    
+    Welcome,
+Dan Hoffmanntest </span> 
+    
+    
+
+  
+    
+
+ <a class="myDues" href="https://store.acponline.org/ebizatpro/ACPPayDues.aspx">Pay Dues</a> 
+
+    
+
+
+                    
+
+
+
+
+<script type="text/javascript">
+    $("body").addClass("loggedin");
+</script>
+<!--<a class="myAccount" href="https://store-train.acponline.org/eBizDEV75/MyAccount.aspx">My Account</a> -->
+
+<a class="myAccount" href="https://store.acponline.org/ebizatpro/MyAccount.aspx">My Account</a> 
+
+ 
+
+
+
+<a class="cart" href="https://store.acponline.org/ebizatpro/ShoppingCart.aspx"><span class="showItems"><p id="dnn_ctr2374_DNNWebControlContainer_ctl00_cartCountLabel" class="cartCountLabel">0</p></span></a> 
+<span style="display:none">(<span class="showAmount"></span>)</span> <a id="dnn_dnnUSER_registerLink" title="Visit My Profile" class="user" href="https://store.acponline.org/ebizatpro/UserProfile/tabid/164/userId/284688/Default.aspx">Dan Hoffmanntest</a>
+<!--close registerGroup--> <a id="dnn_dnnLOGIN_loginLink" title="Logout" class="logInOut" href="https://store.acponline.org/ebizatpro/ACPPayDues/tabid/1483/ctl/Logoff/Default.aspx">Logout</a>
+<!--close loginGroup--> 
+ <div id="cartPreview" style="">
+ 
+ <a class="closeCart">Close</a>
+
+ <div class="loadCart"></div>
+ </div>
+ 						
+</div> <!-- end action -->    
+            
+			
+            
+			<div id="dnn_TopSearch" class="TopSearch DNNEmptyPane"></div>
+                
+
+            <div class="search" role="search">
+                
+     		
+            
+            </div>
+   
+   
+  
+            
+            
+            <!-- search -->
+			
+
+
+
+
+        
+        
+</div><!-- header -->
+        
+
+
+
+ 
+
+ 
+ 
+   <div id="content" class="onecolumn general mc mobile-way">
+     
+   <div class="main mobile-way">
+				<div class="fullWidth">
+				                                           
+				<ul class="breadCrumbs mobile-way">
+					<li><a href="https://store.acponline.org/ebizatpro/home.aspx">ACP STore</a> &gt;</li>
+					<li><span id="dnn_dnnBREADCRUMB_lblBreadCrumb"><a href="https://store.acponline.org/ebizatpro/ACPPayDues.aspx" class="Breadcrumb">ACP Pay Dues</a></span>
+</li>
+				</ul>
+
+				
+				<h1>
+				
+                </h1>
+					<div class="center detail-mobile-way">
+						 <div id="dnn_TopPane" class="TopPane"><div class="DnnModule DnnModule-ACP-OnlineDues DnnModule-2724"><a name="2724"></a>
+
+<div class="blankContainerSize">
+<div class="containerSolpart"></div>
+<h2 class="moduleTitle"><span id="dnn_ctr2724_dnnTITLE_titleLabel" class="Head"> </span>
+
+
+</h2>
+                      
+<div id="dnn_ctr2724_ContentPane" class="blankContentPane">
+
+<div class="btns">   
+            
+            
+            
+            
+</div>
+
+<!-- Start_Module_2724 --><div id="dnn_ctr2724_ModuleContent" class="DNNModuleContent ModACPOnlineDuesC">
+	<span id="dnn_ctr2724_ACP_OnlineDues_oMessageControl"><hr id="dnn_ctr2724_ACP_OnlineDues_oMessageControl_aMessageHRdnn_ctr2724_ACP_OnlineDues_oMessageControl" class="containermaster_gray"></span>
+
+  
+    <script language="Javascript">
+
+
+					function detect(theElement)
+					{
+					if (radio[0].checked)
+					alert("You're between 1 and 10 years old.")
+					else if (radio[1].checked)
+					alert("You're 11 years old.")
+					else
+					alert("You're between 12 and 120 years old.")
+					}
+
+
+					function checkSelectAll(theElement) {
+					z=0;
+					theForm = theElement.form;
+					while (z != theForm.length)
+					{
+					if(theForm[z].type == 'checkbox')
+					{
+					if (theForm[z].name.indexOf('OrderCheckBoxSelectAll') != -1)
+					{
+					if (theForm[z].checked == true) theForm[z].checked = false;
+					}
+					}
+					z++;
+					}
+					}
+
+
+					function hideID(link, id) {
+					//safe function to hide an element with a specified id
+					if (document.getElementById) { // DOM3 = IE5, NS6
+					document.getElementById(id).style.display = 'none';
+					}
+					else {
+					if (document.layers) { // Netscape 4
+					document.id.display = 'none';
+					}
+					else { // IE 4
+					document.all.id.style.display = 'none';
+					}
+					}
+					}
+
+					function showID(id) {
+					//safe function to show an element with a specified id
+
+					if (document.getElementById) { // DOM3 = IE5, NS6
+					document.getElementById(id).style.display = 'inline';
+					}
+					else {
+					if (document.layers) { // Netscape 4
+					document.id.display = 'inline';
+					}
+					else { // IE 4
+					document.all.id.style.display = 'inline';
+					}
+					}
+					}
+
+
+					function showhide(link, id) {
+					//safe function to show an element with a specified id
+
+					if (document.getElementById) { // DOM3 = IE5, NS6
+					if (document.getElementById(id).style.display == 'inline') {
+					document.getElementById(id).style.display = 'none';
+					link.innerHTML = '+ See Details';
+
+					}
+					else {
+					document.getElementById(id).style.display = 'inline';
+					document.getElementById(id).style.visibility = 	'visible';
+
+					link.innerHTML = '- See Details';
+					}
+					}
+
+					}
+
+					function changerate(xtotal, id) {
+					//safe function to show an element with a specified id
+					alert("1");
+					xtotal = 100;
+					document.getElementById(Total1).innerHTML =	(parseFloat((315*100)/100)).toFixed(2);
+					//document.getElementById(Total1).innerHTML =	(parseFloat(xtotal)).toFixed(2);;
+
+					}
+
+					////////////
+
+					function calculatetotal1(object)
+					{
+					var rdolist = document.getElementsByName("rblstChpvol1");
+
+					if (rdolist[1].checked)
+					txtMessage.value = "First";
+					if (rdolist[2].checked)
+					txtMessage.value = "Second";
+					if (rdolist[3].checked)
+					txtMessage.value = "Third";
+
+					alert(txtMessage);
+
+					document.getElementById(Total1).innerHTML =	(parseFloat((315*100)/100)).toFixed(2);
+					}
+
+					function settotal(object)
+					{
+					alert(object.value);
+
+					document.getElementById(Total1).innerHTML =	(parseFloat((315*100)/100)).toFixed(2);
+					}
+					</script>
+  
+
+<table class="tmar_DataTable2" width="100%" border="0">
+  <tbody><tr>
+    <td class="SECTION1">
+      <span id="dnn_ctr2724_ACP_OnlineDues_lblDuesOnlineHeaderTitle">Dues Invoice</span>
+    </td>
+  </tr>
+</tbody></table>
+<table class="tmar_DataTable" width="100%" border="0">
+  <tbody><tr valign="top">
+    <td width="25%">
+      <span id="dnn_ctr2724_ACP_OnlineDues_AddressLabel">Dan Hoffmanntest, MD<br>716 Kinght Road<br>Blue Bell PA 19422<br>USA</span>
+    </td>
+    <td width="25%">
+      <span id="dnn_ctr2724_ACP_OnlineDues_CustomerIDCaption">Customer ID:</span>
+      <span id="dnn_ctr2724_ACP_OnlineDues_CustomerID">02227263</span>
+      <br>
+      <span id="dnn_ctr2724_ACP_OnlineDues_PaymentDueDateCaption">Payment Due Date: </span>
+      <span id="dnn_ctr2724_ACP_OnlineDues_PaymentDueDate">Past Due</span>
+      <br>
+      <span id="dnn_ctr2724_ACP_OnlineDues_MemberClassCaption">Current Member Class:</span>
+      <span id="dnn_ctr2724_ACP_OnlineDues_MemberClass">Domestic Member</span>
+      <br>
+      <span id="dnn_ctr2724_ACP_OnlineDues_ChapterAffiliationCaption">Chapter Affiliation:</span>
+      <span id="dnn_ctr2724_ACP_OnlineDues_ChapterAffiliation">Pennsylvania</span>
+    </td>
+    <td width="25%">
+      <span id="dnn_ctr2724_ACP_OnlineDues_PaymentApplied">This statement reflects payments applied through today.</span>
+    </td>
+  </tr>
+</tbody></table>
+<div id="dnn_ctr2724_ACP_OnlineDues_toppanel">
+		
+  <table class="tmar_DataTable2" width="100%" border="0">
+    <tbody><tr width="100%" class="tmar_DataHeader1">
+      <td>
+        <span class="tmar_TextLabelBold">
+          <span id="dnn_ctr2724_ACP_OnlineDues_NotesCaption"></span>
+        </span>
+        <span id="dnn_ctr2724_ACP_OnlineDues_Notes">If your address has been changed, you may change your address online upon completion of the dues payment process. Thank you.</span>
+      </td>
+    </tr>
+  </tbody></table>&nbsp;&nbsp;&nbsp;&nbsp;<table width="100%"><tbody><tr width="100%"><td class="SECTION" width="100%"><span>Statement Information</span></td></tr></tbody></table><table class="tmar_PlainTable" width="100%" cellspacing="10" cellpadding="10" border="0"><tbody><tr><td><span class="tmar_TextLabelBold"><a id="dnn_ctr2724_ACP_OnlineDues_MBRDuesFeesLink" class="MaxBadges" href="https://www.acponline.org/membership/additional-details-about-acp-membership-dues-and-fees" target="_blank">Membership Dues and Fees</a>&nbsp;-&nbsp;<a id="dnn_ctr2724_ACP_OnlineDues_BenefitLink" class="MaxBadges" href="http://www.acponline.org/membership/benefits/" target="_blank">Benefit</a>&nbsp;-&nbsp;<a id="dnn_ctr2724_ACP_OnlineDues_BillLink" class="MaxBadges" href="https://www.acponline.org/membership/understanding-your-bill" target="_blank">Understanding your Bill</a><br></span></td></tr><input id="selectedaltrate" value="0" type="hidden"><input id="HiddenPrice0" value="315" type="hidden"><input id="HiddenPrice1" value="undefined" type="hidden"><input id="HiddenPrice2" value="" type="hidden"><input id="HiddenPrice3" value="undefined" type="hidden"><input id="HiddenPrice4" value="undefined" type="hidden"><input id="AllTotal" name="AllTotal" value="315.00" type="hidden"><input id="curTotal" name="curTotal" value="315" type="hidden"><input id="newTotal" name="newTotal" value="315.00" type="hidden"><input id="FundExists" name="FundExists" value="false" type="hidden"><input id="ChapvolExists" name="ChapvolExists" value="true" type="hidden"><input id="CurFundAmount" name="CurFundAmount" value="" type="hidden"><input id="CurChapvolAmount" name="CurChapvolAmount" value="" type="hidden"><input id="Suggested" name="Suggested" value="SUGGESTED_PLUS_AMTS" type="hidden"><input id="fundsuggested" name="fundsuggested" value="" type="hidden"><tr><td></td></tr><tr class="duesline"><td class="DuesIndent" width="80%">ACP - Domestic Member - 7/1/2016 to 6/30/2017</td><td width="20%" align="right"><span class="tmar_TextLabelBold" id="NAtlAmount">$315.00</span></td></tr><tr><td><a id="dnn_ctr2724_ACP_OnlineDues_FinancialInformationLink" class="MaxBadges">Additional Financial Information</a></td></tr><tr><td>&nbsp;</td></tr><tr class="duesline" width="100%"><td width="80%">ACP - Pennsylvania Voluntary Contribution 01-Jul-2016 to 30-Jun-2017&nbsp;&nbsp;</td><td width="20%"><span class="tmar_TextLabelBold">&nbsp;</span></td></tr><tr><td><a id="dnn_ctr2724_ACP_OnlineDues_FinancialInformationLink1" class="MaxBadges">Additional Financial Information</a></td></tr><tr class="duesline"><td align="left"><table class="leftalign" width="100%" border="0"><tbody><tr><td width="60%"></td><td><table id="dnn_ctr2724_ACP_OnlineDues_rblstChpvol2" class="leftalign">
+			<tbody><tr>
+				<td><span class="SubRadio"><input id="dnn_ctr2724_ACP_OnlineDues_rblstChpvol2_0" name="SubRadiodnn$ctr2724$ACP_OnlineDues$rblstChpvol2" value="" onclick="javascript:  if (this.checked == true) document.getElementById('HiddenPrice4').value = this.value; if (this.checked == true) document.getElementById('testing2').value = this.value; CalculateTotal(4, 'Total1');" style="display: none;" type="radio"><label for="dnn_ctr2724_ACP_OnlineDues_rblstChpvol2_0">I prefer to contribute</label></span></td>
+			</tr><tr>
+				<td><span class="SubRadio"><input id="dnn_ctr2724_ACP_OnlineDues_rblstChpvol2_1" name="SubRadiodnn$ctr2724$ACP_OnlineDues$rblstChpvol2" value="15" onclick="javascript: if (this.checked == true) document.getElementById('HiddenPrice4').value = this.value; if (this.checked == true) document.getElementById('testing2').value = this.value; CalculateTotal(4, 'Total1');" type="radio"><label for="dnn_ctr2724_ACP_OnlineDues_rblstChpvol2_1">$15</label><span class="SubRadio"><input id="dnn_ctr2724_ACP_OnlineDues_rblstChpvol2_2" name="SubRadiodnn$ctr2724$ACP_OnlineDues$rblstChpvol2" value="25" onclick="javascript: if (this.checked == true) document.getElementById('HiddenPrice4').value = this.value; if (this.checked == true) document.getElementById('testing2').value = this.value; CalculateTotal(4, 'Total1');" type="radio"><label for="dnn_ctr2724_ACP_OnlineDues_rblstChpvol2_2">$25</label></span><span class="SubRadio"><input id="dnn_ctr2724_ACP_OnlineDues_rblstChpvol2_3" name="SubRadiodnn$ctr2724$ACP_OnlineDues$rblstChpvol2" value="50" onclick="javascript: if (this.checked == true) document.getElementById('HiddenPrice4').value = this.value; if (this.checked == true) document.getElementById('testing2').value = this.value; CalculateTotal(4, 'Total1');" type="radio"><label for="dnn_ctr2724_ACP_OnlineDues_rblstChpvol2_3">$50</label></span></span></td>
+			</tr><tr>
+				<td><span class="SubRadio"><input id="dnn_ctr2724_ACP_OnlineDues_rblstChpvol2_4" name="SubRadiodnn$ctr2724$ACP_OnlineDues$rblstChpvol2" value="" onclick="javascript:  if (this.checked == true) document.getElementById('HiddenPrice4').value = this.value; if (this.checked == true) document.getElementById('testing2').value = this.value; CalculateTotal(4, 'Total1');" type="radio"><label for="dnn_ctr2724_ACP_OnlineDues_rblstChpvol2_4">Other</label></span></td>
+			</tr><tr>
+				<td><span class="SubRadio"><input id="dnn_ctr2724_ACP_OnlineDues_rblstChpvol2_5" name="SubRadiodnn$ctr2724$ACP_OnlineDues$rblstChpvol2" value="0.00" onclick="javascript: if (this.checked == true) document.getElementById('HiddenPrice4').value = this.value; if (this.checked == true) document.getElementById('testing2').value = this.value; CalculateTotal(4, 'Total1');" type="radio"><label for="dnn_ctr2724_ACP_OnlineDues_rblstChpvol2_5">I do not wish to pay the voluntary Contribution</label></span></td>
+			</tr>
+		</tbody></table></td></tr></tbody></table></td><td align="left"><label>$ </label><input style="width: 100px" id="testing2" name="testing2" onblur="javascript: document.getElementById('HiddenPrice4').value = this.value; CalculateTotal(4, 'Total1');" type="textbox"></td></tr><tr><td>&nbsp;</td></tr><tr class="payments"><td width="80%">Payments and Credits</td><td width="20%" align="right"><span class="tmar_TextLabelBold" id="Creditsnpayments">$0.00</span></td></tr><tr><td colspan="2"></td></tr><tr><td>&nbsp;&nbsp;</td></tr><tr class="duesline"><td width="80%"><span class="total">Total</span></td><td width="20%" align="right"><span id="Total1" class="total">$315.00</span></td></tr></tbody></table><table id="dnn_ctr2724_ACP_OnlineDues_tablePublAllocation" width="100%">
+			<tbody><tr>
+				<td>&nbsp;</td>
+			</tr>
+			<tr width="100%">
+				<td class="SECTION" colspan="2" width="100%">
+                Publication Allocation
+              </td>
+			</tr>
+			<tr class="duesline">
+				<td class="allocation" width="25%" align="left">
+										Annals of Internal Medicine:
+										&nbsp;$40.00</td>
+				<td class="allocation" width="25%" align="left">
+										ACP Internist:
+										&nbsp;$10.00</td>
+			</tr>
+		</tbody></table>
+		<table id="dnn_ctr2724_ACP_OnlineDues_tableDuesAllocation" width="100%">
+			<tbody><tr>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td id="dnn_ctr2724_ACP_OnlineDues_DuesAllocation" class="SECTION">
+								Dues Allocation
+							</td>
+			</tr>
+			<tr>
+				<td class="DuesAllocationText" width="100%"><br> For the period
+                      7/1/2016 -
+                      6/30/2017
+                      your dues are being allocated to several separate 
+and distinct entities:
+                      $214.79
+                      for ACP and
+                      $20.21
+                      for ACP Services and
+                      $80.00
+                      to your Chapter.  Dues are not deductible as a 
+charitable contribution for federal income tax purposes, but a portion 
+may be deductible as a business expense.  It is estimated that
+                      90%
+                      ($18.19)
+                      of your
+                      2016-17
+                      ACP Services dues is not deductible because of ACP
+ Services’ lobbying activities on behalf of its members. <br></td>
+			</tr>
+			<tr>
+				<td><br>Of the $80 PA chapter dues, $24 of your chapter dues is 
+collected on behalf of the PA Chapter of ACP Services.  ACP Services 
+chapter dues may be deductible as professional or business expenses to 
+the extent allowable by law.  However 25.83% ($6.20) is allocated to 
+lobbying activities and is therefore not deductible for federal income 
+tax purposes.</td>
+			</tr>
+		</tbody></table>
+		<table width="100%"><tbody><tr><td><span color="white">.</span></td></tr></tbody></table><table id="dnn_ctr2724_ACP_OnlineDues_tableVoluntaryContribution" width="100%">
+			<tbody><tr>
+				<td>&nbsp;</td>
+			</tr>
+			<tr width="100%">
+				<td class="SECTION" width="100%">
+                  Voluntary Contribution
+                </td>
+			</tr>
+			<tr>
+				<td><br><p> American College of Physicians (ACP) members may elect 
+to make a charitable contribution in support of the Chapter's three (3) 
+annual medical student and resident research poster/abstract 
+competitions. Each year, nearly 500 research abstracts are submitted to 
+the Western, Eastern, and Southeastern regions for competition 
+consideration.</p>
+<p> As the Pennsylvania chapter's agent for this solicitation, The 
+American College of Physicians (ACP) is a 501(c)(3) organization. ACP is
+ located at 190 North Independence Mall West, Philadelphia, Pennsylvania
+ 19106-1572. (Phone: 215-351-2400). A full description of ACP and its 
+activities, as well as a copy of ACP’s audited financial statement for 
+the most recently completed fiscal year, will be provided upon request. 
+None of your contribution is used to offset the expenses of this 
+solicitation. </p>
+<p> To review your state tax disclosures for charitable contributions, please visit <a href="https://www.acponline.org/statedisclosures" target="_blank">www.acponline.org/statedisclosures</a></p></td>
+			</tr>
+			<tr>
+				<td><font color="white">.</font></td>
+			</tr>
+		</tbody></table>
+
+	</div>
+<div id="dnn_ctr2724_ACP_OnlineDues_balancepanel" style="display:none">
+		
+  <table>
+    <tbody><tr>
+      <td>
+								Total Balance:
+								<span id="Total" class="tmar_TextLabelBold">$315.00</span></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+  </tbody></table>
+
+	</div>
+<div id="dnn_ctr2724_ACP_OnlineDues_CustomerServiceMessage" style="display:none">
+		
+  <table width="100%" border="0">
+    <tbody><tr>
+      <td>
+        <span class="tmar_TextLabelBold">
+												To request refund, please <a href="#" id="requestrefund" onclick="javascript:requestrefund(this);"> click here</a></span>
+      </td>
+    </tr>
+  </tbody></table>
+
+	</div>
+<div id="dnn_ctr2724_ACP_OnlineDues_CustomerServiceText" style="display:none">
+		
+  <table width="100%" border="0">
+    <tbody><tr width="100%">
+      <td width="25%" valign="top">
+								Enter a message for Customer Service and click the 'Continue' button:
+							</td>
+      <td width="75%">
+        <textarea name="dnn$ctr2724$ACP_OnlineDues$CustMessge" rows="4" cols="20" id="dnn_ctr2724_ACP_OnlineDues_CustMessge" style="width:400px;"></textarea>
+      </td>
+    </tr>
+  </tbody></table>
+
+	</div>
+<div id="dnn_ctr2724_ACP_OnlineDues_customerservicepanel" style="display:none">
+		
+  <table>
+    <tbody><tr>
+      <td>
+    </td></tr>
+  </tbody></table>
+
+	</div>
+
+
+<div id="dnn_ctr2724_ACP_OnlineDues_RadMultiPage1" class="multiPage">
+		<!-- 2013.2.717.40 --><div id="dnn_ctr2724_ACP_OnlineDues_RadPageView1">
+			
+        <div id="dnn_ctr2724_ACP_OnlineDues_CCpanel" style="visibility:hidden; display:none">
+				
+  <table width="100%" border="0">
+    <tbody><tr width="100%">
+      <td class="SECTION" width="100%">
+        <span id="dnn_ctr2724_ACP_OnlineDues_lblPaymentHeader">Payment Information</span>
+      </td>
+    </tr>
+  </tbody></table>
+  <table class="duespayment" width="100%" cellspacing="10" cellpadding="10">
+    <tbody><tr>
+      <td colspan="2">
+    </td></tr>
+    <tr>
+      <td width="200">
+        <span id="dnn_ctr2724_ACP_OnlineDues_lblCCType" class="tmar_textlabelrequired">Card Type</span>
+      </td>
+      <td>
+        <select name="dnn$ctr2724$ACP_OnlineDues$ddlCCType_2724" id="dnn_ctr2724_ACP_OnlineDues_ddlCCType_2724" style="width:200px;">
+					<option value="" selected="selected"></option>
+					<option value="WA">American Express</option>
+					<option value="WD">Discover</option>
+					<option value="WM">Mastercard</option>
+					<option value="WV">Visa</option>
+
+				</select>
+        
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span id="dnn_ctr2724_ACP_OnlineDues_lblCCNumber" class="tmar_textlabelrequired">Card Number</span>
+      </td>
+      <td>
+        <input name="dnn$ctr2724$ACP_OnlineDues$txtCCNumber_2724" maxlength="16" id="dnn_ctr2724_ACP_OnlineDues_txtCCNumber_2724" style="width:200px;" type="text">
+        
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span id="dnn_ctr2724_ACP_OnlineDues_lblCCCVV2Number" class="tmar_textlabelrequired">Security Code</span>
+      </td>
+      <td>
+        <input name="dnn$ctr2724$ACP_OnlineDues$txtCVV2_2724" id="dnn_ctr2724_ACP_OnlineDues_txtCVV2_2724" style="width:200px;" type="text">
+        
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span id="dnn_ctr2724_ACP_OnlineDues_lblCCExpiration">Expiration</span>
+      </td>
+      <td>
+        <select name="dnn$ctr2724$ACP_OnlineDues$txtccMonth_2724" id="dnn_ctr2724_ACP_OnlineDues_txtccMonth_2724" style="width:120px;">
+					<option value="1" selected="selected">January</option>
+					<option value="2">February</option>
+					<option value="3">March</option>
+					<option value="4">April</option>
+					<option value="5">May</option>
+					<option value="6">June</option>
+					<option value="7">July</option>
+					<option value="8">August</option>
+					<option value="9">September</option>
+					<option value="10">October</option>
+					<option value="11">November</option>
+					<option value="12">December</option>
+
+				</select>
+        
+        <select name="dnn$ctr2724$ACP_OnlineDues$txtccYear_2724" id="dnn_ctr2724_ACP_OnlineDues_txtccYear_2724" style="width:75px;">
+					<option value="2017" selected="selected">2017</option>
+					<option value="2018">2018</option>
+					<option value="2019">2019</option>
+					<option value="2020">2020</option>
+					<option value="2021">2021</option>
+					<option value="2022">2022</option>
+					<option value="2023">2023</option>
+					<option value="2024">2024</option>
+					<option value="2025">2025</option>
+					<option value="2026">2026</option>
+
+				</select>
+        
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span id="dnn_ctr2724_ACP_OnlineDues_lblCCNameOnCard" class="tmar_textlabelrequired">Name On Card</span>
+      </td>
+      <td>
+        <input name="dnn$ctr2724$ACP_OnlineDues$txtccNameOnCard_2724" value="Dan Hoffmanntest" id="dnn_ctr2724_ACP_OnlineDues_txtccNameOnCard_2724" style="width:200px;" type="text">
+        
+      </td>
+    </tr>
+    <tr>
+      <td>
+      </td><td>
+        <input id="dnn_ctr2724_ACP_OnlineDues_chkRememberMyCreditCard_2724" name="dnn$ctr2724$ACP_OnlineDues$chkRememberMyCreditCard_2724" style="display: none;" type="checkbox">
+        <span id="dnn_ctr2724_ACP_OnlineDues_lblCCRememberInfo" style="display: none;">Remember My Card / Replace Card On File</span>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <span style="color:white">.</span>
+        <br>
+        <br>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      </td><td align="left">
+        <input name="dnn$ctr2724$ACP_OnlineDues$btnProcessOrder" value="Process Payment" onclick='javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("dnn$ctr2724$ACP_OnlineDues$btnProcessOrder", "", true, "", "", false, false))' id="dnn_ctr2724_ACP_OnlineDues_btnProcessOrder" class="button" type="submit">
+        <span id="Progress" style="display:none">
+          <img src="acp_paydues_files/ajax-loader.gif" style="margin-left:20px; position:relative; bottom:3px" align="middle"> Processing...
+              </span>
+      </td>
+    </tr>
+  </tbody></table>
+
+			</div>
+<div id="dnn_ctr2724_ACP_OnlineDues_placeorderpanel" style="display:none">
+				
+  <table>
+    <tbody><tr>
+      <td align="right">
+      </td><td align="right">
+        <input name="dnn$ctr2724$ACP_OnlineDues$btnPlaceOrder" value="Continue" onclick='javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("dnn$ctr2724$ACP_OnlineDues$btnPlaceOrder", "", true, "", "", false, false))' id="dnn_ctr2724_ACP_OnlineDues_btnPlaceOrder" class="button" type="submit">
+      </td>
+    </tr>
+  </tbody></table>
+
+			</div>
+<table width="100%" border="0">
+  <tbody><tr>
+    <td align="Center">
+      <span class="tmar_TextLabelBold" id="txtContinueSpan">
+        
+      <a href="#" id="txtContinue" class="button">Continue</a></span>
+    </td>
+  </tr>
+</tbody></table>
+    
+		</div><div id="dnn_ctr2724_ACP_OnlineDues_RadPageView2" class="rmpHiddenView">
+			
+        
+    
+		</div><input id="dnn_ctr2724_ACP_OnlineDues_RadMultiPage1_ClientState" name="dnn_ctr2724_ACP_OnlineDues_RadMultiPage1_ClientState" autocomplete="off" type="hidden">
+	</div>
+
+<script language="javascript" type="text/javascript">
+/*function showhide(divname,disp) {  
+document.getElementById(divname).style.display=disp;  
+} 
+*/
+jQuery('[id$=btnProcessOrder]').click(function(){ jQuery('#Progress').show(); jQuery('[id$=btnProcessOrder], #txtContinue').hide();});
+
+ </script>
+
+
+
+<script language="javascript" type="text/javascript">
+
+   var listUrl = '/eBizATPRO/DesktopModules/ACP - OnlineDues/CensusHandler.ashx';
+    // WMEARNS ACP1100 Email box Start
+    jQuery('#emailform').html('<b>Our records indicate that we do not have a valid email address.</b> <br/><br/>Please enter a valid email address to continue to the payment page.<table><tr><td align="right">Email:&nbsp;</td><td><input type="text" id="cemail" size="40" ></td><tr><tr><td align="right">Confirm&nbsp;Email:&nbsp;</td><td><input type="text" id="cemail2" size="40" ></td></tr><tr><td colspan="2" align="center"><span id="emailerror" class="invalid" width="200"></span><br/><input type="button" value="Save Email" id="saveemail" class="Button"></td></tr><tr><td><span id="EmailProgress" style="display:none"><img src="/eBizATPRO/DefaultPersonifyImages/ajax-loader.gif" align="middle" style="margin-left:20px; position:relative; bottom:3px" /> Processing...</span></td></tr></table>');
+    // WMEARNS ACP1100 Email box End 
+function validateEmail(email) 
+{ 
+ var re = /[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?/ 
+ return email.match(re) 
+}
+
+function CheckEmail() {
+
+    if (jQuery("#cemail").length < 1) return true;
+    if (validateEmail(jQuery("#cemail").val()) != null) if (jQuery("#cemail").length > 0) if ((jQuery("#cemail").val().length > 0)) {
+        if (jQuery("#cemail").val() == jQuery("#cemail2").val()) {
+            return true;
+        } else {
+            jQuery('#emailerror').html("Please confirm your email address").show();
+            jQuery('#cemail2').addClass('invalid');
+            jQuery('html, body').scrollTop(jQuery("#emailform").offset().top);
+            return false;
+        }
+    } 
+        jQuery('#emailerror').html("Please enter a valid email address").show();
+        jQuery('#cemail').addClass('invalid');
+        jQuery('html, body').scrollTop(jQuery("#emailform").offset().top);
+        return false;
+}
+
+jQuery('#txtContinue').click(function(){
+    
+    if (CheckEmail()==false)
+        return false;
+    else {
+        jQuery('#saveemail').trigger('click');
+        
+        showCC(jQuery('#txtContinue')[0],jQuery('[id$=_toppanel]')[0].id,jQuery('[id$=_CCpanel]')[0].id);
+        
+        
+      AllTotal = document.getElementById('AllTotal').value;
+      if (jQuery('[id$=_toppanel]').is(':visible')==false)
+      if (AllTotal < 0) {
+           jQuery('#txtContinue').prependTo(jQuery('[id$=btnPlaceOrder]').eq(0).parent());
+           jQuery('[id$=_CustomerServiceMessage]').show();
+      } 
+    }
+});
+
+
+</script>
+
+
+
+<script language="javascript" type="text/javascript">
+document.getElementById('HiddenPrice1').value = jQuery('#testing1').val();
+document.getElementById('HiddenPrice2').value = jQuery('#testing2').val();
+document.getElementById('HiddenPrice3').value = jQuery('#testing3').val();
+document.getElementById('HiddenPrice4').value = jQuery('#testing4').val();
+CalculateTotal(4,'Total1');
+</script>
+
+
+
+
+
+<script language="javascript" type="text/javascript">
+jQuery('[id$=_FinancialInformationLink]').click(function(){
+    jQuery('html, body').scrollTop(jQuery("[id$=_tableDuesAllocation]").offset().top);
+});
+jQuery('[id$=_FinancialInformationLink1]').click(function(){
+    jQuery('html, body').scrollTop(jQuery("[id$=_tableDuesAllocation]").offset().top);
+});
+jQuery('[id$=_FinancialInformationLink2]').click(function(){
+    jQuery('html, body').scrollTop(jQuery("[id$=_tableDuesAllocation]").offset().top);
+});
+</script>
+
+
+<script language="javascript" type="text/javascript">
+    if (jQuery('input[id*=rblstChpvol2]').length > 1) {
+        if (!(jQuery('input[id*=rblstChpvol2]:first').val() > 0)) {
+            jQuery('input[id*=rblstChpvol2_0]:first').css('display', 'none');
+        }
+    }
+
+    if (jQuery('input[id*=rblstContribution]').length > 1) {
+        if (!(jQuery('input[id*=rblstContribution]:first').val() > 0)) {
+            jQuery('input[id*=rblstContribution_0]:first').css('display', 'none');
+        }
+    }
+
+if (jQuery('[id*=testing1]').length > 0) {
+
+    jQuery('[id*=testing1]').click(function () {
+        jQuery('[id$=rblstChpvol2_0]').trigger('click').attr('checked', 'checked');
+    });
+
+    /* wmearns acp1147 Other Vol Rb Selection start*/
+    jQuery('[id*=testing1]').select(function () {
+        jQuery('[id*=testing1]').click();
+    });
+    /* wmearns acp1147 Other Vol Rb Selection end*/
+}
+</script>
+
+<script language="javascript" type="text/javascript">
+if (jQuery('[id*=testing2]').length > 0) {
+    /* WMEARNS ACP1145 Vol Rb Postback Start */
+    var strTesting2 = jQuery('[id*=testing2]').val();
+    var alreadySelected2 = false;
+    /* WMEARNS ACP1145 Vol Rb Postback End */
+    jQuery('[id$=_rblstChpvol2] .SubRadio input').each(function () {
+        var n = jQuery(this).attr('name');
+        jQuery(this).attr('name', "SubRadio" + n);
+        //only check current radiobutton
+        /* WMEARNS ACP1145 Vol Rb Postback Start */
+        if (jQuery(this).is(':checked')
+            || (strTesting2 != "" 
+                && strTesting2 == jQuery(this).val())) {
+            jQuery(this).attr('checked', true);
+            alreadySelected2 = true;
+        } else if (jQuery(this).is(':checked')
+                || (strTesting2 != ""
+                    && jQuery(this).val() == ""
+                    && !alreadySelected2
+                    && jQuery(this).css('display') !='none')) {
+            jQuery(this).attr('checked', true);
+            alreadySelected2 = true;
+        } else {
+            jQuery(this).attr('checked', false);
+        }
+    /* WMEARNS ACP1145 Vol Rb Postback End */
+    });
+
+    //appends specific dollar amounts to same line
+    var first = "first";
+    jQuery('[id$=_rblstChpvol2] .SubRadio').each(function(){
+        if (jQuery(this).find('label').html().indexOf('$') == 0) {
+            if (first == "first") {
+                first = jQuery(this).find('[type=radio]').attr('id');
+            } else {
+                jQuery(this).appendTo(jQuery('[id=' + first + ']').eq(0).parent());
+            }
+        }
+    });
+
+	jQuery('table[id*=rblstChpvol2]').find('tr').each(function () {
+		if (!jQuery.trim(jQuery(this).text())) jQuery(this).remove();
+	});
+
+    //selects radio button corresponding to custom amount textbox
+    jQuery('[id*=testing2]').click(function () {
+	if (jQuery('[id$=rblstChpvol2_4]').length>0) {
+	        jQuery('[id$=rblstChpvol2_0], [id$=rblstChpvol2_4]').attr('checked', true);
+	} else {
+	        jQuery('[id$=rblstChpvol2_1]').attr('checked', true);
+	}
+    });
+
+    /* wmearns acp1147 Other Vol Rb Selection start*/
+    jQuery('[id*=testing2]').select(function () {
+        jQuery('[id*=testing2]').click();
+    });
+    /* wmearns acp1147 Other Vol Rb Selection end*/
+}
+if (jQuery('[id*=testing4]').length > 0) {
+    /* WMEARNS ACP1145 Vol Rb Postback Start */
+    var strTesting4 = jQuery('[id*=testing4]').val();
+    var alreadySelected4 = false;
+    /* WMEARNS ACP1145 Vol Rb Postback End */
+    jQuery('[id$=_rblstContribution] .SubRadio input').each(function () {
+        var n = jQuery(this).attr('name');
+        jQuery(this).attr('name', "SubRadio" + n);
+        //only check current radiobutton
+        /* WMEARNS ACP1145 Vol Rb Postback Start */
+        if (jQuery(this).is(':checked')
+            || (strTesting4 != "" 
+                && strTesting4 == jQuery(this).val())) {
+            jQuery(this).attr('checked', true);
+            alreadySelected4 = true;
+        } else if (jQuery(this).is(':checked')
+                || (strTesting4 != ""
+                    && jQuery(this).val() == ""
+                    && !alreadySelected4
+                    && jQuery(this).css('display') != 'none')) {
+            jQuery(this).attr('checked', true);
+            alreadySelected4 = true;
+        }
+        else {
+            jQuery(this).attr('checked', false);
+        }
+        /* WMEARNS ACP1145 Vol Rb Postback End */
+    });
+
+    //appends specific dollar amounts to same line
+    var first = "first";
+    jQuery('[id$=rblstContribution] .SubRadio').each(function () {
+        if (jQuery(this).find('label').html().indexOf('$') == 0) {
+            if (first == "first") {
+                first = jQuery(this).find('[type=radio]').attr('id');
+            } else {
+                jQuery(this).appendTo(jQuery('[id=' + first + ']').eq(0).parent());
+            }
+        }
+    });
+
+    jQuery('table[id*=rblstContribution]').find('tr').each(function () {
+        if (!jQuery.trim(jQuery(this).text())) { jQuery(this).remove(); }
+    });
+
+    //selects radio button corresponding to custom amount textbox
+    jQuery('[id*=testing4]').click(function () {
+        if (jQuery('[id$=rblstContribution_4]').length > 0) {
+            jQuery('[id$=rblstContribution_0], [id$=rblstContribution_4]').attr('checked', true);
+        } else {
+            jQuery('[id$=rblstContribution_1]').attr('checked', true);
+        }
+    });
+
+    /* wmearns acp1147 Other Vol Rb Selection start*/
+    jQuery('[id*=testing4]').select(function () {
+        jQuery('[id*=testing4]').click();
+    });
+    /* wmearns acp1147 Other Vol Rb Selection end*/
+}</script>
+
+<script language="javascript" type="text/javascript">
+function formatCurrency(num) {
+    num = isNaN(num) || num === '' || num === null ? 0.00 : num;
+    return parseFloat(num).toFixed(2);
+}
+
+if (jQuery('#tempacp_paid').length>0) jQuery('#tempacp_paid').html("$"+formatCurrency(jQuery('#tempacp_paid').html().replace('$','')));
+if (jQuery('#Creditsnpayments').length>0) jQuery('#Creditsnpayments').html("$"+formatCurrency(jQuery('#Creditsnpayments').html().replace('$','')));
+if (jQuery('#NAtlAmount').length>0) jQuery('#NAtlAmount').html("$"+formatCurrency(jQuery('#NAtlAmount').html().replace('$','')));
+if (jQuery('#TempPriorBalanceDisplayAmt').length>0) jQuery('#TempPriorBalanceDisplayAmt').html("$"+formatCurrency(jQuery('#TempPriorBalanceDisplayAmt').html().replace('$','')));
+
+</script>
+
+<script language="javascript" type="text/javascript">
+function formatCurrency(num) {
+    num = isNaN(num) || num === '' || num === null ? 0.00 : num;
+    return parseFloat(num).toFixed(2);
+}
+
+if (jQuery('#tempacp_paid').length>0) jQuery('#tempacp_paid').html("$"+formatCurrency(jQuery('#tempacp_paid').html().replace('$','')));
+if (jQuery('#Creditsnpayments').length>0) jQuery('#Creditsnpayments').html("$"+formatCurrency(jQuery('#Creditsnpayments').html().replace('$','')));
+if (jQuery('#NAtlAmount').length>0) jQuery('#NAtlAmount').html("$"+formatCurrency(jQuery('#NAtlAmount').html().replace('$','')));
+if (jQuery('#TempPriorBalanceDisplayAmt').length>0) jQuery('#TempPriorBalanceDisplayAmt').html("$"+formatCurrency(jQuery('#TempPriorBalanceDisplayAmt').html().replace('$','')));
+if (jQuery('#DiscountAmount').length>0) jQuery('#DiscountAmount').html("$"+formatCurrency(jQuery('#DiscountAmount').html().replace('$','')));
+if (jQuery('#CouponAmount').length>0) jQuery('#CouponAmount').html("$"+formatCurrency(jQuery('#CouponAmount').html().replace('$','')));
+
+</script>
+
+<script language="javascript" type="text/javascript">
+if (jQuery('[id$=_toppanel]').is(':visible')==false) {
+	 jQuery('[id$=_balancepanel]').show();
+   	 jQuery('#txtContinue').text('Go Back');
+  	 jQuery('#txtContinue').prependTo(jQuery('[id$=btnProcessOrder]').eq(0).parent());
+}
+else {
+	jQuery('#txtContinue').appendTo(jQuery('#txtContinueSpan'));
+}
+
+
+    // Added Patrick W to hide elements 5/31/16 
+
+jQuery('#dnn_ctr2724_ACP_OnlineDues_lblCCOnFile').hide();
+jQuery('#dnn_ctr2724_ACP_OnlineDues_chkUseCreditCardOnFile_2724').hide();
+jQuery('#dnn_ctr2724_ACP_OnlineDues_chkRememberMyCreditCard_2724').hide();
+jQuery('#dnn_ctr2724_ACP_OnlineDues_lblCCRememberInfo').hide();
+
+
+</script>
+
+</div><!-- End_Module_2724 --></div>
+
+</div>
+
+
+
+</div></div>
+                        <div id="dnn_ContentPane" class="ContentPane DNNEmptyPane"></div>
+						                                                
+                                    <div id="dnn_BottomPane" class="BottomPane DNNEmptyPane"></div>
+                                    <div id="dnn_CartPane" class="CartPane"><div class="DnnModule DnnModule-Personify-DNNWebControlContainer DnnModule-2374"><a name="2374"></a><div id="dnn_ctr2374_ContentPane"><!-- Start_Module_2374 --><div id="dnn_ctr2374_ModuleContent" class="DNNModuleContent ModPersonifyDNNWebControlContainerC">
+	<div id="dnn_ctr2374_DNNWebControlContainer_ctl00_LoadingPanelId" class="RadAjax RadAjax_PersonifyDefault" style="display:none;">
+		<div class="raDiv">
+
+		</div><div class="raColor raTransp">
+
+		</div>
+	</div>
+
+<div id="dnn_ctr2374_DNNWebControlContainer_ctl00_Container" class="CartPreviewControl_PersonifyDefault ShoppingCart_PersonifyDefault Base_PersonifyDefault">
+		
+    <div id="dnn_ctr2374_DNNWebControlContainer_ctl00_pnlCartIconNLabel">
+			    
+        <div class="cartIcon">
+            <p id="dnn_ctr2374_DNNWebControlContainer_ctl00_cartCountLabel" class="cartCountLabel">0</p>
+        </div>          
+    
+		</div>
+
+	</div>
+
+
+</div><!-- End_Module_2374 --></div>
+</div></div>
+                        
+                        
+                        
+					</div><!-- center -->
+					<div class="subCol detail-mobile-way">
+						   <div id="dnn_RightPane" class="RightPane DNNEmptyPane"></div>
+                                           
+                        
+						
+					
+					</div><!-- subCol -->
+				</div><!-- twoCol -->
+
+			</div>
+   
+   
+    <div class="bottom-navigation mobile-way desktop-hide">
+          <ul>
+            <a href="https://store.acponline.org/ebizatpro/ShoppingCart.aspx" class="shopping-cart-url"><li>Cart (0)</li></a>
+
+                                          <a href="https://store.acponline.org/eBizATPRO/Default.aspx" class="store-url-static"><li>Store</li></a>          
+                            <a href="https://store.acponline.org/ebizatpro/ACPPayDues/tabid/1483/ctl/Logoff/Default.aspx" class="login-url"><li>Logout</li></a>
+                            <a href="https://store.acponline.org/ebizatpro/default.aspx"><li>Home</li></a>
+
+    
+
+        </ul>
+   </div>
+   
+   
+   
+    
+   
+   
+   
+   
+     
+   
+   
+   
+   
+   
+   
+   
+   
+
+   </div> <!-- end content -->         
+      
+     
+     
+     
+     
+     
+     
+     
+     <div style="display:none">
+<div class="language-object">
+
+
+</div>
+   <a id="dnn_dnnLOGO_hypLogo" title="ACP Store" href="https://store.acponline.org/ebizatpro/MyAccount.aspx"><img id="dnn_dnnLOGO_imgLogo" src="acp_paydues_files/logo.gif" alt="ACP Store"></a>
+  
+   </div>
+
+                          <div style="clear:both; float:none"></div>    
+    
+    <div class="footerNav">
+			
+             
+			</div>                  
+                                    
+
+
+                                    
+                 <div role="contentinfo" class="contentInfo">
+				
+				
+
+                	
+
+                               
+
+
+      <p class="footerlinks">      
+	<a href="https://www.acponline.org/contact">Contact Us</a> | 
+	<a href="https://www.acponline.org/acp-privacy-policy">Privacy Policy</a> | 
+	<a href="https://store.acponline.org/ebizatpro/ProductsServices.aspx#filter=%7B%22Facet%22%3A%7B%22Name%22%3A%22Educational+Products%22,%22Value%22%3A%22WEB_FACET_1%22%7D,%22SubFacet%22%3Anull,%22Category%22%3Anull,%22SubCategory%22%3Anull%7D&amp;searchTerm=&amp;searchItemNameTerm=&amp;searchDescriptionTerm=&amp;productClass=">Educational Products </a> | 
+	
+    <a href="https://store.acponline.org/ebizatpro/ProductsServices.aspx#filter=%7B%22Facet%22%3A%7B%22Name%22%3A%22Journals+%5Cu0026+Publications%22,%22Value%22%3A%22WEB_FACET_2%22%7D,%22SubFacet%22%3Anull,%22Category%22%3Anull,%22SubCategory%22%3Anull%7D&amp;searchTerm=&amp;searchItemNameTerm=&amp;searchDescriptionTerm=&amp;productClass=">Journals &amp; Publications </a> | 
+      
+     <a href="https://store.acponline.org/ebizatpro/ProductsServices.aspx#filter=%7B%22Facet%22%3A%7B%22Name%22%3A%22Meetings+%5Cu0026+Courses%22,%22Value%22%3A%22WEB_FACET_3%22%7D,%22SubFacet%22%3Anull,%22Category%22%3Anull,%22SubCategory%22%3Anull%7D&amp;searchTerm=&amp;searchItemNameTerm=&amp;searchDescriptionTerm=&amp;productClass=">Meetings &amp; Courses </a> | 
+
+     <a href="https://store.acponline.org/ebizatpro/ProductsServices.aspx#filter=%7B%22Facet%22%3A%7B%22Name%22%3A%22Patient+Education%22,%22Value%22%3A%22WEB_FACET_4%22%7D,%22SubFacet%22%3Anull,%22Category%22%3Anull,%22SubCategory%22%3Anull%7D&amp;searchTerm=&amp;searchItemNameTerm=&amp;searchDescriptionTerm=&amp;productClass=">Patient Education </a> | 
+
+      <a href="https://store.acponline.org/ebizatpro/ProductsServices.aspx#filter=%7B%22Facet%22%3A%7B%22Name%22%3A%22Accessories+%5Cu0026+Apparel%22,%22Value%22%3A%22WEB_FACET_5%22%7D,%22SubFacet%22%3Anull,%22Category%22%3Anull,%22SubCategory%22%3Anull%7D&amp;searchTerm=&amp;searchItemNameTerm=&amp;searchDescriptionTerm=&amp;productClass=">                     Accessories &amp; Apparel
+ </a> 
+
+          </p>
+
+                      <hr>
+
+                     <address>
+
+                © Copyright <script>document.write(new Date().getFullYear())</script>2017 American College of Physicians. All Rights Reserved. 190 North Independence Mall West, Philadelphia, PA 19106-1572<br>
+Toll Free: (800) 523.1546  Local: (215) 351.2400
+	
+				</address>
+				
+			
+			</div>
+
+
+<!-- ELOQUA Snippet Added 10/5/16 Patrick W -->
+ <script type="text/javascript">
+     var _elqQ = _elqQ || [];
+     _elqQ.push(['elqSetSiteId', '698935272']); _elqQ.push(['elqUseFirstPartyCookie', 'store.acponline.org']);
+     _elqQ.push(['elqTrackPageView']);
+     (function () {
+         function async_load() {
+             var s = document.createElement('script'); s.type = 'text/javascript';
+             s.async = true; s.src = '//img.en25.com/i/elqCfg.min.js';
+             var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+         }
+         if (window.addEventListener) window.addEventListener('DOMContentLoaded', async_load, false);
+         else if (window.attachEvent) window.attachEvent('onload', async_load);
+     })();
+</script>
+
+
+<!-- Begin SearchForce tracking code for landing page (5.0) -->
+<script type="text/javascript" async="" src="acp_paydues_files/sfct.js"></script><script id="sfcode1" type="text/javascript" language="Javascript">
+    var jed = {
+        event: 'landing',
+        cookieexpire: '30'
+    };
+
+    (function () {
+        var sf = document.createElement('script'); sf.type = 'text/javascript'; sf.async = true; sf.src = '//sftrack.searchforce.net/SFConversionTracking/sfct.js'; var s = document.getElementById('sfcode1'); s.parentNode.insertBefore(sf, s);
+    })();
+</script>
+<!-- End SearchForce tracking code -->
+
+
+
+   
+
+
+   <!-- Google Code for Visited Site Remarketing List -->
+<script type="text/javascript">
+    /* <![CDATA[ */
+    var google_conversion_id = 1064901065;
+    var google_conversion_language = "en";
+    var google_conversion_format = "3";
+    var google_conversion_color = "666666";
+    var google_conversion_label = "TX-rCP-LxgIQybPk-wM";
+    var google_conversion_value = 0;
+    /* ]]> */
+</script>
+
+<script type="text/javascript" src="acp_paydues_files/conversion.js">
+</script><img alt="" src="acp_paydues_files/a.gif" style="display:none" width="1" border="0" height="1">
+
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="https://www.googleadservices.com/pagead/conversion/1064901065/?label=TX-rCP-LxgIQybPk-wM&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+
+
+       
+       
+</div>                               
+   
+
+     
+     
+     
+     
+     
+     
+     
+
+
+
+	<script src="acp_paydues_files/personify-skin.js"></script>
+	<script src="acp_paydues_files/utils-min.js"></script>
+
+<link href="acp_paydues_files/new-styles-01.css" rel="stylesheet" media="screen">
+
+
+ <script type="text/javascript">
+
+
+
+
+     if ((window.location.href.indexOf("TabID=71") >= 0) || (window.location.href.indexOf("TabID=1401") >= 0) || (window.location.href.indexOf("RegisterCustomer.aspx") >= 0)) {
+
+         //alert("found it");
+         $("#dnn_dnnUSER_registerLink").hide();
+
+     }
+
+     $("#dnn_ctr1131_DNNWebControlContainer_ctl00_FullRegisterPanel p").hide();
+
+
+     </script>
+
+
+
+
+
+
+
+
+        <input name="ScrollTop" id="ScrollTop" value="0" type="hidden">
+        <input name="__dnnVariable" id="__dnnVariable" autocomplete="off" value="`{`__scdoff`:`1`,`sf_siteRoot`:`/eBizATPRO/`,`sf_tabId`:`1483`}" type="hidden">
+        
+    <div class="RadAjaxPanel" id="ManagerControlPanelIdPanel" style="display: block;">
+	<div id="ManagerControlPanelId">
+		<input name="PropBagInputId" id="PropBagInputId" value="CartIconPreviewControlBag%$%HoverNeeded$#$0!@##@!CartIconPreviewControlBag%$%PreviewVisible$#$0" type="hidden"><link id="CombinedStyleSheet" rel="stylesheet" type="text/css" href="acp_paydues_files/PersonifyScriptResource.css"><link id="custom.css9a550cfe-ce6a-4bfb-9715-7e333e2d43b2" rel="stylesheet" type="text/css" href="acp_paydues_files/custom.css">
+	</div>
+</div><input name="InitialPageLoadButtonId" value="" onclick='javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("InitialPageLoadButtonId", "", true, "", "", false, false))' id="InitialPageLoadButtonId" style="display:none;" type="submit"><div id="RadAjaxManagerIdSU" style="display: none;">
+	<span id="RadAjaxManagerId" style="display:none;"></span>
+</div>
+<script type="text/javascript" src="acp_paydues_files/initWidgets.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+jQuery(function() { manager.ispartialpostback = false; try { CartIconPreview('dnn_ctr2374_DNNWebControlContainer_ctl00_pnlCartIconNLabel', 'RadAjaxManagerId') } catch(e) {} });try{Sys.WebForms.PageRequestManager.getInstance().add_endRequest(function(sender, args){ if (args.get_error() == undefined) { manager.ispartialpostback = true; CartIconPreview('dnn_ctr2374_DNNWebControlContainer_ctl00_pnlCartIconNLabel', 'RadAjaxManagerId')}});}catch(e){}jQuery(function() { try { var $browserUpdateConfig = {vs:{i:8,f:26,o:15,s:5.1,n:9}, reminder:12};
+$buP = $buoP($browserUpdateConfig); } catch(e) {  } });;(function() {
+                        function loadHandler() {
+                            var hf = $get('StylesheetManager_TSSM');
+                            if (!hf._RSSM_init) { hf._RSSM_init = true; hf.value = ''; }
+                            hf.value += ';Telerik.Web.UI, Version=2013.2.717.40, Culture=neutral, PublicKeyToken=121fae78165ba3d4:en-US:0507d587-20ad-4e22-b866-76bd3eaee2df:a3b7d93f:45085116';
+                            Sys.Application.remove_load(loadHandler);
+                        };
+                        Sys.Application.add_load(loadHandler);
+                    })();Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadMultiPage, {"clientStateFieldID":"dnn_ctr2724_ACP_OnlineDues_RadMultiPage1_ClientState","pageViewData":[{"id":"dnn_ctr2724_ACP_OnlineDues_RadPageView1"},{"id":"dnn_ctr2724_ACP_OnlineDues_RadPageView2"}],"selectedIndex":0}, null, null, $get("dnn_ctr2724_ACP_OnlineDues_RadMultiPage1"));
+});
+Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadAjaxLoadingPanel, {"initialDelayTime":0,"isSticky":false,"minDisplayTime":0,"skin":"PersonifyDefault","uniqueID":"dnn$ctr2374$DNNWebControlContainer$ctl00$LoadingPanelId","zIndex":90000}, null, null, $get("dnn_ctr2374_DNNWebControlContainer_ctl00_LoadingPanelId"));
+});
+Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadAjaxManager, {"_updatePanels":"","ajaxSettings":[{InitControlID : "RadAjaxManagerId",UpdatedControls : [{ControlID:"ManagerControlPanelId",PanelID:""}]},{InitControlID : "dnn_ctr2374_DNNWebControlContainer_ctl00",UpdatedControls : [{ControlID:"ManagerControlPanelId",PanelID:""}]}],"clientEvents":{OnRequestStart:"RequestStart",OnResponseEnd:"ResponseEnd"},"defaultLoadingPanelID":"","enableAJAX":true,"enableHistory":false,"links":[],"requestQueueSize":4,"styles":[],"uniqueID":"RadAjaxManagerId","updatePanelsRenderMode":0}, null, null, $get("RadAjaxManagerId"));
+});
+//]]>
+</script>
+</form>
+    
+    
+
+</body></html>

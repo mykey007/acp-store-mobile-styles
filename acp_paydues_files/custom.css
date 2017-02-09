@@ -1,0 +1,925 @@
+﻿/*Custumize your solution using this file*/
+
+
+#dnn_ctr854_DNNWebControlContainer_ctl00_ProductSUBBuyBoxControl_QuantityContainer {
+
+   
+
+}
+
+.SUBMultipleRatesPanel {
+
+    background-color: #CEE7FF ;
+    color: #0C65AB;
+    padding: 4px 4px 4px 4px;
+
+}
+
+.SBUQuantityContainer {
+
+    background-color: #CEE7FF ;
+}
+
+.SUBEstimate {
+
+    background-color: #CEE7FF ;
+}
+
+.quantity {
+
+    margin-bottom: 4px;
+}
+
+.estimate-rate {
+
+    background-color: #00a0df;
+    color: #fff;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    padding: 0.3em 1.5em;
+    display: inline-block;
+    text-overflow: ellipsis;
+    box-sizing: border-box;
+    border: 0;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    margin-left: 36px;
+ 
+    
+
+}
+
+.SUBEstimate {
+
+       
+   
+        background-color:#A52A2A ; 
+        margin-bottom: 6px;
+        float: left;
+        width: 100%;
+}
+    .estimate-rate:hover {
+        background-color: #46cbff;
+    }
+
+.SUBMembershipRenewal {
+
+    padding: 6px 4px 6px 4px;
+}
+
+.buttonRow {
+    display: block;
+}
+
+    .buttonRow input[type="button"],
+    .buttonRow input[type="submit"],
+    .panelSelectGroup input[type="submit"],
+    .MembershipsRenewalControl_PersonifyDefault .errorBlock input[type="button"] {
+
+        font-size: 0.75rem;
+    line-height: 1.25;
+    letter-spacing: .13em;
+    text-transform: uppercase;
+    text-align: center !important;
+    /*width: 25% !important;*/
+  
+    background-color: #00a0df   !important;
+    border-radius:2em;
+
+     border: 0px solid #adc570 !important;
+    font-size: 12px !important;
+    color: white;
+    cursor: pointer !important;
+     padding: 7px 20px 5px 20px !important;
+    height: auto !important;
+    background-position: 8px 7px !important;
+
+
+        /*
+        background-image: url("../images/btn-green.jpg");
+        background-position: 0 0;
+        background-repeat: repeat-x;
+        border: 1px solid #ADC570;
+        border-radius: 3px;
+        color: #5D7731;
+        cursor: pointer;
+        font-size: 12px;
+        font-weight: bold;
+        margin: 0;
+        padding: 4px 10px;
+        text-shadow: 1px 1px #CFE5A4;
+        vertical-align: middle;
+        */
+    }
+
+
+        .buttonRow input[type="button"]:hover,
+        .buttonRow input[type="submit"]:hover {
+
+            background-color: #46cbff !important;
+
+            /*
+            border: 1px solid #ADC570;
+            color: #2f4f4f;
+            text-shadow: 1px 1px #efefef;
+            background: rgb(210,231,156); 
+            background: -moz-linear-gradient(top, rgba(210,231,156,1) 0%, rgba(165,205,91,1) 100%); 
+            background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(210,231,156,1)), color-stop(100%,rgba(165,205,91,1))); 
+            background: -webkit-linear-gradient(top, rgba(210,231,156,1) 0%,rgba(165,205,91,1) 100%); 
+            background: -o-linear-gradient(top, rgba(210,231,156,1) 0%,rgba(165,205,91,1) 100%); 
+            background: -ms-linear-gradient(top, rgba(210,231,156,1) 0%,rgba(165,205,91,1) 100%);
+            background: linear-gradient(to bottom, rgba(210,231,156,1) 0%,rgba(165,205,91,1) 100%); 
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2e79c', endColorstr='#a5cd5b',GradientType=0 ); 
+        
+                */
+
+                }
+
+
+        .buttonRow input[type="button"].CancelEditButton,
+        .buttonRow input[type="button"].cancel,
+        .buttonRow input[type="button"].Cancel,
+        .buttonRow input[type="submit"].cancel,
+        .buttonRow input[type="button"].linkButton,
+        .buttonRow .btn.btn-link {
+            border: 0 none;
+            background-color: transparent !important;
+            background-image: none;
+            text-shadow: none;
+            color: #265AFF;
+        }
+
+            .buttonRow input[type="button"].CancelEditButton:hover,
+            .buttonRow input[type="button"].cancel:hover,
+            .buttonRow input[type="submit"].cancel:hover,
+            .buttonRow .btn-link:hover {
+                color: #00bfff;
+                text-shadow: 1px 1px 1px #efefef;
+            }
+
+
+
+/*CART PREVIEW BUTTONS*/
+
+.segmentsListPanel button.cartPreviewSelectSegment {
+    border-radius: 0;
+    background-color: #dedede;
+    text-shadow: 1px 1px 1px #fff;
+    color: #888;
+    border: 0 none;
+    padding: 8px 12px;
+    margin: 0;
+    cursor: pointer;
+    -webkit-transition: padding 2s;
+}
+
+
+    .segmentsListPanel button.cartPreviewSelectSegment:hover,
+    .segmentsListPanel button.cartPreviewSelectSegment.cartPreviewSeletedSegment:hover {
+        background-color: #999;
+        color: #fff;
+        text-shadow: 1px 1px 1px #444;
+        -webkit-transition: padding 2s;
+    }
+
+
+    .segmentsListPanel button.cartPreviewSelectSegment.cartPreviewSeletedSegment {
+        background-color: #222;
+        color: #ffffff;
+        text-shadow: 1px 1px 1px #000;
+    }
+
+
+
+/*END CART PREVIEW BUTTONS*/
+
+
+/*AWARDS*/
+
+.AwardsProgramListingControl_PersonifyDefault .awardsListingMenu {
+    top: 7px;
+}
+
+.nomineeInfoAddressDiv .ctrlContent a.edit {
+    right: 0;
+}
+
+.cbxViewContactInfo label {
+    top: 0;
+}
+
+.MyNominationsControl_PersonifyDefault .nominationsMenu {
+    top: 20px;
+}
+
+
+
+
+@media screen and (max-width: 42.0em) {
+
+
+    .buttonRow input[type="button"], .buttonRow input[type="submit"] {
+        padding: 12px 0;
+        font-size: 125%;
+        min-height: 45px;
+    }
+
+    .rwWindowContent .buttonRow input {
+        display: block !important;
+        text-align: center !important;
+        margin: 2% auto !important;
+        background-color: #A5CD5B !important;
+        font-size: 1em;
+        padding: 5% 10%;
+        white-space: normal !important;
+    }
+
+
+    .rwWindowContent .buttonRow .CancelEditButton,
+    .wndCancelConfirmation .buttonRow input.cancel,
+    .rwWindowContent .buttonRow .cancel {
+        background-color: #FFFFFF !important;
+        padding: 5% !important;
+        text-align: center !important;
+    }
+
+    .rwWindowContent .buttonRow .SaveEditButton,
+    .wndCancelConfirmation .buttonRow .btnYes {
+        text-align: center !important;
+        margin: 0 auto !important;
+    }
+
+
+    .CC-radio-selection input[type=radio]:checked {
+        background-color: #8fb14e;
+    }
+}
+
+/* Oleg Merinov. Gap 185.Web Meeting Registration. START */
+
+
+/* CREATED PATRICK W TO ADD NUMBERS TO STEPS */
+
+/* STEP 1 Numbers */
+
+
+.sessionGroupDetailContent.sessionGroupDetailLayout {
+    width: 65%;
+    position: relative;
+    clear: both;
+    float: left;
+}
+
+.ctrlContent.formLayout.sessionGroupLayout {
+
+        width: 50%;
+    float: right;
+
+    /* width: 30%;
+    float: left;*/
+}
+
+.dvMtgSesTime.waxmanSessionLayout {
+    width: 65%;
+}
+
+.dvMtgSesAddRemove.waxmanSessionLayout {
+    width: 20% !important;
+}
+
+.ctrlContent.formLayout.sessionGroupLayout .dvMtgSesHideTime {
+    text-align: right;
+}
+
+.dvMtgSesFilter.dvMtgSesAvailibleSessions {
+    text-align: center;
+}
+
+.MtgRegWizContainer {
+    position: relative;
+    overflow: visible;
+}
+
+.MtgRegWizard_PersonifyDefault .MtgRegWizContainer li.MtgRegWizstepSelected {
+    border-bottom: none;
+}
+
+.MtgRegWizard_PersonifyDefault .MtgRegWizContainer li {
+    padding: 0;
+    border-bottom: none;
+}
+
+    .MtgRegWizard_PersonifyDefault .MtgRegWizContainer li a {
+        border-bottom: 1px solid #BCD8FF;
+        padding: 8px 0;
+        font-size: 12px;
+
+       
+    }
+
+    .MtgRegWizard_PersonifyDefault .MtgRegWizContainer li.MtgRegWizstepSelected a {
+        border-bottom: 1px solid #96C3FF;
+        font-size: 12px;
+       
+       
+        
+        
+    }
+
+.mtgWizHeaderSubMenu {
+/* Gautam - ACP-1285 */        
+    /*width: 150%;*/
+    /*display: table;*/
+/* Gautam - ACP-1285 */
+}
+
+    .mtgWizHeaderSubMenu:not([class*="WizardWith"]),
+    .mtgWizHeaderSubMenu:not([class*="WizardWith"]) li {
+        width: 100%;
+    }
+
+.MtgRegWizContainer ul.mtgWizHeaderSubMenu li {
+    width: 25%;
+}
+
+/* Oleg Merinov. Gap 185.Web Meeting Registration. END */
+
+/* Gap 187. Address changes. Oleg Merinov. Start */
+.section.title-address .bad-address-label {
+    display: block;
+    color: red;
+    font-style: italic;
+}
+
+.section.title-address .mark-as-good-address-link {
+    position: absolute;
+    right: 0;
+    top: 25px;
+    width: 75px;
+    text-align: right;
+}
+/* Gap 187. Address changes. Oleg Merinov. End */
+
+/* Gap186 WM Button Divider START*/
+.mobile-detail-add-to-cart-label {
+    padding: 5px 30px;
+    display: inline-block;
+    background: url('../images/black_line.jpg') center / 100% 2px repeat-x;
+}
+
+.btnDivider {
+    display: inline-block;
+    background-color: #f6f6f6;
+    padding: 3px 7px;
+    position: relative;
+    top: -1px;
+    font-style: italic;
+    font-size: 16px;
+}
+/* Gap186 WM Button Divider End*/
+
+/* Membership Join. Start */
+.acp-mbr-typeSelection-radio {
+    position: relative;
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.mbr-demographicsControl.join-dropdown {
+    width: 200px !important;
+}
+
+.mbr-demographicsControl.ethnicity-dropdown {
+    width: 250px !important;
+}
+
+.mbr-medicalSchoolControl.country-dropdown, .mbr-medicalSchoolControl.stateprovince-dropdown, .mbr-medicalSchoolControl.city-dropdown {
+    width: 250px !important;
+}
+
+.mbr-medicalSchoolControl.medschool-dropdown {
+    /* WMEARNS ACP1092 Mbr App Changes Issue 3 Start */
+    width: 600px !important;
+    /* WMEARNS ACP1092 Mbr App Changes Issue 3 End */
+}
+
+.mbr-residencyFellowshipsControl.stateprovince-dropdown, .mbr-residencyFellowshipsControl.country-dropdown {
+    width: 300px !important;
+}
+
+
+.mbr-residencyFellowshipsControl.progtype-dropdown {
+    width: 300px !important;
+}
+
+.mbr-residencyFellowshipsControl.progname-dropdown {
+    width: 500px !important;
+}
+
+.mbr-residencyFellowshipsControl.specialitytrack-dropdown {
+    width: 300px !important;
+}
+
+.mbr-residencyFellowshipsControl.speciality-dropdown {
+    width: 350px !important;
+}
+
+.mbr-practiceLicenseControl.presentEmployment-dropdown, .mbr-practiceLicenseControl.patientCareLocation-dropdown {
+    width: 450px !important;
+}
+
+.mbr-practiceLicenseControl.type-dropdown, .mbr-practiceLicenseControl.state-dropdown {
+    width: 300px !important;
+}
+
+/* WMearns Summary step start*/
+.totalAmountSection {
+    text-align: right;
+    margin-right: 15px;
+    min-width: 0;
+}
+
+.hide span {
+    display: none;
+}
+
+.bold label {
+    font-weight: bold;
+}
+/* WMearns Summary step end*/
+
+/* Membership Join. End*/
+
+/* Membership Join - Matt Hernandez */
+
+.MbrTypeSelectionControl_PersonifyDefault {
+    padding: 0 20px;
+}
+
+.MbrContactInfoControl_PersonifyDefault .section.title-address .mark-as-good-address-link,
+.MbrContactInfoControl_PersonifyDefault .ctrlContent a.edit {
+    right: 0;
+}
+
+.MbrDemographicsControl_PersonifyDefault .is-armed-forces > label {
+    padding: 0;
+    width: auto;
+    float: none;
+}
+
+.MbrDemographicsControl_PersonifyDefault .is-armed-forces > input {
+    width: auto;
+}
+
+.MbrDemographicsControl_PersonifyDefault .is-armed-forces .RadComboBox {
+    float: none;
+}
+
+.MbrDemographicsControl_PersonifyDefault .has-npi > label {
+    float: none;
+    padding: 0;
+}
+
+.MbrDemographicsControl_PersonifyDefault .has-npi > input {
+    width: auto;
+}
+
+/* Overriding Previous Meeting Sub-step styles - Matt Hernandez */
+
+/* Add specificity to wizard steps to avoid clashing styles between main and sub steps */
+ul.WizardWith2Steps > li
+{
+    width: 50%;
+}
+
+ul.WizardWith4Steps > li
+{
+    /* Gautam - ACP-1285 */
+    width: 25%; 
+    /* Gautam - ACP-1285 */
+}
+
+
+
+
+
+
+ul.WizardWith5Steps > li
+{
+	/* DELIVERY 7-28-16 */    	        
+    width: 20%;    
+    /* END 7-28-16 */
+}
+
+ul.WizardWith6Steps > li
+{
+    width: 16.5%;
+}
+
+#dnn_ctr2731_DNNWebControlContainer_ctl00_MbrContactInfoControl_ContentPanel {
+
+background-color: white;
+padding: 6px 6px 6px 6px;
+
+}
+
+    #dnn_ctr2731_DNNWebControlContainer_ctl00_MbrContactInfoControl_ContentPanel h1 {
+    
+    color: #007E66;
+    font-size: 16px;    }
+
+#dnn_ctr2731_DNNWebControlContainer_ctl00_MbrDemographicsControl_ContentPanel {
+
+    
+background-color: white;
+padding: 6px 6px 6px 6px;
+}
+
+  #dnn_ctr2731_DNNWebControlContainer_ctl00_MbrDemographicsControl_ContentPanel h1 {
+    
+    color: #007E66;
+    font-size: 16px;   }
+
+#dnn_ctr2731_DNNWebControlContainer_ctl00_MbrMedicalSchoolControl_ContentPanelPanel {
+
+    background-color: white;
+padding: 6px 6px 6px 6px;
+}
+
+  #dnn_ctr2731_DNNWebControlContainer_ctl00_MbrMedicalSchoolControl_ContentPanelPanel h1 {
+    
+    color: #007E66;
+    font-size: 16px;   }
+
+#dnn_ctr2731_DNNWebControlContainer_ctl00_MbrResidencyFellowshipsControl_ContentPanel {
+        
+background-color: white;
+padding: 6px 6px 6px 6px;
+
+}
+
+    #dnn_ctr2731_DNNWebControlContainer_ctl00_MbrResidencyFellowshipsControl_ContentPanel h1 {
+
+          color: #007E66;
+    font-size: 16px;
+    }
+
+
+.MbrWizardControl_PersonifyDefault .MbrWizContainer .mtgWizHeaderSubMenu li.MbrWizstepSelected a,
+.MbrWizardControl_PersonifyDefault .MbrWizContainer .mtgWizHeaderSubMenu li.MbrWizstep a {
+    background-color: transparent;
+    border-bottom: none;
+    font-weight: normal !important;
+    padding: 0px 0px 4px 0px;
+    text-align: center;
+}
+
+.MbrWizardControl_PersonifyDefault .MbrWizContainer .mtgWizHeaderSubMenu li.MbrWizstep {
+    background-color: #eff6ff;
+    border-bottom: 0px solid #96C3FF;
+     padding-bottom: 0px 0px 0px 0px;
+}
+
+.MbrWizardControl_PersonifyDefault .MbrWizContainer .mtgWizHeaderSubMenu li.MbrWizstepSelected {
+    background-color: #CEE7FF;
+    border-bottom: 0px solid #96C3FF;
+     padding: 0px 0px 0px 0px;
+}
+ul.WizardWith3Steps > li {
+	width:27%;
+/* Gautam - ACP-1285 */
+	min-width:15%;	
+/* Gautam - ACP-1285 */
+}
+
+.MbrWizMainStep.MbrWizstepSelected {    
+	width:46%;    
+	white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+	padding-right:6px;
+	padding-left:6px;}
+
+.MbrWizMainStep.MbrWizstepSelected .WizardWith3Steps.mtgWizHeaderSubMenu > li{
+	width:21.4%;
+	display:inline-block;
+	white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+	padding-right:4px;
+	padding-left:4px;
+}
+
+.MbrWizMainStep.MbrWizstepSelected .WizardWith2Steps.mtgWizHeaderSubMenu > li{	
+	width:34%;    
+}
+
+.MbrWizardControl_PersonifyDefault .MbrWizContainer li > a,
+.MtgRegWizard_PersonifyDefault .MtgRegWizContainer li > a
+ {
+font-size:13px !important;
+padding-left:6px;
+padding-right:6px;
+white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+ul.mtgWizHeaderSubMenu li {
+    /*float: none;
+    display: table-cell;*/
+    vertical-align: middle;
+}
+
+.WizardWith4Steps .MtgRegWizstep,
+.WizardWith4Steps .MtgRegWizstepDisabled {    
+	width:18.3%;    
+}
+
+.WizardWith4Steps .MtgRegWizstepSelected {    
+	width:45%;
+}
+
+ul.mtgWizHeaderSubMenu.WizardWith4Steps {
+    /* Gautam - ACP-1285 */
+	width:100%;
+    /* Gautam - ACP-1285 */
+}
+
+.mtgWizHeaderSubMenu.WizardWith4Steps .MtgRegWizstep.MtgRegWizSubItem,
+.mtgWizHeaderSubMenu.WizardWith4Steps .MtgRegWizstepDisabled.MtgRegWizSubItem{    
+	width:25%;
+}
+
+.mtgWizHeaderSubMenu.WizardWith4Steps .MtgRegWizstepSelected.MtgRegWizSubItem{
+    /* Gautam - ACP-1285 */
+	/*width:50%;*/
+    /* Gautam - ACP-1285 */
+}
+
+.MtgRegWizstepDisabled .mtgWizHeaderSubMenu,
+.MtgRegWizstep .mtgWizHeaderSubMenu {
+	display:none;
+}
+
+.MtgRegWizstepSelected .mtgWizHeaderSubMenu {
+	display:block;
+}
+
+
+/* DELIVERY 7-28-16 */
+
+.WizardWith5Steps .MtgRegWizstepDisabled ,
+ul.WizardWith5Steps + li,
+ul.WizardWith5Steps + li + li,
+ul.WizardWith5Steps + li + li + li,
+ul.WizardWith5Steps + li + li + li + li
+{
+	width:20%;
+}
+
+/* END 7-28-16 */
+
+
+.billingAddress 
+{
+    float: left;
+    width: 350px;    
+    margin: auto 12px;
+}
+.shippingAddress 
+{
+    float: left;
+    border-left: 2px solid #efefef;
+    padding-left: 50px;
+    width: 350px;
+}
+
+.mbr-acp-contentPanel {
+    padding: 0 15px;
+}
+
+    .mbr-acp-contentPanel .buyBox {
+        margin: 18px 0 0 0;
+    }
+
+/* Mbr Join. Contact Info step. Start*/
+.acp-mbr-contactInfoControl-radio.confirm-address {
+    width: 100%;
+    position: relative;
+    float: left;
+}
+/* Mbr Join. Contact Info step. End*/
+
+/* Mbr Join. Contact Info step. Start*/
+
+.mbr-boardInfoControl-pagerContainer {
+    text-align: right;
+}
+
+.mbr-boardInfoControl-pagerContainer .ServerSidePagerControl_PersonifyDefault.Base_PersonifyDefault.Base_PersonifyDefault .ServerSidePager-PrevLink 
+, .mbr-boardInfoControl-pagerContainer .ServerSidePagerControl_PersonifyDefault.Base_PersonifyDefault.Base_PersonifyDefault .ServerSidePager-NextLink{
+    text-decoration: none;
+    font-size: 18px;
+}
+/* Mbr Join. Contact Info step. End*/
+
+/* Membership Join Buy Box styles - Matt Hernandez */
+
+.mbr-acp-contentPanel .buyBox .memberDetails {
+    padding-left: 15px;
+    padding-right: 10px;
+}
+
+.mbr-acp-contentPanel .buyBox .productbuttons {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+/* Membership Join - Membership Summary styles - Matt Hernandez */
+
+.benefits .MembershipBenefitsControl_PersonifyDefault {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.mbr-summaryControl-contentPanel .altRates > span:first-child,
+.mbr-summaryControl-contentPanel .affirmations > span:first-child {
+    font-weight: 700;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.custom-bad-address
+{
+    display: block;
+}
+
+.custom-bad-address-label
+{
+    color: red;
+}
+
+.custom-mark-as-good-address-link
+{
+    display: inline-block;
+}
+
+.custom-cart-mark-as-good-address-link, .custom-cart-edit-address-link
+{
+    display: inline-block;
+    float: right;
+}
+
+.custom-current-address
+{
+    color: red;
+    padding-left: 5px;
+    font-style: italic;
+    display: inline-block;
+}
+
+.divWarning-acp
+{
+    background-color: #ff9 !important;
+    margin: 10px 18px;
+    padding: 5px;
+    font-size: 1.2em;
+}
+
+.addressButton 
+{
+    margin:12px 4px 12px 0;
+    padding: 8px 8px;
+    background-color:#8c8c8c;
+    color: white;
+    text-align:center;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.addressButtonsDiv 
+{
+    margin-top: 2.5em;
+    margin-bottom: 2em;
+}
+
+.mbr-contactInfoControl-formLayout .formRow label, .mbr-contactInfoControl-formLayout .formRow input[type="text"] {
+    display: inline-block;
+    min-width: 100px;
+    float: left;
+}
+/* MbrJoin. Remove left spacing on validation messages*/
+.formLayout span.validatedMessage
+{
+    float: left;
+    margin-left: 0px;
+    padding: 5px 0px 0px 0px;
+    background-color: transparent;
+    margin-bottom: 0px;
+}
+/* MbrJoin. Remove left spacing on validation messages*/
+
+/* Gap 183. Membership Join. Oleg Merinov. Start */
+p.required::before {
+    color: #CC0000;
+    content: "* ";
+    font-size: 155%;
+    font-weight: normal;
+    line-height: 20px;
+    margin-left: -12px;
+    vertical-align: middle;
+}
+
+p.validationMessage::after {
+    content: " Required";
+    color: #c00;
+    padding-left: 1em;
+    white-space: nowrap;    
+}
+
+.mbr-demographicsControl.npi-formRow.required label::before {
+    content: "";
+}
+.mbr-demographicsControl.npi-formRow.required .validatedMessage {
+    display: none;
+}
+/* Gap 183. Membership Join. Oleg Merinov. End */
+
+
+/* Gap 183. Membership Join. Oleg Merinov. End */
+.threeCol.My.Account .loadCart .ContentPane {
+	float:none;
+	width:inherit;
+}
+
+.mbr-residencyFellowshipsControl.progname-textbox {
+
+    width: 500px !important;
+
+}
+
+
+
+/* DELIVERY 7-28-16 */
+
+/*CSS 1400716 SSR*/
+.MbrDemographicsControl_PersonifyDefault .is-armed-forces.required:before {
+    color: #CC0000;
+    content: "* ";
+    font-size: 155%;
+    font-weight: normal;
+    line-height: 20px;
+    margin-left: -28px;
+    vertical-align: middle;
+}
+
+.MbrDemographicsControl_PersonifyDefault .is-armed-forces.required > label {
+    padding: 0;
+    width: auto;
+    float: none;
+    margin-left: 28px;
+}
+
+.MbrDemographicsControl_PersonifyDefault .is-armed-forces label[id$="ArmedForcesMemberBranchDropDownLabel"]:before{
+    content: " " !important;
+}
+
+.MbrDemographicsControl_PersonifyDefault .is-armed-forces > input {
+    width: auto;
+    margin-top: 5px;
+	margin-left: 12px;
+}
+
+.MbrDemographicsControl_PersonifyDefault .is-armed-forces.required > input {
+    width: auto;
+    margin-top: 5px;
+	margin-left: 12px;
+}
+
+.is-armed-forces.required{
+    position: relative;
+    width: 50%;
+}
+
+.is-armed-forces.required  span.validatedMessage{
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 0;
+}
+
+.formLayout span.validatedMessage {
+    float: left;
+    margin-left: 0px;
+    padding: 2px 0px 0px 15px;
+    background-color: transparent;
+    margin-bottom: 0px;
+}
+
+/* END 7-28-16 */
+
