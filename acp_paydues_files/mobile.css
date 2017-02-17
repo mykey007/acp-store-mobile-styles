@@ -11,16 +11,51 @@
   padding: 0 20px;
 }
 
-@media(max-width: 800px) {
+@media only screen and (max-width: 800px) 
+
+{
   td {
     width: 100%;
     display: block;
     border-bottom: 1px solid #eee;
     padding: 10px 5px !important;
     margin: 0 auto !important;
-  }
+}
+
+    .emptycol {
+    
+        display:none;
+    
+    }
+
   .DuesAllocationText {
     padding: 10px;
     height: auto;
+  }
+  .leftalign input[type=radio] {
+    border: none !important;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    height: auto !important;
+    width: auto !important;
+    -webkit-appearance: radio !important;
+  }
+  .SubRadio {
+  display: block;
+  padding: 0;
+  margin: 0;
+  width: 200%
+}
+  .SubRadio:nth-child(3) {
+    padding: 20px 0;
+  }
+  
+    #dnn_ctr2724_ACP_OnlineDues_ddlCCType_2724,
+  #dnn_ctr2724_ACP_OnlineDues_txtCCNumber_2724,
+  #dnn_ctr2724_ACP_OnlineDues_txtCVV2_2724,
+  #dnn_ctr2724_ACP_OnlineDues_txtccNameOnCard_2724 {
+    width: 80% !important;
   }
 }
